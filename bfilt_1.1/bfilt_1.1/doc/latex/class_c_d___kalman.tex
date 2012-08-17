@@ -1,0 +1,79 @@
+\hypertarget{class_c_d___kalman}{
+\section{CD\_\-Kalman Class Reference}
+\label{class_c_d___kalman}\index{CD\_\-Kalman@{CD\_\-Kalman}}
+}
+The continuous-discrete kalman filter.  
+
+
+{\tt \#include $<$filter.h$>$}
+
+Inheritance diagram for CD\_\-Kalman:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=57pt]{class_c_d___kalman__inherit__graph}
+\end{center}
+\end{figure}
+\subsection*{Public Member Functions}
+\begin{CompactItemize}
+\item 
+\hyperlink{class_c_d___kalman_d5d85ce755d9353740f4b9ffdf63455f}{CD\_\-Kalman} (void)
+\item 
+\hyperlink{class_c_d___kalman_0fd0cf5d85f0b5a820d2269bea6de350}{CD\_\-Kalman} (\hyperlink{class_linear___c_d___model}{Linear\_\-CD\_\-Model} $\ast$m)
+\end{CompactItemize}
+\subsection*{Protected Member Functions}
+\begin{CompactItemize}
+\item 
+int \hyperlink{class_c_d___kalman_ecef658eac67b1005d9e86ec30708300}{\_\-update} (const dcovector \&Y)
+\end{CompactItemize}
+
+
+\subsection{Detailed Description}
+The continuous-discrete kalman filter. 
+
+Give an exact solution of $ \hat{X}_{k|k}$ and $ \hat{P}_{k|k} $ for continuous-discrete linear models (\hyperlink{class_linear___c_d___model}{Linear\_\-CD\_\-Model}). 
+
+\subsection{Constructor \& Destructor Documentation}
+\hypertarget{class_c_d___kalman_d5d85ce755d9353740f4b9ffdf63455f}{
+\index{CD\_\-Kalman@{CD\_\-Kalman}!CD\_\-Kalman@{CD\_\-Kalman}}
+\index{CD\_\-Kalman@{CD\_\-Kalman}!CD_Kalman@{CD\_\-Kalman}}
+\subsubsection[{CD\_\-Kalman}]{\setlength{\rightskip}{0pt plus 5cm}CD\_\-Kalman::CD\_\-Kalman (void)}}
+\label{class_c_d___kalman_d5d85ce755d9353740f4b9ffdf63455f}
+
+
+\hypertarget{class_c_d___kalman_0fd0cf5d85f0b5a820d2269bea6de350}{
+\index{CD\_\-Kalman@{CD\_\-Kalman}!CD\_\-Kalman@{CD\_\-Kalman}}
+\index{CD\_\-Kalman@{CD\_\-Kalman}!CD_Kalman@{CD\_\-Kalman}}
+\subsubsection[{CD\_\-Kalman}]{\setlength{\rightskip}{0pt plus 5cm}CD\_\-Kalman::CD\_\-Kalman ({\bf Linear\_\-CD\_\-Model} $\ast$ {\em m})}}
+\label{class_c_d___kalman_0fd0cf5d85f0b5a820d2269bea6de350}
+
+
+A constructor
+
+\begin{Desc}
+\item[Parameters:]
+\begin{description}
+\item[{\em m}]The continuous discrete model \end{description}
+\end{Desc}
+
+
+\subsection{Member Function Documentation}
+\hypertarget{class_c_d___kalman_ecef658eac67b1005d9e86ec30708300}{
+\index{CD\_\-Kalman@{CD\_\-Kalman}!\_\-update@{\_\-update}}
+\index{\_\-update@{\_\-update}!CD_Kalman@{CD\_\-Kalman}}
+\subsubsection[{\_\-update}]{\setlength{\rightskip}{0pt plus 5cm}int CD\_\-Kalman::\_\-update (const dcovector \& {\em Y})\hspace{0.3cm}{\tt  \mbox{[}protected, virtual\mbox{]}}}}
+\label{class_c_d___kalman_ecef658eac67b1005d9e86ec30708300}
+
+
+Specific update for each filter
+
+\begin{Desc}
+\item[Parameters:]
+\begin{description}
+\item[{\em Y}]The observed sample\end{description}
+\end{Desc}
+\begin{Desc}
+\item[Returns:]0 if no problem \end{Desc}
+
+
+Implements \hyperlink{class_filter_20ecd17fed3b8f11a76c960fe5e7144b}{Filter}.

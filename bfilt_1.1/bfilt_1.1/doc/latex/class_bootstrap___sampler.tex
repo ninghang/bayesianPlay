@@ -1,0 +1,109 @@
+\hypertarget{class_bootstrap___sampler}{
+\section{Bootstrap\_\-Sampler Class Reference}
+\label{class_bootstrap___sampler}\index{Bootstrap\_\-Sampler@{Bootstrap\_\-Sampler}}
+}
+This sampler use the transition as importance density.  
+
+
+{\tt \#include $<$sisr\_\-filter.h$>$}
+
+Inheritance diagram for Bootstrap\_\-Sampler:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=74pt]{class_bootstrap___sampler__inherit__graph}
+\end{center}
+\end{figure}
+\subsection*{Public Member Functions}
+\begin{CompactItemize}
+\item 
+\hyperlink{class_bootstrap___sampler_bf03144ecc96fdc63267d050ed91e71b}{Bootstrap\_\-Sampler} (void)
+\item 
+\hyperlink{class_bootstrap___sampler_484a287a562f6f3801d5547cfff0b757}{Bootstrap\_\-Sampler} (\hyperlink{class_simulator}{Simulator} $\ast$m)
+\item 
+vector$<$ \hyperlink{class_weighted___sample}{Weighted\_\-Sample} $>$ \hyperlink{class_bootstrap___sampler_e36eb9258b052c41e075b350960d21a3}{DrawInitCloud} (const int \&NbSample)
+\begin{CompactList}\small\item\em draw a set of possible init state \item\end{CompactList}\item 
+vector$<$ \hyperlink{class_weighted___sample}{Weighted\_\-Sample} $>$ \hyperlink{class_bootstrap___sampler_a826164a46c257f5a95ba0b4eba7ee83}{Draw} (const dcovector \&Y\_\-k, const vector$<$ \hyperlink{class_weighted___sample}{Weighted\_\-Sample} $>$ \&X\_\-km1)
+\begin{CompactList}\small\item\em Draw a set of samples from the importance density Xk given Y0:k X0:k-1. \item\end{CompactList}\item 
+long double \hyperlink{class_bootstrap___sampler_22ca201b958c0c873cfdbd1d545140dc}{Weight} (vector$<$ \hyperlink{class_weighted___sample}{Weighted\_\-Sample} $>$ \&cloud, const dcovector \&Y\_\-k, const vector$<$ \hyperlink{class_weighted___sample}{Weighted\_\-Sample} $>$ \&X\_\-k)
+\begin{CompactList}\small\item\em Modify the weights of cloud for the weighting step in the sisr. \item\end{CompactList}\end{CompactItemize}
+
+
+\subsection{Detailed Description}
+This sampler use the transition as importance density. 
+
+
+
+\subsection{Constructor \& Destructor Documentation}
+\hypertarget{class_bootstrap___sampler_bf03144ecc96fdc63267d050ed91e71b}{
+\index{Bootstrap\_\-Sampler@{Bootstrap\_\-Sampler}!Bootstrap\_\-Sampler@{Bootstrap\_\-Sampler}}
+\index{Bootstrap\_\-Sampler@{Bootstrap\_\-Sampler}!Bootstrap_Sampler@{Bootstrap\_\-Sampler}}
+\subsubsection[{Bootstrap\_\-Sampler}]{\setlength{\rightskip}{0pt plus 5cm}Bootstrap\_\-Sampler::Bootstrap\_\-Sampler (void)}}
+\label{class_bootstrap___sampler_bf03144ecc96fdc63267d050ed91e71b}
+
+
+\hypertarget{class_bootstrap___sampler_484a287a562f6f3801d5547cfff0b757}{
+\index{Bootstrap\_\-Sampler@{Bootstrap\_\-Sampler}!Bootstrap\_\-Sampler@{Bootstrap\_\-Sampler}}
+\index{Bootstrap\_\-Sampler@{Bootstrap\_\-Sampler}!Bootstrap_Sampler@{Bootstrap\_\-Sampler}}
+\subsubsection[{Bootstrap\_\-Sampler}]{\setlength{\rightskip}{0pt plus 5cm}Bootstrap\_\-Sampler::Bootstrap\_\-Sampler ({\bf Simulator} $\ast$ {\em m})}}
+\label{class_bootstrap___sampler_484a287a562f6f3801d5547cfff0b757}
+
+
+
+
+\subsection{Member Function Documentation}
+\hypertarget{class_bootstrap___sampler_a826164a46c257f5a95ba0b4eba7ee83}{
+\index{Bootstrap\_\-Sampler@{Bootstrap\_\-Sampler}!Draw@{Draw}}
+\index{Draw@{Draw}!Bootstrap_Sampler@{Bootstrap\_\-Sampler}}
+\subsubsection[{Draw}]{\setlength{\rightskip}{0pt plus 5cm}vector$<${\bf Weighted\_\-Sample} $>$ Bootstrap\_\-Sampler::Draw (const dcovector \& {\em Y\_\-k}, \/  const vector$<$ {\bf Weighted\_\-Sample} $>$ \& {\em X\_\-km1})\hspace{0.3cm}{\tt  \mbox{[}virtual\mbox{]}}}}
+\label{class_bootstrap___sampler_a826164a46c257f5a95ba0b4eba7ee83}
+
+
+Draw a set of samples from the importance density Xk given Y0:k X0:k-1. 
+
+\begin{Desc}
+\item[Parameters:]
+\begin{description}
+\item[{\em Y\_\-k}]The observation from 0 to k \item[{\em X\_\-km1}]The cloud from 0 to km1\end{description}
+\end{Desc}
+\begin{Desc}
+\item[Returns:]A cloud representing the importance density q(Xk$|$Y0:k,X0:k-1) \end{Desc}
+
+
+Implements \hyperlink{class_s_i___sampler_62bf57181aeb5981426a71a7bf01c3e9}{SI\_\-Sampler}.\hypertarget{class_bootstrap___sampler_e36eb9258b052c41e075b350960d21a3}{
+\index{Bootstrap\_\-Sampler@{Bootstrap\_\-Sampler}!DrawInitCloud@{DrawInitCloud}}
+\index{DrawInitCloud@{DrawInitCloud}!Bootstrap_Sampler@{Bootstrap\_\-Sampler}}
+\subsubsection[{DrawInitCloud}]{\setlength{\rightskip}{0pt plus 5cm}vector$<${\bf Weighted\_\-Sample} $>$ Bootstrap\_\-Sampler::DrawInitCloud (const int \& {\em NbSample})\hspace{0.3cm}{\tt  \mbox{[}virtual\mbox{]}}}}
+\label{class_bootstrap___sampler_e36eb9258b052c41e075b350960d21a3}
+
+
+draw a set of possible init state 
+
+\begin{Desc}
+\item[Parameters:]
+\begin{description}
+\item[{\em NbSample}]Number of sample\end{description}
+\end{Desc}
+\begin{Desc}
+\item[Returns:]A set of weighted samples \end{Desc}
+
+
+Implements \hyperlink{class_s_i___sampler_3fbedf1ce189168da5608861d5a3289e}{SI\_\-Sampler}.\hypertarget{class_bootstrap___sampler_22ca201b958c0c873cfdbd1d545140dc}{
+\index{Bootstrap\_\-Sampler@{Bootstrap\_\-Sampler}!Weight@{Weight}}
+\index{Weight@{Weight}!Bootstrap_Sampler@{Bootstrap\_\-Sampler}}
+\subsubsection[{Weight}]{\setlength{\rightskip}{0pt plus 5cm}long double Bootstrap\_\-Sampler::Weight (vector$<$ {\bf Weighted\_\-Sample} $>$ \& {\em cloud}, \/  const dcovector \& {\em Y\_\-k}, \/  const vector$<$ {\bf Weighted\_\-Sample} $>$ \& {\em X\_\-km1})\hspace{0.3cm}{\tt  \mbox{[}virtual\mbox{]}}}}
+\label{class_bootstrap___sampler_22ca201b958c0c873cfdbd1d545140dc}
+
+
+Modify the weights of cloud for the weighting step in the sisr. 
+
+\begin{Desc}
+\item[Parameters:]
+\begin{description}
+\item[{\em cloud}]The curent coud at k \item[{\em Y\_\-k}]The observation at k \item[{\em X\_\-km1}]the cloud from at km1\end{description}
+\end{Desc}
+\begin{Desc}
+\item[Returns:]The sum of the weights \end{Desc}
+
+
+Implements \hyperlink{class_s_i___sampler_5c3a3547060d91febd3ef61969756ab6}{SI\_\-Sampler}.

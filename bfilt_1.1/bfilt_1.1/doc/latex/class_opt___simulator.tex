@@ -1,0 +1,72 @@
+\hypertarget{class_opt___simulator}{
+\section{Opt\_\-Simulator Class Reference}
+\label{class_opt___simulator}\index{Opt\_\-Simulator@{Opt\_\-Simulator}}
+}
+{\tt \#include $<$simulator.h$>$}
+
+Inheritance diagram for Opt\_\-Simulator:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=69pt]{class_opt___simulator__inherit__graph}
+\end{center}
+\end{figure}
+\subsection*{Public Member Functions}
+\begin{CompactItemize}
+\item 
+\hyperlink{class_opt___simulator_9c18baf105bd365af92a933e1a068c3e}{Opt\_\-Simulator} (void)
+\item 
+virtual dcovector \hyperlink{class_opt___simulator_75490247df4dfa14eb7b2d8d394675dd}{Draw\_\-Optimal} (const dcovector \&Yk, const dcovector \&Xkm1)=0
+\begin{CompactList}\small\item\em Draw a sample from the optimal densisty p(Xk$|$Yk,Xk-1). \item\end{CompactList}\item 
+virtual long double \hyperlink{class_opt___simulator_e72d4709998087317635a94c709d71ba}{Obs\_\-Optimal\_\-Density} (const dcovector \&Yk, const dcovector \&Xkm1)=0
+\begin{CompactList}\small\item\em calculate the value of the density of probability of Yk given Xk-1 : p(Yk$|$Xk-1) \item\end{CompactList}\end{CompactItemize}
+
+
+\subsection{Constructor \& Destructor Documentation}
+\hypertarget{class_opt___simulator_9c18baf105bd365af92a933e1a068c3e}{
+\index{Opt\_\-Simulator@{Opt\_\-Simulator}!Opt\_\-Simulator@{Opt\_\-Simulator}}
+\index{Opt\_\-Simulator@{Opt\_\-Simulator}!Opt_Simulator@{Opt\_\-Simulator}}
+\subsubsection[{Opt\_\-Simulator}]{\setlength{\rightskip}{0pt plus 5cm}Opt\_\-Simulator::Opt\_\-Simulator (void)}}
+\label{class_opt___simulator_9c18baf105bd365af92a933e1a068c3e}
+
+
+
+
+\subsection{Member Function Documentation}
+\hypertarget{class_opt___simulator_75490247df4dfa14eb7b2d8d394675dd}{
+\index{Opt\_\-Simulator@{Opt\_\-Simulator}!Draw\_\-Optimal@{Draw\_\-Optimal}}
+\index{Draw\_\-Optimal@{Draw\_\-Optimal}!Opt_Simulator@{Opt\_\-Simulator}}
+\subsubsection[{Draw\_\-Optimal}]{\setlength{\rightskip}{0pt plus 5cm}virtual dcovector Opt\_\-Simulator::Draw\_\-Optimal (const dcovector \& {\em Yk}, \/  const dcovector \& {\em Xkm1})\hspace{0.3cm}{\tt  \mbox{[}pure virtual\mbox{]}}}}
+\label{class_opt___simulator_75490247df4dfa14eb7b2d8d394675dd}
+
+
+Draw a sample from the optimal densisty p(Xk$|$Yk,Xk-1). 
+
+\begin{Desc}
+\item[Parameters:]
+\begin{description}
+\item[{\em Yk}]The obseration at k \item[{\em Xkm1}]X(k-1) the state value at k-1\end{description}
+\end{Desc}
+\begin{Desc}
+\item[Returns:]A sample from the optimal importance density \end{Desc}
+
+
+Implemented in \hyperlink{class_g___simulator_b6c78e1dfa62c8c684b860ea1918f045}{G\_\-Simulator}.\hypertarget{class_opt___simulator_e72d4709998087317635a94c709d71ba}{
+\index{Opt\_\-Simulator@{Opt\_\-Simulator}!Obs\_\-Optimal\_\-Density@{Obs\_\-Optimal\_\-Density}}
+\index{Obs\_\-Optimal\_\-Density@{Obs\_\-Optimal\_\-Density}!Opt_Simulator@{Opt\_\-Simulator}}
+\subsubsection[{Obs\_\-Optimal\_\-Density}]{\setlength{\rightskip}{0pt plus 5cm}virtual long double Opt\_\-Simulator::Obs\_\-Optimal\_\-Density (const dcovector \& {\em Yk}, \/  const dcovector \& {\em Xkm1})\hspace{0.3cm}{\tt  \mbox{[}pure virtual\mbox{]}}}}
+\label{class_opt___simulator_e72d4709998087317635a94c709d71ba}
+
+
+calculate the value of the density of probability of Yk given Xk-1 : p(Yk$|$Xk-1) 
+
+\begin{Desc}
+\item[Parameters:]
+\begin{description}
+\item[{\em Yk}]the osbervation at k \item[{\em Xkm1}]The state at k-1\end{description}
+\end{Desc}
+\begin{Desc}
+\item[Returns:]The value of the density p(Yk$|$Xk-1) \end{Desc}
+
+
+Implemented in \hyperlink{class_g___simulator_192df25d6edac87bf4aeb2d2f55d1c5c}{G\_\-Simulator}.

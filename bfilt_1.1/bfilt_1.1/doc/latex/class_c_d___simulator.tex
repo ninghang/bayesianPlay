@@ -1,0 +1,245 @@
+\hypertarget{class_c_d___simulator}{
+\section{CD\_\-Simulator Class Reference}
+\label{class_c_d___simulator}\index{CD\_\-Simulator@{CD\_\-Simulator}}
+}
+{\tt \#include $<$simulator.h$>$}
+
+Inheritance diagram for CD\_\-Simulator:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=137pt]{class_c_d___simulator__inherit__graph}
+\end{center}
+\end{figure}
+\subsection*{Public Member Functions}
+\begin{CompactItemize}
+\item 
+\hyperlink{class_c_d___simulator_c606f9720c399f258cbe89f24eecf83e}{CD\_\-Simulator} (void)
+\item 
+\hyperlink{class_c_d___simulator_e0a636e36d9c7821b34271d451b3b5a4}{CD\_\-Simulator} (\hyperlink{class_continuous___discrete___model}{Continuous\_\-Discrete\_\-Model} $\ast$cd\_\-m, const int \&\hyperlink{class_c_d___simulator_a19045bbd5c743d900780338ab355035}{scheme}=SRK4, const int \&apha=10)
+\item 
+virtual dcovector \hyperlink{class_c_d___simulator_cbdbea3e487026be0c032d2218d27b2b}{Draw\_\-Init} (void)
+\begin{CompactList}\small\item\em Draw a sample from p(X0). \item\end{CompactList}\item 
+dcovector \hyperlink{class_c_d___simulator_58019a5001ec77da3233b072f6328b30}{Draw\_\-Transition} (const dcovector \&Xkm1)
+\begin{CompactList}\small\item\em Draw a sample from the transition densisty p(Xk$|$Xk-1). \item\end{CompactList}\item 
+dcovector \hyperlink{class_c_d___simulator_3770eddf939898b6dccc39a556eaf8c9}{Draw\_\-Observation} (const dcovector \&Xk)
+\begin{CompactList}\small\item\em Calculate the value of the density of probability of Y given X : p(Y$|$X). \item\end{CompactList}\item 
+long double \hyperlink{class_c_d___simulator_905fb2ac4a72f5d7e44957fa8103cab8}{Observation\_\-Density} (const dcovector \&\hyperlink{class_simulator_403a127c909abf3e4c6d48a287315987}{Y}, const dcovector \&\hyperlink{class_simulator_a2db8ace19099d996be516022d230bc0}{X})
+\begin{CompactList}\small\item\em calculate the value of the density of probability of Y given X : p(Y$|$X) \item\end{CompactList}\item 
+int \hyperlink{class_c_d___simulator_7d9d7bb805654ee7ee1f2235364bc19e}{Save\_\-X} (const char $\ast$filename)
+\begin{CompactList}\small\item\em Save the simulated state trajectory in filename. \item\end{CompactList}\item 
+int \hyperlink{class_c_d___simulator_f9d3fb4fbc4b77afd81fb8b67e003cee}{Save\_\-Y} (const char $\ast$filename)
+\begin{CompactList}\small\item\em Save the simulated observation trajectory in filename. \item\end{CompactList}\item 
+int \hyperlink{class_c_d___simulator_fde7cba27399a95337431770b42b3772}{Simulate} (const double \&T)
+\item 
+void \hyperlink{class_c_d___simulator_6f78aafc96ae191c7b9815055ce4e956}{Set\_\-Alpha} (const int \&al)
+\end{CompactItemize}
+\subsection*{Public Attributes}
+\begin{CompactItemize}
+\item 
+double \hyperlink{class_c_d___simulator_8c84fdf15866c0ea1cb79977f77639d2}{Dy}
+\item 
+double \hyperlink{class_c_d___simulator_adb3b1b1b8bd6deabea8a62fcec33138}{Dx}
+\end{CompactItemize}
+\subsection*{Protected Member Functions}
+\begin{CompactItemize}
+\item 
+virtual dcovector \hyperlink{class_c_d___simulator_11c411df9b1e0d6f8576edefd723dd47}{draw\_\-state} (const dcovector \&\hyperlink{class_simulator_a2db8ace19099d996be516022d230bc0}{X})
+\item 
+void \hyperlink{class_c_d___simulator_efc4b4521a9d4cd6658c16feb9233e14}{\_\-update} (void)
+\end{CompactItemize}
+\subsection*{Protected Attributes}
+\begin{CompactItemize}
+\item 
+int \hyperlink{class_c_d___simulator_a19045bbd5c743d900780338ab355035}{scheme}
+\item 
+int \hyperlink{class_c_d___simulator_f9d59b82e56e035230af9cf7d7767a9c}{\_\-a}
+\end{CompactItemize}
+
+
+\subsection{Constructor \& Destructor Documentation}
+\hypertarget{class_c_d___simulator_c606f9720c399f258cbe89f24eecf83e}{
+\index{CD\_\-Simulator@{CD\_\-Simulator}!CD\_\-Simulator@{CD\_\-Simulator}}
+\index{CD\_\-Simulator@{CD\_\-Simulator}!CD_Simulator@{CD\_\-Simulator}}
+\subsubsection[{CD\_\-Simulator}]{\setlength{\rightskip}{0pt plus 5cm}CD\_\-Simulator::CD\_\-Simulator (void)}}
+\label{class_c_d___simulator_c606f9720c399f258cbe89f24eecf83e}
+
+
+\hypertarget{class_c_d___simulator_e0a636e36d9c7821b34271d451b3b5a4}{
+\index{CD\_\-Simulator@{CD\_\-Simulator}!CD\_\-Simulator@{CD\_\-Simulator}}
+\index{CD\_\-Simulator@{CD\_\-Simulator}!CD_Simulator@{CD\_\-Simulator}}
+\subsubsection[{CD\_\-Simulator}]{\setlength{\rightskip}{0pt plus 5cm}CD\_\-Simulator::CD\_\-Simulator ({\bf Continuous\_\-Discrete\_\-Model} $\ast$ {\em cd\_\-m}, \/  const int \& {\em scheme} = {\tt SRK4}, \/  const int \& {\em apha} = {\tt 10})}}
+\label{class_c_d___simulator_e0a636e36d9c7821b34271d451b3b5a4}
+
+
+
+
+\subsection{Member Function Documentation}
+\hypertarget{class_c_d___simulator_efc4b4521a9d4cd6658c16feb9233e14}{
+\index{CD\_\-Simulator@{CD\_\-Simulator}!\_\-update@{\_\-update}}
+\index{\_\-update@{\_\-update}!CD_Simulator@{CD\_\-Simulator}}
+\subsubsection[{\_\-update}]{\setlength{\rightskip}{0pt plus 5cm}void CD\_\-Simulator::\_\-update (void)\hspace{0.3cm}{\tt  \mbox{[}protected, virtual\mbox{]}}}}
+\label{class_c_d___simulator_efc4b4521a9d4cd6658c16feb9233e14}
+
+
+
+
+Reimplemented from \hyperlink{class_simulator_d4aa197c02a87ff2653b54c0b9207a33}{Simulator}.\hypertarget{class_c_d___simulator_cbdbea3e487026be0c032d2218d27b2b}{
+\index{CD\_\-Simulator@{CD\_\-Simulator}!Draw\_\-Init@{Draw\_\-Init}}
+\index{Draw\_\-Init@{Draw\_\-Init}!CD_Simulator@{CD\_\-Simulator}}
+\subsubsection[{Draw\_\-Init}]{\setlength{\rightskip}{0pt plus 5cm}virtual dcovector CD\_\-Simulator::Draw\_\-Init (void)\hspace{0.3cm}{\tt  \mbox{[}virtual\mbox{]}}}}
+\label{class_c_d___simulator_cbdbea3e487026be0c032d2218d27b2b}
+
+
+Draw a sample from p(X0). 
+
+\begin{Desc}
+\item[Returns:]A sample from p(X0) \end{Desc}
+
+
+Implements \hyperlink{class_simulator_29b9603eb2be9139972816329e8663dc}{Simulator}.
+
+Reimplemented in \hyperlink{class_c_d___simulator___w_t_c05069bbef8e4ff83247f77476b2afe1}{CD\_\-Simulator\_\-WT}, and \hyperlink{class_l_t_i___c_d___simulator___w_t_a63eaac608a5f214468dc13d34f8f20f}{LTI\_\-CD\_\-Simulator\_\-WT}.\hypertarget{class_c_d___simulator_3770eddf939898b6dccc39a556eaf8c9}{
+\index{CD\_\-Simulator@{CD\_\-Simulator}!Draw\_\-Observation@{Draw\_\-Observation}}
+\index{Draw\_\-Observation@{Draw\_\-Observation}!CD_Simulator@{CD\_\-Simulator}}
+\subsubsection[{Draw\_\-Observation}]{\setlength{\rightskip}{0pt plus 5cm}dcovector CD\_\-Simulator::Draw\_\-Observation (const dcovector \& {\em Xk})\hspace{0.3cm}{\tt  \mbox{[}virtual\mbox{]}}}}
+\label{class_c_d___simulator_3770eddf939898b6dccc39a556eaf8c9}
+
+
+Calculate the value of the density of probability of Y given X : p(Y$|$X). 
+
+\begin{Desc}
+\item[Parameters:]
+\begin{description}
+\item[{\em Xk}]The state at k\end{description}
+\end{Desc}
+\begin{Desc}
+\item[Returns:]The simulated observation \end{Desc}
+
+
+Implements \hyperlink{class_simulator_2fb966c2c2a4c93bb6788e15563c9006}{Simulator}.\hypertarget{class_c_d___simulator_11c411df9b1e0d6f8576edefd723dd47}{
+\index{CD\_\-Simulator@{CD\_\-Simulator}!draw\_\-state@{draw\_\-state}}
+\index{draw\_\-state@{draw\_\-state}!CD_Simulator@{CD\_\-Simulator}}
+\subsubsection[{draw\_\-state}]{\setlength{\rightskip}{0pt plus 5cm}virtual dcovector CD\_\-Simulator::draw\_\-state (const dcovector \& {\em X})\hspace{0.3cm}{\tt  \mbox{[}protected, virtual\mbox{]}}}}
+\label{class_c_d___simulator_11c411df9b1e0d6f8576edefd723dd47}
+
+
+
+
+Reimplemented in \hyperlink{class_l_t_i___c_d___simulator_1497e233ff1a0d71c2b660fe270c9ff8}{LTI\_\-CD\_\-Simulator}.\hypertarget{class_c_d___simulator_58019a5001ec77da3233b072f6328b30}{
+\index{CD\_\-Simulator@{CD\_\-Simulator}!Draw\_\-Transition@{Draw\_\-Transition}}
+\index{Draw\_\-Transition@{Draw\_\-Transition}!CD_Simulator@{CD\_\-Simulator}}
+\subsubsection[{Draw\_\-Transition}]{\setlength{\rightskip}{0pt plus 5cm}dcovector CD\_\-Simulator::Draw\_\-Transition (const dcovector \& {\em Xkm1})\hspace{0.3cm}{\tt  \mbox{[}virtual\mbox{]}}}}
+\label{class_c_d___simulator_58019a5001ec77da3233b072f6328b30}
+
+
+Draw a sample from the transition densisty p(Xk$|$Xk-1). 
+
+\begin{Desc}
+\item[Parameters:]
+\begin{description}
+\item[{\em Xkm1}]X(k-1) the preceding state\end{description}
+\end{Desc}
+\begin{Desc}
+\item[Returns:]\end{Desc}
+
+
+Implements \hyperlink{class_simulator_45790421a1c2f597739d3e972ad28292}{Simulator}.\hypertarget{class_c_d___simulator_905fb2ac4a72f5d7e44957fa8103cab8}{
+\index{CD\_\-Simulator@{CD\_\-Simulator}!Observation\_\-Density@{Observation\_\-Density}}
+\index{Observation\_\-Density@{Observation\_\-Density}!CD_Simulator@{CD\_\-Simulator}}
+\subsubsection[{Observation\_\-Density}]{\setlength{\rightskip}{0pt plus 5cm}long double CD\_\-Simulator::Observation\_\-Density (const dcovector \& {\em Y}, \/  const dcovector \& {\em X})\hspace{0.3cm}{\tt  \mbox{[}virtual\mbox{]}}}}
+\label{class_c_d___simulator_905fb2ac4a72f5d7e44957fa8103cab8}
+
+
+calculate the value of the density of probability of Y given X : p(Y$|$X) 
+
+\begin{Desc}
+\item[Parameters:]
+\begin{description}
+\item[{\em Y}]The osbervation \item[{\em X}]The state\end{description}
+\end{Desc}
+\begin{Desc}
+\item[Returns:]The value of the density \end{Desc}
+
+
+Implements \hyperlink{class_simulator_75b0dfb5b0b88346ecb9f7da4fbd91f1}{Simulator}.\hypertarget{class_c_d___simulator_7d9d7bb805654ee7ee1f2235364bc19e}{
+\index{CD\_\-Simulator@{CD\_\-Simulator}!Save\_\-X@{Save\_\-X}}
+\index{Save\_\-X@{Save\_\-X}!CD_Simulator@{CD\_\-Simulator}}
+\subsubsection[{Save\_\-X}]{\setlength{\rightskip}{0pt plus 5cm}int CD\_\-Simulator::Save\_\-X (const char $\ast$ {\em filename})\hspace{0.3cm}{\tt  \mbox{[}virtual\mbox{]}}}}
+\label{class_c_d___simulator_7d9d7bb805654ee7ee1f2235364bc19e}
+
+
+Save the simulated state trajectory in filename. 
+
+\begin{Desc}
+\item[Parameters:]
+\begin{description}
+\item[{\em filename}]The file\end{description}
+\end{Desc}
+\begin{Desc}
+\item[Returns:]0 if it's ok \end{Desc}
+
+
+Reimplemented from \hyperlink{class_simulator_47da05750f6f78051dcdecb5da666653}{Simulator}.\hypertarget{class_c_d___simulator_f9d3fb4fbc4b77afd81fb8b67e003cee}{
+\index{CD\_\-Simulator@{CD\_\-Simulator}!Save\_\-Y@{Save\_\-Y}}
+\index{Save\_\-Y@{Save\_\-Y}!CD_Simulator@{CD\_\-Simulator}}
+\subsubsection[{Save\_\-Y}]{\setlength{\rightskip}{0pt plus 5cm}int CD\_\-Simulator::Save\_\-Y (const char $\ast$ {\em filename})\hspace{0.3cm}{\tt  \mbox{[}virtual\mbox{]}}}}
+\label{class_c_d___simulator_f9d3fb4fbc4b77afd81fb8b67e003cee}
+
+
+Save the simulated observation trajectory in filename. 
+
+\begin{Desc}
+\item[Parameters:]
+\begin{description}
+\item[{\em filename}]The file\end{description}
+\end{Desc}
+\begin{Desc}
+\item[Returns:]0 if it's ok \end{Desc}
+
+
+Reimplemented from \hyperlink{class_simulator_2cc53f33162bf08a6ae187ad4d34fe6e}{Simulator}.\hypertarget{class_c_d___simulator_6f78aafc96ae191c7b9815055ce4e956}{
+\index{CD\_\-Simulator@{CD\_\-Simulator}!Set\_\-Alpha@{Set\_\-Alpha}}
+\index{Set\_\-Alpha@{Set\_\-Alpha}!CD_Simulator@{CD\_\-Simulator}}
+\subsubsection[{Set\_\-Alpha}]{\setlength{\rightskip}{0pt plus 5cm}void CD\_\-Simulator::Set\_\-Alpha (const int \& {\em al})}}
+\label{class_c_d___simulator_6f78aafc96ae191c7b9815055ce4e956}
+
+
+\hypertarget{class_c_d___simulator_fde7cba27399a95337431770b42b3772}{
+\index{CD\_\-Simulator@{CD\_\-Simulator}!Simulate@{Simulate}}
+\index{Simulate@{Simulate}!CD_Simulator@{CD\_\-Simulator}}
+\subsubsection[{Simulate}]{\setlength{\rightskip}{0pt plus 5cm}int CD\_\-Simulator::Simulate (const double \& {\em T})}}
+\label{class_c_d___simulator_fde7cba27399a95337431770b42b3772}
+
+
+
+
+\subsection{Member Data Documentation}
+\hypertarget{class_c_d___simulator_f9d59b82e56e035230af9cf7d7767a9c}{
+\index{CD\_\-Simulator@{CD\_\-Simulator}!\_\-a@{\_\-a}}
+\index{\_\-a@{\_\-a}!CD_Simulator@{CD\_\-Simulator}}
+\subsubsection[{\_\-a}]{\setlength{\rightskip}{0pt plus 5cm}int {\bf CD\_\-Simulator::\_\-a}\hspace{0.3cm}{\tt  \mbox{[}protected\mbox{]}}}}
+\label{class_c_d___simulator_f9d59b82e56e035230af9cf7d7767a9c}
+
+
+\hypertarget{class_c_d___simulator_adb3b1b1b8bd6deabea8a62fcec33138}{
+\index{CD\_\-Simulator@{CD\_\-Simulator}!Dx@{Dx}}
+\index{Dx@{Dx}!CD_Simulator@{CD\_\-Simulator}}
+\subsubsection[{Dx}]{\setlength{\rightskip}{0pt plus 5cm}double {\bf CD\_\-Simulator::Dx}}}
+\label{class_c_d___simulator_adb3b1b1b8bd6deabea8a62fcec33138}
+
+
+\hypertarget{class_c_d___simulator_8c84fdf15866c0ea1cb79977f77639d2}{
+\index{CD\_\-Simulator@{CD\_\-Simulator}!Dy@{Dy}}
+\index{Dy@{Dy}!CD_Simulator@{CD\_\-Simulator}}
+\subsubsection[{Dy}]{\setlength{\rightskip}{0pt plus 5cm}double {\bf CD\_\-Simulator::Dy}}}
+\label{class_c_d___simulator_8c84fdf15866c0ea1cb79977f77639d2}
+
+
+\hypertarget{class_c_d___simulator_a19045bbd5c743d900780338ab355035}{
+\index{CD\_\-Simulator@{CD\_\-Simulator}!scheme@{scheme}}
+\index{scheme@{scheme}!CD_Simulator@{CD\_\-Simulator}}
+\subsubsection[{scheme}]{\setlength{\rightskip}{0pt plus 5cm}int {\bf CD\_\-Simulator::scheme}\hspace{0.3cm}{\tt  \mbox{[}protected\mbox{]}}}}
+\label{class_c_d___simulator_a19045bbd5c743d900780338ab355035}
+
+

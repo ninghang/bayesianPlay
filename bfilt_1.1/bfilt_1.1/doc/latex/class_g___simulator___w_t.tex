@@ -1,0 +1,88 @@
+\hypertarget{class_g___simulator___w_t}{
+\section{G\_\-Simulator\_\-WT Class Reference}
+\label{class_g___simulator___w_t}\index{G\_\-Simulator\_\-WT@{G\_\-Simulator\_\-WT}}
+}
+{\tt \#include $<$simulator.h$>$}
+
+Inheritance diagram for G\_\-Simulator\_\-WT:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=69pt]{class_g___simulator___w_t__inherit__graph}
+\end{center}
+\end{figure}
+\subsection*{Public Member Functions}
+\begin{CompactItemize}
+\item 
+\hyperlink{class_g___simulator___w_t_1d369912b29be6b65bdd0b8ef0769e71}{G\_\-Simulator\_\-WT} (void)
+\item 
+\hyperlink{class_g___simulator___w_t_307f1d93fda73646944844843d4b53ac}{G\_\-Simulator\_\-WT} (\hyperlink{class_gaussian___nonlinear___model}{Gaussian\_\-Nonlinear\_\-Model} $\ast$m, const int \&\hyperlink{class_g___simulator___w_t_646b6b5a2328052988746ea2e85ec2f5}{NB}, const int \&\hyperlink{class_g___simulator___w_t_8036e2d318c76440f0ed2e23dd5f5523}{N})
+\item 
+dcovector \hyperlink{class_g___simulator___w_t_4dab061e25ad9b7b6c279d65ea3038d2}{Draw\_\-Init} (void)
+\begin{CompactList}\small\item\em Draw a sample from p(X0). \item\end{CompactList}\end{CompactItemize}
+\subsection*{Private Attributes}
+\begin{CompactItemize}
+\item 
+vector$<$ dcovector $>$ \hyperlink{class_g___simulator___w_t_74786ef68257c2af89893c9c12a0e7f2}{Xt}
+\item 
+int \hyperlink{class_g___simulator___w_t_646b6b5a2328052988746ea2e85ec2f5}{NB}
+\item 
+int \hyperlink{class_g___simulator___w_t_8036e2d318c76440f0ed2e23dd5f5523}{N}
+\end{CompactItemize}
+
+
+\subsection{Constructor \& Destructor Documentation}
+\hypertarget{class_g___simulator___w_t_1d369912b29be6b65bdd0b8ef0769e71}{
+\index{G\_\-Simulator\_\-WT@{G\_\-Simulator\_\-WT}!G\_\-Simulator\_\-WT@{G\_\-Simulator\_\-WT}}
+\index{G\_\-Simulator\_\-WT@{G\_\-Simulator\_\-WT}!G_Simulator_WT@{G\_\-Simulator\_\-WT}}
+\subsubsection[{G\_\-Simulator\_\-WT}]{\setlength{\rightskip}{0pt plus 5cm}G\_\-Simulator\_\-WT::G\_\-Simulator\_\-WT (void)}}
+\label{class_g___simulator___w_t_1d369912b29be6b65bdd0b8ef0769e71}
+
+
+\hypertarget{class_g___simulator___w_t_307f1d93fda73646944844843d4b53ac}{
+\index{G\_\-Simulator\_\-WT@{G\_\-Simulator\_\-WT}!G\_\-Simulator\_\-WT@{G\_\-Simulator\_\-WT}}
+\index{G\_\-Simulator\_\-WT@{G\_\-Simulator\_\-WT}!G_Simulator_WT@{G\_\-Simulator\_\-WT}}
+\subsubsection[{G\_\-Simulator\_\-WT}]{\setlength{\rightskip}{0pt plus 5cm}G\_\-Simulator\_\-WT::G\_\-Simulator\_\-WT ({\bf Gaussian\_\-Nonlinear\_\-Model} $\ast$ {\em m}, \/  const int \& {\em NB}, \/  const int \& {\em N})}}
+\label{class_g___simulator___w_t_307f1d93fda73646944844843d4b53ac}
+
+
+
+
+\subsection{Member Function Documentation}
+\hypertarget{class_g___simulator___w_t_4dab061e25ad9b7b6c279d65ea3038d2}{
+\index{G\_\-Simulator\_\-WT@{G\_\-Simulator\_\-WT}!Draw\_\-Init@{Draw\_\-Init}}
+\index{Draw\_\-Init@{Draw\_\-Init}!G_Simulator_WT@{G\_\-Simulator\_\-WT}}
+\subsubsection[{Draw\_\-Init}]{\setlength{\rightskip}{0pt plus 5cm}dcovector G\_\-Simulator\_\-WT::Draw\_\-Init (void)\hspace{0.3cm}{\tt  \mbox{[}virtual\mbox{]}}}}
+\label{class_g___simulator___w_t_4dab061e25ad9b7b6c279d65ea3038d2}
+
+
+Draw a sample from p(X0). 
+
+\begin{Desc}
+\item[Returns:]A sample from p(X0) \end{Desc}
+
+
+Reimplemented from \hyperlink{class_g___simulator_0e9a1d220c5457cc07c6bcdb70e1638c}{G\_\-Simulator}.
+
+\subsection{Member Data Documentation}
+\hypertarget{class_g___simulator___w_t_8036e2d318c76440f0ed2e23dd5f5523}{
+\index{G\_\-Simulator\_\-WT@{G\_\-Simulator\_\-WT}!N@{N}}
+\index{N@{N}!G_Simulator_WT@{G\_\-Simulator\_\-WT}}
+\subsubsection[{N}]{\setlength{\rightskip}{0pt plus 5cm}int {\bf G\_\-Simulator\_\-WT::N}\hspace{0.3cm}{\tt  \mbox{[}private\mbox{]}}}}
+\label{class_g___simulator___w_t_8036e2d318c76440f0ed2e23dd5f5523}
+
+
+\hypertarget{class_g___simulator___w_t_646b6b5a2328052988746ea2e85ec2f5}{
+\index{G\_\-Simulator\_\-WT@{G\_\-Simulator\_\-WT}!NB@{NB}}
+\index{NB@{NB}!G_Simulator_WT@{G\_\-Simulator\_\-WT}}
+\subsubsection[{NB}]{\setlength{\rightskip}{0pt plus 5cm}int {\bf G\_\-Simulator\_\-WT::NB}\hspace{0.3cm}{\tt  \mbox{[}private\mbox{]}}}}
+\label{class_g___simulator___w_t_646b6b5a2328052988746ea2e85ec2f5}
+
+
+\hypertarget{class_g___simulator___w_t_74786ef68257c2af89893c9c12a0e7f2}{
+\index{G\_\-Simulator\_\-WT@{G\_\-Simulator\_\-WT}!Xt@{Xt}}
+\index{Xt@{Xt}!G_Simulator_WT@{G\_\-Simulator\_\-WT}}
+\subsubsection[{Xt}]{\setlength{\rightskip}{0pt plus 5cm}vector$<$dcovector$>$ {\bf G\_\-Simulator\_\-WT::Xt}\hspace{0.3cm}{\tt  \mbox{[}private\mbox{]}}}}
+\label{class_g___simulator___w_t_74786ef68257c2af89893c9c12a0e7f2}
+
+

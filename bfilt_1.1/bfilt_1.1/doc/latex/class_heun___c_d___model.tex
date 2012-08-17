@@ -1,0 +1,98 @@
+\hypertarget{class_heun___c_d___model}{
+\section{Heun\_\-CD\_\-Model Class Reference}
+\label{class_heun___c_d___model}\index{Heun\_\-CD\_\-Model@{Heun\_\-CD\_\-Model}}
+}
+continuous discret model: the state SDE is discretly approximate by an Sstochastic Heun method  
+
+
+{\tt \#include $<$gaussian\_\-model.h$>$}
+
+Inheritance diagram for Heun\_\-CD\_\-Model:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=111pt]{class_heun___c_d___model__inherit__graph}
+\end{center}
+\end{figure}
+\subsection*{Public Member Functions}
+\begin{CompactItemize}
+\item 
+\hyperlink{class_heun___c_d___model_1fa492e132304f4dbd1c722c1cd0d9a5}{Heun\_\-CD\_\-Model} (void)
+\item 
+\hyperlink{class_heun___c_d___model_4a6a03c0d4fd6381c0ba150761cec1cc}{Heun\_\-CD\_\-Model} (\hyperlink{class_continuous___discrete___model}{Continuous\_\-Discrete\_\-Model} $\ast$m, const int \&a)
+\item 
+dcovector \hyperlink{class_heun___c_d___model_98a85a23296e6c9f422f12063ece307b}{Scheme} (const dcovector \&X, const dcovector \&W)
+\item 
+dgematrix \hyperlink{class_heun___c_d___model_322cd83c0b81c2ed81483f42123f08e6}{Jx\_\-Scheme} (const dcovector \&X, const dcovector \&W)
+\item 
+dgematrix \hyperlink{class_heun___c_d___model_000fb9b8dbfb8171b8f330d7fc6d0dce}{Jw\_\-Scheme} (const dcovector \&X, const dcovector \&W)
+\item 
+void \hyperlink{class_heun___c_d___model_38c51141d41b3c92509ab2c6040fd2cd}{Get\_\-Linear\_\-Scheme} (const dcovector \&X, const dcovector \&W, dgematrix \&F, dgematrix \&J, dcovector \&Xp)
+\begin{CompactList}\small\item\em Get the Linearized parameters Scheme in X,W. \item\end{CompactList}\end{CompactItemize}
+
+
+\subsection{Detailed Description}
+continuous discret model: the state SDE is discretly approximate by an Sstochastic Heun method 
+
+\subsection{Constructor \& Destructor Documentation}
+\hypertarget{class_heun___c_d___model_1fa492e132304f4dbd1c722c1cd0d9a5}{
+\index{Heun\_\-CD\_\-Model@{Heun\_\-CD\_\-Model}!Heun\_\-CD\_\-Model@{Heun\_\-CD\_\-Model}}
+\index{Heun\_\-CD\_\-Model@{Heun\_\-CD\_\-Model}!Heun_CD_Model@{Heun\_\-CD\_\-Model}}
+\subsubsection[{Heun\_\-CD\_\-Model}]{\setlength{\rightskip}{0pt plus 5cm}Heun\_\-CD\_\-Model::Heun\_\-CD\_\-Model (void)}}
+\label{class_heun___c_d___model_1fa492e132304f4dbd1c722c1cd0d9a5}
+
+
+\hypertarget{class_heun___c_d___model_4a6a03c0d4fd6381c0ba150761cec1cc}{
+\index{Heun\_\-CD\_\-Model@{Heun\_\-CD\_\-Model}!Heun\_\-CD\_\-Model@{Heun\_\-CD\_\-Model}}
+\index{Heun\_\-CD\_\-Model@{Heun\_\-CD\_\-Model}!Heun_CD_Model@{Heun\_\-CD\_\-Model}}
+\subsubsection[{Heun\_\-CD\_\-Model}]{\setlength{\rightskip}{0pt plus 5cm}Heun\_\-CD\_\-Model::Heun\_\-CD\_\-Model ({\bf Continuous\_\-Discrete\_\-Model} $\ast$ {\em m}, \/  const int \& {\em a})}}
+\label{class_heun___c_d___model_4a6a03c0d4fd6381c0ba150761cec1cc}
+
+
+
+
+\subsection{Member Function Documentation}
+\hypertarget{class_heun___c_d___model_38c51141d41b3c92509ab2c6040fd2cd}{
+\index{Heun\_\-CD\_\-Model@{Heun\_\-CD\_\-Model}!Get\_\-Linear\_\-Scheme@{Get\_\-Linear\_\-Scheme}}
+\index{Get\_\-Linear\_\-Scheme@{Get\_\-Linear\_\-Scheme}!Heun_CD_Model@{Heun\_\-CD\_\-Model}}
+\subsubsection[{Get\_\-Linear\_\-Scheme}]{\setlength{\rightskip}{0pt plus 5cm}void Heun\_\-CD\_\-Model::Get\_\-Linear\_\-Scheme (const dcovector \& {\em X}, \/  const dcovector \& {\em W}, \/  dgematrix \& {\em F}, \/  dgematrix \& {\em J}, \/  dcovector \& {\em Xp})\hspace{0.3cm}{\tt  \mbox{[}virtual\mbox{]}}}}
+\label{class_heun___c_d___model_38c51141d41b3c92509ab2c6040fd2cd}
+
+
+Get the Linearized parameters Scheme in X,W. 
+
+\begin{Desc}
+\item[Parameters:]
+\begin{description}
+\item[{\em X}]The state value \item[{\em W}]The noise value \item[{\em F}]The jacobian of f(X,W) in X \item[{\em G}]The jacobian in f(X,W) in W \item[{\em Xp}]The prediction Xp = f(X,W) \end{description}
+\end{Desc}
+
+
+Implements \hyperlink{class_discrete___approximation___c_d___model_0a486fada10e6f5569d186edc7b32110}{Discrete\_\-Approximation\_\-CD\_\-Model}.\hypertarget{class_heun___c_d___model_000fb9b8dbfb8171b8f330d7fc6d0dce}{
+\index{Heun\_\-CD\_\-Model@{Heun\_\-CD\_\-Model}!Jw\_\-Scheme@{Jw\_\-Scheme}}
+\index{Jw\_\-Scheme@{Jw\_\-Scheme}!Heun_CD_Model@{Heun\_\-CD\_\-Model}}
+\subsubsection[{Jw\_\-Scheme}]{\setlength{\rightskip}{0pt plus 5cm}dgematrix Heun\_\-CD\_\-Model::Jw\_\-Scheme (const dcovector \& {\em X}, \/  const dcovector \& {\em W})\hspace{0.3cm}{\tt  \mbox{[}virtual\mbox{]}}}}
+\label{class_heun___c_d___model_000fb9b8dbfb8171b8f330d7fc6d0dce}
+
+
+
+
+Implements \hyperlink{class_discrete___approximation___c_d___model_c7496999409a3f05125ceb7fe85e85ab}{Discrete\_\-Approximation\_\-CD\_\-Model}.\hypertarget{class_heun___c_d___model_322cd83c0b81c2ed81483f42123f08e6}{
+\index{Heun\_\-CD\_\-Model@{Heun\_\-CD\_\-Model}!Jx\_\-Scheme@{Jx\_\-Scheme}}
+\index{Jx\_\-Scheme@{Jx\_\-Scheme}!Heun_CD_Model@{Heun\_\-CD\_\-Model}}
+\subsubsection[{Jx\_\-Scheme}]{\setlength{\rightskip}{0pt plus 5cm}dgematrix Heun\_\-CD\_\-Model::Jx\_\-Scheme (const dcovector \& {\em X}, \/  const dcovector \& {\em W})\hspace{0.3cm}{\tt  \mbox{[}virtual\mbox{]}}}}
+\label{class_heun___c_d___model_322cd83c0b81c2ed81483f42123f08e6}
+
+
+
+
+Implements \hyperlink{class_discrete___approximation___c_d___model_7a3dcae055d90be0b8a231eff961e2a2}{Discrete\_\-Approximation\_\-CD\_\-Model}.\hypertarget{class_heun___c_d___model_98a85a23296e6c9f422f12063ece307b}{
+\index{Heun\_\-CD\_\-Model@{Heun\_\-CD\_\-Model}!Scheme@{Scheme}}
+\index{Scheme@{Scheme}!Heun_CD_Model@{Heun\_\-CD\_\-Model}}
+\subsubsection[{Scheme}]{\setlength{\rightskip}{0pt plus 5cm}dcovector Heun\_\-CD\_\-Model::Scheme (const dcovector \& {\em X}, \/  const dcovector \& {\em W})\hspace{0.3cm}{\tt  \mbox{[}virtual\mbox{]}}}}
+\label{class_heun___c_d___model_98a85a23296e6c9f422f12063ece307b}
+
+
+
+
+Implements \hyperlink{class_discrete___approximation___c_d___model_1ea9a1d618890fc51db6fa98eeb7af7f}{Discrete\_\-Approximation\_\-CD\_\-Model}.

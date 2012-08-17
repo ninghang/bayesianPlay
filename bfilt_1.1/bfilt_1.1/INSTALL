@@ -1,0 +1,38 @@
+Introduction
+============
+
+BFilt uses cmake and make to build all its components.
+
+DEPENDANCES
+===========
+
+You must install first :
+
+Lapack : It's strongly recomended to compile it with ATLAS.
+cpplapack
+GSL
+
+INSTALLATION
+============
+
+Go to the bin directory :
+
+ cd BFilt/bin
+
+Run Cmake (>2.6) :
+
+ cmake ../src
+
+Compile Bfilt :
+ make
+
+Install BFilt in /usr/local/lib or /usr/local/inlcude :
+ make install
+
+If you want to change the default install directory you can type
+
+ ccmake 
+
+and change CMAKE_INSTALL_PREFIX
+ 
+Good luck !

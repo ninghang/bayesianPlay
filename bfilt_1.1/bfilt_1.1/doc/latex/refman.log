@@ -1,0 +1,1525 @@
+This is pdfTeXk, Version 3.141592-1.40.3 (Web2C 7.5.6) (format=pdflatex 2007.5.18)  25 FEB 2009 15:16
+entering extended mode
+ %&-line parsing enabled.
+**refman.tex
+(./refman.tex
+LaTeX2e <2005/12/01>
+Babel <v3.8h> and hyphenation patterns for english, usenglishmax, dumylang, noh
+yphenation, arabic, basque, bulgarian, coptic, welsh, czech, slovak, german, ng
+erman, danish, esperanto, spanish, catalan, galician, estonian, farsi, finnish,
+ french, greek, monogreek, ancientgreek, croatian, hungarian, interlingua, ibyc
+us, indonesian, icelandic, italian, latin, mongolian, dutch, norsk, polish, por
+tuguese, pinyin, romanian, russian, slovenian, uppersorbian, serbian, swedish, 
+turkish, ukenglish, ukrainian, loaded.
+(/usr/local/texlive/2007/texmf-dist/tex/latex/base/book.cls
+Document Class: book 2005/09/16 v1.4f Standard LaTeX document class
+(/usr/local/texlive/2007/texmf-dist/tex/latex/base/bk10.clo
+File: bk10.clo 2005/09/16 v1.4f Standard LaTeX file (size option)
+)
+\c@part=\count79
+\c@chapter=\count80
+\c@section=\count81
+\c@subsection=\count82
+\c@subsubsection=\count83
+\c@paragraph=\count84
+\c@subparagraph=\count85
+\c@figure=\count86
+\c@table=\count87
+\abovecaptionskip=\skip41
+\belowcaptionskip=\skip42
+\bibindent=\dimen102
+)
+(/usr/local/texlive/2007/texmf-dist/tex/latex/ltxmisc/a4wide.sty
+Package: a4wide 1994/08/30
+
+(/usr/local/texlive/2007/texmf-dist/tex/latex/ntgclass/a4.sty
+Package: a4 2004/04/15 v1.2g A4 based page layout
+))
+(/usr/local/texlive/2007/texmf-dist/tex/latex/base/makeidx.sty
+Package: makeidx 2000/03/29 v1.0m Standard LaTeX package
+)
+(/usr/local/texlive/2007/texmf-dist/tex/latex/fancyhdr/fancyhdr.sty
+\fancy@headwidth=\skip43
+\f@ncyO@elh=\skip44
+\f@ncyO@erh=\skip45
+\f@ncyO@olh=\skip46
+\f@ncyO@orh=\skip47
+\f@ncyO@elf=\skip48
+\f@ncyO@erf=\skip49
+\f@ncyO@olf=\skip50
+\f@ncyO@orf=\skip51
+)
+(/usr/local/texlive/2007/texmf-dist/tex/latex/graphics/graphicx.sty
+Package: graphicx 1999/02/16 v1.0f Enhanced LaTeX Graphics (DPC,SPQR)
+
+(/usr/local/texlive/2007/texmf-dist/tex/latex/graphics/keyval.sty
+Package: keyval 1999/03/16 v1.13 key=value parser (DPC)
+\KV@toks@=\toks14
+)
+(/usr/local/texlive/2007/texmf-dist/tex/latex/graphics/graphics.sty
+Package: graphics 2006/02/20 v1.0o Standard LaTeX Graphics (DPC,SPQR)
+
+(/usr/local/texlive/2007/texmf-dist/tex/latex/graphics/trig.sty
+Package: trig 1999/03/16 v1.09 sin cos tan (DPC)
+)
+(/usr/local/texlive/2007/texmf/tex/latex/config/graphics.cfg
+File: graphics.cfg 2007/01/18 v1.5 graphics configuration of teTeX/TeXLive
+)
+Package graphics Info: Driver file: pdftex.def on input line 90.
+
+(/usr/local/texlive/2007/texmf-dist/tex/latex/pdftex-def/pdftex.def
+File: pdftex.def 2007/01/08 v0.04d Graphics/color for pdfTeX
+\Gread@gobject=\count88
+))
+\Gin@req@height=\dimen103
+\Gin@req@width=\dimen104
+)
+(/usr/local/texlive/2007/texmf-dist/tex/latex/tools/multicol.sty
+Package: multicol 2006/05/18 v1.6g multicolumn formatting (FMi)
+\c@tracingmulticols=\count89
+\mult@box=\box26
+\multicol@leftmargin=\dimen105
+\c@unbalance=\count90
+\c@collectmore=\count91
+\doublecol@number=\count92
+\multicoltolerance=\count93
+\multicolpretolerance=\count94
+\full@width=\dimen106
+\page@free=\dimen107
+\premulticols=\dimen108
+\postmulticols=\dimen109
+\multicolsep=\skip52
+\multicolbaselineskip=\skip53
+\partial@page=\box27
+\last@line=\box28
+\mult@rightbox=\box29
+\mult@grightbox=\box30
+\mult@gfirstbox=\box31
+\mult@firstbox=\box32
+\@tempa=\box33
+\@tempa=\box34
+\@tempa=\box35
+\@tempa=\box36
+\@tempa=\box37
+\@tempa=\box38
+\@tempa=\box39
+\@tempa=\box40
+\@tempa=\box41
+\@tempa=\box42
+\@tempa=\box43
+\@tempa=\box44
+\@tempa=\box45
+\@tempa=\box46
+\@tempa=\box47
+\@tempa=\box48
+\@tempa=\box49
+\c@columnbadness=\count95
+\c@finalcolumnbadness=\count96
+\last@try=\dimen110
+\multicolovershoot=\dimen111
+\multicolundershoot=\dimen112
+\mult@nat@firstbox=\box50
+\colbreak@box=\box51
+)
+(/usr/local/texlive/2007/texmf-dist/tex/latex/float/float.sty
+Package: float 2001/11/08 v1.3d Float enhancements (AL)
+\c@float@type=\count97
+\float@exts=\toks15
+\float@box=\box52
+\@float@everytoks=\toks16
+\@floatcapt=\box53
+)
+(/usr/local/texlive/2007/texmf-dist/tex/latex/base/textcomp.sty
+Package: textcomp 2005/09/27 v1.99g Standard LaTeX package
+Package textcomp Info: Sub-encoding information:
+(textcomp)               5 = only ISO-Adobe without \textcurrency
+(textcomp)               4 = 5 + \texteuro
+(textcomp)               3 = 4 + \textohm
+(textcomp)               2 = 3 + \textestimated + \textcurrency
+(textcomp)               1 = TS1 - \textcircled - \t
+(textcomp)               0 = TS1 (full)
+(textcomp)             Font families with sub-encoding setting implement
+(textcomp)             only a restricted character set as indicated.
+(textcomp)             Family '?' is the default used for unknown fonts.
+(textcomp)             See the documentation for details.
+Package textcomp Info: Setting ? sub-encoding to TS1/1 on input line 71.
+
+(/usr/local/texlive/2007/texmf-dist/tex/latex/base/ts1enc.def
+File: ts1enc.def 2001/06/05 v3.0e (jk/car/fm) Standard LaTeX file
+)
+LaTeX Info: Redefining \oldstylenums on input line 266.
+Package textcomp Info: Setting cmr sub-encoding to TS1/0 on input line 281.
+Package textcomp Info: Setting cmss sub-encoding to TS1/0 on input line 282.
+Package textcomp Info: Setting cmtt sub-encoding to TS1/0 on input line 283.
+Package textcomp Info: Setting cmvtt sub-encoding to TS1/0 on input line 284.
+Package textcomp Info: Setting cmbr sub-encoding to TS1/0 on input line 285.
+Package textcomp Info: Setting cmtl sub-encoding to TS1/0 on input line 286.
+Package textcomp Info: Setting ccr sub-encoding to TS1/0 on input line 287.
+Package textcomp Info: Setting ptm sub-encoding to TS1/4 on input line 288.
+Package textcomp Info: Setting pcr sub-encoding to TS1/4 on input line 289.
+Package textcomp Info: Setting phv sub-encoding to TS1/4 on input line 290.
+Package textcomp Info: Setting ppl sub-encoding to TS1/3 on input line 291.
+Package textcomp Info: Setting pag sub-encoding to TS1/4 on input line 292.
+Package textcomp Info: Setting pbk sub-encoding to TS1/4 on input line 293.
+Package textcomp Info: Setting pnc sub-encoding to TS1/4 on input line 294.
+Package textcomp Info: Setting pzc sub-encoding to TS1/4 on input line 295.
+Package textcomp Info: Setting bch sub-encoding to TS1/4 on input line 296.
+Package textcomp Info: Setting put sub-encoding to TS1/5 on input line 297.
+Package textcomp Info: Setting uag sub-encoding to TS1/5 on input line 298.
+Package textcomp Info: Setting ugq sub-encoding to TS1/5 on input line 299.
+Package textcomp Info: Setting ul8 sub-encoding to TS1/4 on input line 300.
+Package textcomp Info: Setting ul9 sub-encoding to TS1/4 on input line 301.
+Package textcomp Info: Setting augie sub-encoding to TS1/5 on input line 302.
+Package textcomp Info: Setting dayrom sub-encoding to TS1/3 on input line 303.
+Package textcomp Info: Setting dayroms sub-encoding to TS1/3 on input line 304.
+
+Package textcomp Info: Setting pxr sub-encoding to TS1/0 on input line 305.
+Package textcomp Info: Setting pxss sub-encoding to TS1/0 on input line 306.
+Package textcomp Info: Setting pxtt sub-encoding to TS1/0 on input line 307.
+Package textcomp Info: Setting txr sub-encoding to TS1/0 on input line 308.
+Package textcomp Info: Setting txss sub-encoding to TS1/0 on input line 309.
+Package textcomp Info: Setting txtt sub-encoding to TS1/0 on input line 310.
+Package textcomp Info: Setting futs sub-encoding to TS1/4 on input line 311.
+Package textcomp Info: Setting futx sub-encoding to TS1/4 on input line 312.
+Package textcomp Info: Setting futj sub-encoding to TS1/4 on input line 313.
+Package textcomp Info: Setting hlh sub-encoding to TS1/3 on input line 314.
+Package textcomp Info: Setting hls sub-encoding to TS1/3 on input line 315.
+Package textcomp Info: Setting hlst sub-encoding to TS1/3 on input line 316.
+Package textcomp Info: Setting hlct sub-encoding to TS1/5 on input line 317.
+Package textcomp Info: Setting hlx sub-encoding to TS1/5 on input line 318.
+Package textcomp Info: Setting hlce sub-encoding to TS1/5 on input line 319.
+Package textcomp Info: Setting hlcn sub-encoding to TS1/5 on input line 320.
+Package textcomp Info: Setting hlcw sub-encoding to TS1/5 on input line 321.
+Package textcomp Info: Setting hlcf sub-encoding to TS1/5 on input line 322.
+Package textcomp Info: Setting pplx sub-encoding to TS1/3 on input line 323.
+Package textcomp Info: Setting pplj sub-encoding to TS1/3 on input line 324.
+Package textcomp Info: Setting ptmx sub-encoding to TS1/4 on input line 325.
+Package textcomp Info: Setting ptmj sub-encoding to TS1/4 on input line 326.
+)
+(/usr/local/texlive/2007/texmf-dist/tex/latex/base/alltt.sty
+Package: alltt 1997/06/16 v2.0g defines alltt environment
+)
+(/usr/local/texlive/2007/texmf-dist/tex/latex/psnfss/times.sty
+Package: times 2005/04/12 PSNFSS-v9.2a (SPQR) 
+)
+(/usr/local/texlive/2007/texmf-dist/tex/generic/oberdiek/ifpdf.sty
+Package: ifpdf 2006/02/20 v1.4 Provides the ifpdf switch (HO)
+Package ifpdf Info: pdfTeX in pdf mode detected.
+)
+(/usr/local/texlive/2007/texmf-dist/tex/latex/hyperref/hyperref.sty
+Package: hyperref 2007/02/07 v6.75r Hypertext links for LaTeX
+\@linkdim=\dimen113
+\Hy@linkcounter=\count98
+\Hy@pagecounter=\count99
+
+(/usr/local/texlive/2007/texmf-dist/tex/latex/hyperref/pd1enc.def
+File: pd1enc.def 2007/02/07 v6.75r Hyperref: PDFDocEncoding definition (HO)
+)
+(/usr/local/texlive/2007/texmf/tex/latex/config/hyperref.cfg
+File: hyperref.cfg 2002/06/06 v1.2 hyperref configuration of TeXLive
+)
+(/usr/local/texlive/2007/texmf-dist/tex/latex/oberdiek/kvoptions.sty
+Package: kvoptions 2006/08/22 v2.4 Connects package keyval with LaTeX options (
+HO)
+)
+Package hyperref Info: Option `colorlinks' set `true' on input line 2238.
+Package hyperref Info: Option `unicode' set `true' on input line 2238.
+
+(/usr/local/texlive/2007/texmf-dist/tex/latex/hyperref/puenc.def
+File: puenc.def 2007/02/07 v6.75r Hyperref: PDF Unicode definition (HO)
+)
+Package hyperref Info: Hyper figures OFF on input line 2288.
+Package hyperref Info: Link nesting OFF on input line 2293.
+Package hyperref Info: Hyper index ON on input line 2296.
+Package hyperref Info: Plain pages OFF on input line 2303.
+Package hyperref Info: Backreferencing ON on input line 2306.
+
+Implicit mode ON; LaTeX internals redefined
+Package hyperref Info: Bookmarks ON on input line 2444.
+(/usr/local/texlive/2007/texmf-dist/tex/latex/hyperref/backref.sty
+Package: backref 2006/10/06 v1.27 Bibliographical back referencing
+)
+(/usr/local/texlive/2007/texmf-dist/tex/latex/ltxmisc/url.sty
+\Urlmuskip=\muskip10
+Package: url 2005/06/27  ver 3.2  Verb mode for urls, etc.
+)
+LaTeX Info: Redefining \url on input line 2599.
+\Fld@menulength=\count100
+\Field@Width=\dimen114
+\Fld@charsize=\dimen115
+\Choice@toks=\toks17
+\Field@toks=\toks18
+Package hyperref Info: Hyper figures OFF on input line 3102.
+Package hyperref Info: Link nesting OFF on input line 3107.
+Package hyperref Info: Hyper index ON on input line 3110.
+Package hyperref Info: backreferencing ON on input line 3115.
+Package hyperref Info: Link coloring ON on input line 3120.
+\Hy@abspage=\count101
+\c@Item=\count102
+\c@Hfootnote=\count103
+)
+*hyperref using driver hpdftex*
+(/usr/local/texlive/2007/texmf-dist/tex/latex/hyperref/hpdftex.def
+File: hpdftex.def 2007/02/07 v6.75r Hyperref driver for pdfTeX
+\Fld@listcount=\count104
+)
+(/usr/local/texlive/2007/texmf-dist/tex/latex/base/inputenc.sty
+Package: inputenc 2006/05/05 v1.1b Input encoding file
+\inpenc@prehook=\toks19
+\inpenc@posthook=\toks20
+
+(/usr/local/texlive/2007/texmf-dist/tex/latex/base/utf8.def
+File: utf8.def 2006/03/30 v1.1i UTF-8 support for inputenc
+Now handling font encoding OML ...
+... no UTF-8 mapping file for font encoding OML
+Now handling font encoding T1 ...
+... processing UTF-8 mapping file for font encodingT1
+
+(/usr/local/texlive/2007/texmf-dist/tex/latex/base/t1enc.dfu
+File: t1enc.dfu 2006/03/30 v1.1i UTF-8 support for inputenc
+   defining Unicode char U+00A1 (decimal 161)
+   defining Unicode char U+00A3 (decimal 163)
+   defining Unicode char U+00AB (decimal 171)
+   defining Unicode char U+00BB (decimal 187)
+   defining Unicode char U+00BF (decimal 191)
+   defining Unicode char U+00C0 (decimal 192)
+   defining Unicode char U+00C1 (decimal 193)
+   defining Unicode char U+00C2 (decimal 194)
+   defining Unicode char U+00C3 (decimal 195)
+   defining Unicode char U+00C4 (decimal 196)
+   defining Unicode char U+00C5 (decimal 197)
+   defining Unicode char U+00C6 (decimal 198)
+   defining Unicode char U+00C7 (decimal 199)
+   defining Unicode char U+00C8 (decimal 200)
+   defining Unicode char U+00C9 (decimal 201)
+   defining Unicode char U+00CA (decimal 202)
+   defining Unicode char U+00CB (decimal 203)
+   defining Unicode char U+00CC (decimal 204)
+   defining Unicode char U+00CD (decimal 205)
+   defining Unicode char U+00CE (decimal 206)
+   defining Unicode char U+00CF (decimal 207)
+   defining Unicode char U+00D0 (decimal 208)
+   defining Unicode char U+00D1 (decimal 209)
+   defining Unicode char U+00D2 (decimal 210)
+   defining Unicode char U+00D3 (decimal 211)
+   defining Unicode char U+00D4 (decimal 212)
+   defining Unicode char U+00D5 (decimal 213)
+   defining Unicode char U+00D6 (decimal 214)
+   defining Unicode char U+00D8 (decimal 216)
+   defining Unicode char U+00D9 (decimal 217)
+   defining Unicode char U+00DA (decimal 218)
+   defining Unicode char U+00DB (decimal 219)
+   defining Unicode char U+00DC (decimal 220)
+   defining Unicode char U+00DD (decimal 221)
+   defining Unicode char U+00DE (decimal 222)
+   defining Unicode char U+00DF (decimal 223)
+   defining Unicode char U+00E0 (decimal 224)
+   defining Unicode char U+00E1 (decimal 225)
+   defining Unicode char U+00E2 (decimal 226)
+   defining Unicode char U+00E3 (decimal 227)
+   defining Unicode char U+00E4 (decimal 228)
+   defining Unicode char U+00E5 (decimal 229)
+   defining Unicode char U+00E6 (decimal 230)
+   defining Unicode char U+00E7 (decimal 231)
+   defining Unicode char U+00E8 (decimal 232)
+   defining Unicode char U+00E9 (decimal 233)
+   defining Unicode char U+00EA (decimal 234)
+   defining Unicode char U+00EB (decimal 235)
+   defining Unicode char U+00EC (decimal 236)
+   defining Unicode char U+00ED (decimal 237)
+   defining Unicode char U+00EE (decimal 238)
+   defining Unicode char U+00EF (decimal 239)
+   defining Unicode char U+00F0 (decimal 240)
+   defining Unicode char U+00F1 (decimal 241)
+   defining Unicode char U+00F2 (decimal 242)
+   defining Unicode char U+00F3 (decimal 243)
+   defining Unicode char U+00F4 (decimal 244)
+   defining Unicode char U+00F5 (decimal 245)
+   defining Unicode char U+00F6 (decimal 246)
+   defining Unicode char U+00F8 (decimal 248)
+   defining Unicode char U+00F9 (decimal 249)
+   defining Unicode char U+00FA (decimal 250)
+   defining Unicode char U+00FB (decimal 251)
+   defining Unicode char U+00FC (decimal 252)
+   defining Unicode char U+00FD (decimal 253)
+   defining Unicode char U+00FE (decimal 254)
+   defining Unicode char U+00FF (decimal 255)
+   defining Unicode char U+0102 (decimal 258)
+   defining Unicode char U+0103 (decimal 259)
+   defining Unicode char U+0104 (decimal 260)
+   defining Unicode char U+0105 (decimal 261)
+   defining Unicode char U+0106 (decimal 262)
+   defining Unicode char U+0107 (decimal 263)
+   defining Unicode char U+010C (decimal 268)
+   defining Unicode char U+010D (decimal 269)
+   defining Unicode char U+010E (decimal 270)
+   defining Unicode char U+010F (decimal 271)
+   defining Unicode char U+0110 (decimal 272)
+   defining Unicode char U+0111 (decimal 273)
+   defining Unicode char U+0118 (decimal 280)
+   defining Unicode char U+0119 (decimal 281)
+   defining Unicode char U+011A (decimal 282)
+   defining Unicode char U+011B (decimal 283)
+   defining Unicode char U+011E (decimal 286)
+   defining Unicode char U+011F (decimal 287)
+   defining Unicode char U+0130 (decimal 304)
+   defining Unicode char U+0131 (decimal 305)
+   defining Unicode char U+0132 (decimal 306)
+   defining Unicode char U+0133 (decimal 307)
+   defining Unicode char U+0139 (decimal 313)
+   defining Unicode char U+013A (decimal 314)
+   defining Unicode char U+013D (decimal 317)
+   defining Unicode char U+013E (decimal 318)
+   defining Unicode char U+0141 (decimal 321)
+   defining Unicode char U+0142 (decimal 322)
+   defining Unicode char U+0143 (decimal 323)
+   defining Unicode char U+0144 (decimal 324)
+   defining Unicode char U+0147 (decimal 327)
+   defining Unicode char U+0148 (decimal 328)
+   defining Unicode char U+014A (decimal 330)
+   defining Unicode char U+014B (decimal 331)
+   defining Unicode char U+0150 (decimal 336)
+   defining Unicode char U+0151 (decimal 337)
+   defining Unicode char U+0152 (decimal 338)
+   defining Unicode char U+0153 (decimal 339)
+   defining Unicode char U+0154 (decimal 340)
+   defining Unicode char U+0155 (decimal 341)
+   defining Unicode char U+0158 (decimal 344)
+   defining Unicode char U+0159 (decimal 345)
+   defining Unicode char U+015A (decimal 346)
+   defining Unicode char U+015B (decimal 347)
+   defining Unicode char U+015E (decimal 350)
+   defining Unicode char U+015F (decimal 351)
+   defining Unicode char U+0160 (decimal 352)
+   defining Unicode char U+0161 (decimal 353)
+   defining Unicode char U+0162 (decimal 354)
+   defining Unicode char U+0163 (decimal 355)
+   defining Unicode char U+0164 (decimal 356)
+   defining Unicode char U+0165 (decimal 357)
+   defining Unicode char U+016E (decimal 366)
+   defining Unicode char U+016F (decimal 367)
+   defining Unicode char U+0170 (decimal 368)
+   defining Unicode char U+0171 (decimal 369)
+   defining Unicode char U+0178 (decimal 376)
+   defining Unicode char U+0179 (decimal 377)
+   defining Unicode char U+017A (decimal 378)
+   defining Unicode char U+017B (decimal 379)
+   defining Unicode char U+017C (decimal 380)
+   defining Unicode char U+017D (decimal 381)
+   defining Unicode char U+017E (decimal 382)
+   defining Unicode char U+200C (decimal 8204)
+   defining Unicode char U+2013 (decimal 8211)
+   defining Unicode char U+2014 (decimal 8212)
+   defining Unicode char U+2018 (decimal 8216)
+   defining Unicode char U+2019 (decimal 8217)
+   defining Unicode char U+201A (decimal 8218)
+   defining Unicode char U+201C (decimal 8220)
+   defining Unicode char U+201D (decimal 8221)
+   defining Unicode char U+201E (decimal 8222)
+   defining Unicode char U+2030 (decimal 8240)
+   defining Unicode char U+2031 (decimal 8241)
+   defining Unicode char U+2039 (decimal 8249)
+   defining Unicode char U+203A (decimal 8250)
+   defining Unicode char U+2423 (decimal 9251)
+)
+Now handling font encoding OT1 ...
+... processing UTF-8 mapping file for font encodingOT1
+
+(/usr/local/texlive/2007/texmf-dist/tex/latex/base/ot1enc.dfu
+File: ot1enc.dfu 2006/03/30 v1.1i UTF-8 support for inputenc
+   defining Unicode char U+00A1 (decimal 161)
+   defining Unicode char U+00A3 (decimal 163)
+   defining Unicode char U+00B8 (decimal 184)
+   defining Unicode char U+00BF (decimal 191)
+   defining Unicode char U+00C5 (decimal 197)
+   defining Unicode char U+00C6 (decimal 198)
+   defining Unicode char U+00D8 (decimal 216)
+   defining Unicode char U+00DF (decimal 223)
+   defining Unicode char U+00E6 (decimal 230)
+   defining Unicode char U+00EC (decimal 236)
+   defining Unicode char U+00ED (decimal 237)
+   defining Unicode char U+00EE (decimal 238)
+   defining Unicode char U+00EF (decimal 239)
+   defining Unicode char U+00F8 (decimal 248)
+   defining Unicode char U+0131 (decimal 305)
+   defining Unicode char U+0141 (decimal 321)
+   defining Unicode char U+0142 (decimal 322)
+   defining Unicode char U+0152 (decimal 338)
+   defining Unicode char U+0153 (decimal 339)
+   defining Unicode char U+2013 (decimal 8211)
+   defining Unicode char U+2014 (decimal 8212)
+   defining Unicode char U+2018 (decimal 8216)
+   defining Unicode char U+2019 (decimal 8217)
+   defining Unicode char U+201C (decimal 8220)
+   defining Unicode char U+201D (decimal 8221)
+)
+Now handling font encoding OMS ...
+... processing UTF-8 mapping file for font encodingOMS
+
+(/usr/local/texlive/2007/texmf-dist/tex/latex/base/omsenc.dfu
+File: omsenc.dfu 2006/03/30 v1.1i UTF-8 support for inputenc
+   defining Unicode char U+00A7 (decimal 167)
+   defining Unicode char U+00B6 (decimal 182)
+   defining Unicode char U+00B7 (decimal 183)
+   defining Unicode char U+2020 (decimal 8224)
+   defining Unicode char U+2021 (decimal 8225)
+   defining Unicode char U+2022 (decimal 8226)
+)
+Now handling font encoding OMX ...
+... no UTF-8 mapping file for font encoding OMX
+Now handling font encoding U ...
+... no UTF-8 mapping file for font encoding U
+Now handling font encoding TS1 ...
+... processing UTF-8 mapping file for font encodingTS1
+
+(/usr/local/texlive/2007/texmf-dist/tex/latex/base/ts1enc.dfu
+File: ts1enc.dfu 2006/03/30 v1.1i UTF-8 support for inputenc
+   defining Unicode char U+00A2 (decimal 162)
+   defining Unicode char U+00A3 (decimal 163)
+   defining Unicode char U+00A4 (decimal 164)
+   defining Unicode char U+00A5 (decimal 165)
+   defining Unicode char U+00A6 (decimal 166)
+   defining Unicode char U+00A7 (decimal 167)
+   defining Unicode char U+00A8 (decimal 168)
+   defining Unicode char U+00A9 (decimal 169)
+   defining Unicode char U+00AA (decimal 170)
+   defining Unicode char U+00AC (decimal 172)
+   defining Unicode char U+00AE (decimal 174)
+   defining Unicode char U+00AF (decimal 175)
+   defining Unicode char U+00B0 (decimal 176)
+   defining Unicode char U+00B1 (decimal 177)
+   defining Unicode char U+00B2 (decimal 178)
+   defining Unicode char U+00B3 (decimal 179)
+   defining Unicode char U+00B4 (decimal 180)
+   defining Unicode char U+00B5 (decimal 181)
+   defining Unicode char U+00B6 (decimal 182)
+   defining Unicode char U+00B7 (decimal 183)
+   defining Unicode char U+00B9 (decimal 185)
+   defining Unicode char U+00BA (decimal 186)
+   defining Unicode char U+00BC (decimal 188)
+   defining Unicode char U+00BD (decimal 189)
+   defining Unicode char U+00BE (decimal 190)
+   defining Unicode char U+00D7 (decimal 215)
+   defining Unicode char U+00F7 (decimal 247)
+   defining Unicode char U+0192 (decimal 402)
+   defining Unicode char U+02C7 (decimal 711)
+   defining Unicode char U+02D8 (decimal 728)
+   defining Unicode char U+02DD (decimal 733)
+   defining Unicode char U+0E3F (decimal 3647)
+   defining Unicode char U+2016 (decimal 8214)
+   defining Unicode char U+2020 (decimal 8224)
+   defining Unicode char U+2021 (decimal 8225)
+   defining Unicode char U+2022 (decimal 8226)
+   defining Unicode char U+2030 (decimal 8240)
+   defining Unicode char U+2031 (decimal 8241)
+   defining Unicode char U+203B (decimal 8251)
+   defining Unicode char U+203D (decimal 8253)
+   defining Unicode char U+2044 (decimal 8260)
+   defining Unicode char U+204E (decimal 8270)
+   defining Unicode char U+2052 (decimal 8274)
+   defining Unicode char U+20A1 (decimal 8353)
+   defining Unicode char U+20A4 (decimal 8356)
+   defining Unicode char U+20A6 (decimal 8358)
+   defining Unicode char U+20A9 (decimal 8361)
+   defining Unicode char U+20AB (decimal 8363)
+   defining Unicode char U+20AC (decimal 8364)
+   defining Unicode char U+20B1 (decimal 8369)
+   defining Unicode char U+2103 (decimal 8451)
+   defining Unicode char U+2116 (decimal 8470)
+   defining Unicode char U+2117 (decimal 8471)
+   defining Unicode char U+211E (decimal 8478)
+   defining Unicode char U+2120 (decimal 8480)
+   defining Unicode char U+2122 (decimal 8482)
+   defining Unicode char U+2126 (decimal 8486)
+   defining Unicode char U+2127 (decimal 8487)
+   defining Unicode char U+212E (decimal 8494)
+   defining Unicode char U+2190 (decimal 8592)
+   defining Unicode char U+2191 (decimal 8593)
+   defining Unicode char U+2192 (decimal 8594)
+   defining Unicode char U+2193 (decimal 8595)
+   defining Unicode char U+2329 (decimal 9001)
+   defining Unicode char U+232A (decimal 9002)
+   defining Unicode char U+2422 (decimal 9250)
+   defining Unicode char U+25E6 (decimal 9702)
+   defining Unicode char U+25EF (decimal 9711)
+   defining Unicode char U+266A (decimal 9834)
+)
+Now handling font encoding PD1 ...
+... no UTF-8 mapping file for font encoding PD1
+Now handling font encoding PU ...
+... no UTF-8 mapping file for font encoding PU
+   defining Unicode char U+00A9 (decimal 169)
+   defining Unicode char U+00AA (decimal 170)
+   defining Unicode char U+00AE (decimal 174)
+   defining Unicode char U+00BA (decimal 186)
+   defining Unicode char U+02C6 (decimal 710)
+   defining Unicode char U+02DC (decimal 732)
+   defining Unicode char U+200C (decimal 8204)
+   defining Unicode char U+2026 (decimal 8230)
+   defining Unicode char U+2122 (decimal 8482)
+   defining Unicode char U+2423 (decimal 9251)
+)) (./doxygen.sty
+Package: doxygen 
+(/usr/local/texlive/2007/texmf-dist/tex/latex/tools/calc.sty
+Package: calc 2005/08/06 v4.2 Infix arithmetic (KKT,FJ)
+\calc@Acount=\count105
+\calc@Bcount=\count106
+\calc@Adimen=\dimen116
+\calc@Bdimen=\dimen117
+\calc@Askip=\skip54
+\calc@Bskip=\skip55
+LaTeX Info: Redefining \setlength on input line 75.
+LaTeX Info: Redefining \addtolength on input line 76.
+\calc@Ccount=\count107
+\calc@Cskip=\skip56
+)
+(/usr/local/texlive/2007/texmf-dist/tex/latex/tools/array.sty
+Package: array 2005/08/23 v2.4b Tabular extension package (FMi)
+\col@sep=\dimen118
+\extrarowheight=\dimen119
+\NC@list=\toks21
+\extratabsurround=\skip57
+\backup@length=\skip58
+)
+\tmplength=\skip59
+)
+(/usr/local/texlive/2007/texmf-dist/tex/latex/base/fontenc.sty
+Package: fontenc 2005/09/27 v1.99g Standard LaTeX package
+
+(/usr/local/texlive/2007/texmf-dist/tex/latex/base/t1enc.def
+File: t1enc.def 2005/09/27 v1.99g Standard LaTeX file
+LaTeX Font Info:    Redeclaring font encoding T1 on input line 43.
+))
+\@indexfile=\write3
+\openout3 = `refman.idx'.
+
+
+Writing index file refman.idx
+(./refman.aux (./page1.aux) (./page2.aux
+
+LaTeX Warning: Label `page2_sec2' multiply defined.
+
+
+LaTeX Warning: Label `page2_sec3' multiply defined.
+
+) (./page_3.aux) (./page_4.aux) (./class_bootstrap___sampler.aux)
+(./class_c_d___bootstrap___filter.aux)
+(./class_c_d___extended___kalman___filter.aux) (./class_c_d___filter.aux)
+(./class_c_d___kalman.aux) (./class_c_d___simulator.aux)
+(./class_c_d___simulator___w_t.aux) (./class_continuous___discrete___model.aux)
+(./class_d_d___kalman.aux) (./class_discrete___approximation___c_d___model.aux)
+(./class_discrete___observed___model.aux) (./class_euler___c_d___model.aux)
+(./class_extended___kalman___filter.aux) (./class_filter.aux)
+(./class_g___simulator.aux) (./class_g___simulator___w_t.aux)
+(./class_g_a___filter.aux) (./class_gaussian___linear___model.aux)
+(./class_gaussian___nonlinear___model.aux) (./class_heun___c_d___model.aux)
+(./class_linear___c_d___model.aux) (./class_l_l___filter.aux)
+(./class_l_t_i___c_d___simulator.aux)
+(./class_l_t_i___c_d___simulator___w_t.aux) (./class_model.aux)
+(./class_opt___simulator.aux) (./class_optimal___sampler.aux)
+(./class_opt_s_i_s_r___filter.aux) (./class_ozaki___c_d___model.aux)
+(./class_s_i___sampler.aux) (./class_simulator.aux)
+(./class_s_i_s_r___filter.aux) (./class_s_r_k4___c_d___model.aux)
+(./class_t_h_g_l___filter.aux) (./class_unscented___kalman___filter.aux)
+(./class_weighted___sample.aux))
+\openout1 = `refman.aux'.
+
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 33.
+LaTeX Font Info:    ... okay on input line 33.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 33.
+LaTeX Font Info:    ... okay on input line 33.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 33.
+LaTeX Font Info:    ... okay on input line 33.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 33.
+LaTeX Font Info:    ... okay on input line 33.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 33.
+LaTeX Font Info:    ... okay on input line 33.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 33.
+LaTeX Font Info:    ... okay on input line 33.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 33.
+LaTeX Font Info:    Try loading font information for TS1+cmr on input line 33.
+
+(/usr/local/texlive/2007/texmf-dist/tex/latex/base/ts1cmr.fd
+File: ts1cmr.fd 1999/05/25 v2.5h Standard LaTeX font definitions
+)
+LaTeX Font Info:    ... okay on input line 33.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 33.
+LaTeX Font Info:    ... okay on input line 33.
+LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 33.
+LaTeX Font Info:    ... okay on input line 33.
+LaTeX Font Info:    Try loading font information for T1+ptm on input line 33.
+
+(/usr/local/texlive/2007/texmf-dist/tex/latex/psnfss/t1ptm.fd
+File: t1ptm.fd 2001/06/04 font definitions for T1/ptm.
+)
+(/usr/local/texlive/2007/texmf-dist/tex/context/base/supp-pdf.tex
+[Loading MPS to PDF converter (version 2006.09.02).]
+\scratchcounter=\count108
+\scratchdimen=\dimen120
+\scratchbox=\box54
+\nofMPsegments=\count109
+\nofMParguments=\count110
+\MPscratchCnt=\count111
+\MPscratchDim=\dimen121
+\MPnumerator=\count112
+\everyMPtoPDFconversion=\toks22
+) (/usr/local/texlive/2007/texmf-dist/tex/latex/graphics/color.sty
+Package: color 2005/11/14 v1.0j Standard LaTeX Color (DPC)
+
+(/usr/local/texlive/2007/texmf/tex/latex/config/color.cfg
+File: color.cfg 2007/01/18 v1.5 color configuration of teTeX/TeXLive
+)
+Package color Info: Driver file: pdftex.def on input line 130.
+)
+Package hyperref Info: Link coloring ON on input line 33.
+
+(/usr/local/texlive/2007/texmf-dist/tex/latex/hyperref/nameref.sty
+Package: nameref 2006/12/27 v2.28 Cross-referencing by name of section
+
+(/usr/local/texlive/2007/texmf-dist/tex/latex/oberdiek/refcount.sty
+Package: refcount 2006/02/20 v3.0 Data extraction from references (HO)
+)
+\c@section@level=\count113
+)
+LaTeX Info: Redefining \ref on input line 33.
+LaTeX Info: Redefining \pageref on input line 33.
+
+(./refman.out) (./refman.out)
+\@outlinefile=\write4
+\openout4 = `refman.out'.
+
+ [1
+
+
+{/usr/local/texlive/2007/texmf-var/fonts/map/pdftex/updmap/pdftex.map}] [2
+
+]
+LaTeX Font Info:    Font shape `T1/ptm/bx/n' in size <24.88> not available
+(Font)              Font shape `T1/ptm/b/n' tried instead on input line 46.
+ (./refman.toc
+LaTeX Font Info:    Font shape `T1/ptm/bx/n' in size <10> not available
+(Font)              Font shape `T1/ptm/b/n' tried instead on input line 1.
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <7> on input line 2.
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <5> on input line 2.
+ [1
+
+]
+Underfull \vbox (badness 1389) has occurred while \output is active []
+
+LaTeX Font Info:    Font shape `T1/ptm/bx/n' in size <7> not available
+(Font)              Font shape `T1/ptm/b/n' tried instead on input line 62.
+ [2]
+Underfull \vbox (badness 1389) has occurred while \output is active []
+
+ [3]
+Underfull \vbox (badness 1389) has occurred while \output is active []
+
+ [4]
+Underfull \vbox (badness 1389) has occurred while \output is active []
+
+ [5]
+Underfull \vbox (badness 1389) has occurred while \output is active []
+
+ [6]
+Underfull \vbox (badness 1389) has occurred while \output is active []
+
+ [7]
+Underfull \vbox (badness 1389) has occurred while \output is active []
+
+ [8]
+Underfull \vbox (badness 1389) has occurred while \output is active []
+
+ [9]
+Underfull \vbox (badness 1389) has occurred while \output is active []
+
+ [10]
+Underfull \vbox (badness 1389) has occurred while \output is active []
+
+ [11]
+Underfull \vbox (badness 1389) has occurred while \output is active []
+
+ [12])
+\tf@toc=\write5
+\openout5 = `refman.toc'.
+
+
+[13] [14
+
+]
+Chapter 1.
+LaTeX Font Info:    Font shape `T1/ptm/bx/n' in size <20.74> not available
+(Font)              Font shape `T1/ptm/b/n' tried instead on input line 49.
+(./index.tex
+LaTeX Font Info:    Font shape `T1/ptm/bx/n' in size <14.4> not available
+(Font)              Font shape `T1/ptm/b/n' tried instead on input line 1.
+LaTeX Font Info:    Try loading font information for T1+pcr on input line 6.
+ (/usr/local/texlive/2007/texmf-dist/tex/latex/psnfss/t1pcr.fd
+File: t1pcr.fd 2001/06/04 font definitions for T1/pcr.
+)pdfTeX warning (ext4): destination with the same identifier (name{page.1}) has
+ been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.30 \begin{Code}\begin{verbatim}
+                                  ccmake [1
+
+])pdfTeX warning (ext4): destination with the same identifier (name{page.2}) ha
+s been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.51 \chapter
+             {An AR process} [2]
+Chapter 2.
+[3
+
+]
+\openout2 = `page1.aux'.
+
+ (./page1.tex [4
+
+] <ar_process.pdf, id=2392, 301.125pt x 200.75pt>
+File: ar_process.pdf Graphic file (type pdf)
+
+<use ar_process.pdf>
+Overfull \hbox (0.55711pt too wide) in paragraph at lines 105--107
+[]\T1/ptm/m/n/10 To ob-tain the fol-low-ing graph : []
+ []
+
+[5]) [6 <./ar_process.pdf>]
+Chapter 3.
+[7
+
+
+]
+\openout2 = `page2.aux'.
+
+ (./page2.tex [8
+
+]pdfTeX warning (ext4): destination with the same identifier (name{page2_sec2})
+ has been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.90 \hypertarget{page2_sec2}{}
+                               \section{The main program}\label{page2_sec2}
+[9] <ornstein.pdf, id=2432, 301.125pt x 200.75pt>
+File: ornstein.pdf Graphic file (type pdf)
+ <use ornstein.pdf>pdfTeX warning (ext4): destination with the same identifier 
+(name{page2_sec3}) has been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.138 \hypertarget{page2_sec3}{}
+                                \section{The CMakeList.txt}\label{page2_sec3}
+Overfull \hbox (0.55711pt too wide) in paragraph at lines 136--138
+[]\T1/ptm/m/n/10 To ob-tain the fol-low-ing graph : []
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 136--138
+
+ []
+
+[10 <./ornstein.pdf>]) [11] [12
+
+
+]
+Chapter 4.
+[13]
+\openout2 = `page_3.aux'.
+
+ (./page_3.tex [14
+
+] <van_der_pol.pdf, id=2458, 301.125pt x 200.75pt>
+File: van_der_pol.pdf Graphic file (type pdf)
+
+<use van_der_pol.pdf>
+Overfull \hbox (64.05609pt too wide) in paragraph at lines 132--134
+\T1/ptm/m/n/10 Results can be plot-ted (here with gnu-plot): [] 
+ []
+
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [15])
+[16 <./van_der_pol.pdf>]
+Chapter 5.
+[17
+
+
+]
+\openout2 = `page_4.aux'.
+
+ (./page_4.tex <plane.pdf, id=2477, 602.25pt x 250.9375pt>
+File: plane.pdf Graphic file (type pdf)
+ <use plane.pdf>
+Overfull \hbox (177.66228pt too wide) in paragraph at lines 1--3
+[]
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1--3
+
+ []
+
+[18
+
+ <./plane.pdf>]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [19]
+Overfull \hbox (45.81406pt too wide) in paragraph at lines 199--199
+[]      \T1/pcr/m/n/8 Bootstrap_Filter filter(100000,&plane);       // A bootst
+rap filter to estimate the position[] 
+ []
+
+[20]
+Overfull \hbox (108.2141pt too wide) in paragraph at lines 199--199
+[]                  \T1/pcr/m/n/8 if( filter.Update(sim.Y[k]))              // 
+The filter is then update with a new observation[] 
+ []
+
+) [21] [22
+
+
+]
+Chapter 6.
+(./hierarchy.tex [23]) [24]
+Chapter 7.
+(./annotated.tex [25
+
+]) [26]
+Chapter 8.
+(./class_bootstrap___filter.tex
+<class_bootstrap___filter__inherit__graph.pdf, id=2668, 96.36pt x 140.525pt>
+File: class_bootstrap___filter__inherit__graph.pdf Graphic file (type pdf)
+
+<use class_bootstrap___filter__inherit__graph.pdf>
+LaTeX Font Info:    Font shape `T1/ptm/bx/n' in size <12> not available
+(Font)              Font shape `T1/ptm/b/n' tried instead on input line 14.
+LaTeX Font Info:    Try loading font information for TS1+ptm on input line 17.
+
+(/usr/local/texlive/2007/texmf-dist/tex/latex/psnfss/ts1ptm.fd
+File: ts1ptm.fd 2001/06/04 font definitions for TS1/ptm.
+)
+
+Package hyperref Warning: Token not allowed in a PDFDocEncoded string,
+(hyperref)                removing `math shift' on input line 43.
+
+
+Package hyperref Warning: Token not allowed in a PDFDocEncoded string,
+(hyperref)                removing `\sim' on input line 43.
+
+
+Package hyperref Warning: Token not allowed in a PDFDocEncoded string,
+(hyperref)                removing `math shift' on input line 43.
+
+LaTeX Font Info:    Font shape `T1/ptm/bx/it' in size <10> not available
+(Font)              Font shape `T1/ptm/b/it' tried instead on input line 50.
+)
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [27
+
+ <./class_bootstrap___filter__inherit__graph.pdf>] [28]
+\openout2 = `class_bootstrap___sampler.aux'.
+
+
+(./class_bootstrap___sampler.tex
+<class_bootstrap___sampler__inherit__graph.pdf, id=2700, 112.42pt x 84.315pt>
+File: class_bootstrap___sampler__inherit__graph.pdf Graphic file (type pdf)
+
+<use class_bootstrap___sampler__inherit__graph.pdf> [29
+
+ <./class_bootstrap___sampler__inherit__graph.pdf>]) [30]
+\openout2 = `class_c_d___bootstrap___filter.aux'.
+
+ (./class_c_d___bootstrap___filter.tex
+<class_c_d___bootstrap___filter__inherit__graph.pdf, id=2739, 116.435pt x 140.5
+25pt>
+File: class_c_d___bootstrap___filter__inherit__graph.pdf Graphic file (type pdf
+)
+ <use class_c_d___bootstrap___filter__inherit__graph.pdf>
+
+Package hyperref Warning: Token not allowed in a PDFDocEncoded string,
+(hyperref)                removing `math shift' on input line 47.
+
+
+Package hyperref Warning: Token not allowed in a PDFDocEncoded string,
+(hyperref)                removing `\sim' on input line 47.
+
+
+Package hyperref Warning: Token not allowed in a PDFDocEncoded string,
+(hyperref)                removing `math shift' on input line 47.
+
+[31
+
+
+ <./class_c_d___bootstrap___filter__inherit__graph.pdf>]) [32]
+\openout2 = `class_c_d___extended___kalman___filter.aux'.
+
+
+(./class_c_d___extended___kalman___filter.tex
+<class_c_d___extended___kalman___filter__inherit__graph.pdf, id=2776, 156.585pt
+ x 140.525pt>
+File: class_c_d___extended___kalman___filter__inherit__graph.pdf Graphic file (
+type pdf)
+ <use class_c_d___extended___kalman___filter__inherit__graph.pdf>
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [33
+
+
+ <./class_c_d___extended___kalman___filter__inherit__graph.pdf>]) [34]
+\openout2 = `class_c_d___filter.aux'.
+
+
+(./class_c_d___filter.tex
+<class_c_d___filter__inherit__graph.pdf, id=2822, 409.53pt x 140.525pt>
+File: class_c_d___filter__inherit__graph.pdf Graphic file (type pdf)
+
+<use class_c_d___filter__inherit__graph.pdf>
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <9> on input line 32.
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <6> on input line 32.
+ [35
+
+
+ <./class_c_d___filter__inherit__graph.pdf>] [36]) [37]
+\openout2 = `class_c_d___kalman.aux'.
+
+ (./class_c_d___kalman.tex
+<class_c_d___kalman__inherit__graph.pdf, id=2886, 78.2925pt x 140.525pt>
+File: class_c_d___kalman__inherit__graph.pdf Graphic file (type pdf)
+
+<use class_c_d___kalman__inherit__graph.pdf> [38
+
+
+ <./class_c_d___kalman__inherit__graph.pdf>]) [39]
+\openout2 = `class_c_d___simulator.aux'.
+
+ (./class_c_d___simulator.tex
+<class_c_d___simulator__inherit__graph.pdf, id=2913, 239.89626pt x 196.735pt>
+File: class_c_d___simulator__inherit__graph.pdf Graphic file (type pdf)
+
+<use class_c_d___simulator__inherit__graph.pdf>
+Underfull \hbox (badness 4995) in paragraph at lines 19--21
+[][][]\T1/ptm/m/n/10 CD_-Simulator[][] ([][]Continuous_-Discrete_-Model[][] $\O
+MS/cmsy/m/n/10 ^^C$\T1/ptm/m/n/10 cd_-m, const int &[][]scheme[][]=SRK4, const 
+int
+ []
+
+[40
+
+
+ <./class_c_d___simulator__inherit__graph.pdf>] [41]) [42] [43]
+\openout2 = `class_c_d___simulator___w_t.aux'.
+
+
+(./class_c_d___simulator___w_t.tex
+<class_c_d___simulator___w_t__inherit__graph.pdf, id=2999, 110.4125pt x 140.525
+pt>
+File: class_c_d___simulator___w_t__inherit__graph.pdf Graphic file (type pdf)
+ <use class_c_d___simulator___w_t__inherit__graph.pdf>) [44
+
+
+ <./class_c_d___simulator___w_t__inherit__graph.pdf>] [45]
+\openout2 = `class_continuous___discrete___model.aux'.
+
+
+(./class_continuous___discrete___model.tex
+<class_continuous___discrete___model__inherit__graph.pdf, id=3032, 152.57pt x 1
+96.735pt>
+File: class_continuous___discrete___model__inherit__graph.pdf Graphic file (typ
+e pdf)
+ <use class_continuous___discrete___model__inherit__graph.pdf>
+[46
+
+
+ <./class_continuous___discrete___model__inherit__graph.pdf>]
+
+Package hyperref Warning: Token not allowed in a PDFDocEncoded string,
+(hyperref)                removing `math shift' on input line 53.
+
+
+Package hyperref Warning: Token not allowed in a PDFDocEncoded string,
+(hyperref)                removing `\sim' on input line 53.
+
+
+Package hyperref Warning: Token not allowed in a PDFDocEncoded string,
+(hyperref)                removing `math shift' on input line 53.
+
+[47]) [48]
+\openout2 = `class_d_d___kalman.aux'.
+
+ (./class_d_d___kalman.tex
+<class_d_d___kalman__inherit__graph.pdf, id=3076, 78.2925pt x 140.525pt>
+File: class_d_d___kalman__inherit__graph.pdf Graphic file (type pdf)
+
+<use class_d_d___kalman__inherit__graph.pdf> [49
+
+
+ <./class_d_d___kalman__inherit__graph.pdf>]) [50]
+\openout2 = `class_discrete___approximation___c_d___model.aux'.
+
+ (./class_discrete___approximation___c_d___model.tex
+<class_discrete___approximation___c_d___model__inherit__graph.pdf, id=3102, 443
+.6575pt x 252.945pt>
+File: class_discrete___approximation___c_d___model__inherit__graph.pdf Graphic 
+file (type pdf)
+
+<use class_discrete___approximation___c_d___model__inherit__graph.pdf> [51
+
+
+ <./class_discrete___approximation___c_d___model__inherit__graph.pdf>]
+
+Package hyperref Warning: Token not allowed in a PDFDocEncoded string,
+(hyperref)                removing `math shift' on input line 79.
+
+
+Package hyperref Warning: Token not allowed in a PDFDocEncoded string,
+(hyperref)                removing `\sim' on input line 79.
+
+
+Package hyperref Warning: Token not allowed in a PDFDocEncoded string,
+(hyperref)                removing `math shift' on input line 79.
+
+[52] [53] [54]) [55]
+\openout2 = `class_discrete___observed___model.aux'.
+
+ (./class_discrete___observed___model.tex
+<class_discrete___observed___model__inherit__graph.pdf, id=3219, 474.77374pt x 
+252.945pt>
+File: class_discrete___observed___model__inherit__graph.pdf Graphic file (type 
+pdf)
+ <use class_discrete___observed___model__inherit__graph.pdf> [56
+
+
+ <./class_discrete___observed___model__inherit__graph.pdf>]
+
+Package hyperref Warning: Token not allowed in a PDFDocEncoded string,
+(hyperref)                removing `math shift' on input line 64.
+
+
+Package hyperref Warning: Token not allowed in a PDFDocEncoded string,
+(hyperref)                removing `\sim' on input line 64.
+
+
+Package hyperref Warning: Token not allowed in a PDFDocEncoded string,
+(hyperref)                removing `math shift' on input line 64.
+
+[57]
+Underfull \hbox (badness 1406) in paragraph at lines 107--110
+[]\T1/ptm/m/n/10 Reimplemented in [][]Gaussian_-Linear_-Model[][], [][]Linear_-
+CD_-Model[][], and [][]Discrete_-Approximation_-CD_-
+ []
+
+) [58]
+\openout2 = `class_euler___c_d___model.aux'.
+
+ (./class_euler___c_d___model.tex
+<class_euler___c_d___model__inherit__graph.pdf, id=3269, 186.6975pt x 252.945pt
+>
+File: class_euler___c_d___model__inherit__graph.pdf Graphic file (type pdf)
+ <use class_euler___c_d___model__inherit__graph.pdf> [59
+
+
+ <./class_euler___c_d___model__inherit__graph.pdf>]) [60]
+\openout2 = `class_extended___kalman___filter.aux'.
+
+ (./class_extended___kalman___filter.tex
+<class_extended___kalman___filter__inherit__graph.pdf, id=3298, 136.51pt x 140.
+525pt>
+File: class_extended___kalman___filter__inherit__graph.pdf Graphic file (type p
+df)
+ <use class_extended___kalman___filter__inherit__graph.pdf>) [61
+
+
+ <./class_extended___kalman___filter__inherit__graph.pdf>]
+\openout2 = `class_filter.aux'.
+
+ (./class_filter.tex
+<class_filter__inherit__graph.pdf, id=3319, 337.26pt x 371.3875pt>
+File: class_filter__inherit__graph.pdf Graphic file (type pdf)
+
+<use class_filter__inherit__graph.pdf> [62
+
+
+ <./class_filter__inherit__graph.pdf>]
+
+Package hyperref Warning: Token not allowed in a PDFDocEncoded string,
+(hyperref)                removing `math shift' on input line 75.
+
+
+Package hyperref Warning: Token not allowed in a PDFDocEncoded string,
+(hyperref)                removing `\sim' on input line 75.
+
+
+Package hyperref Warning: Token not allowed in a PDFDocEncoded string,
+(hyperref)                removing `math shift' on input line 75.
+
+[63]
+Underfull \hbox (badness 1033) in paragraph at lines 118--121
+[]\T1/ptm/m/n/10 Implemented in [][]Extended_-Kalman_-Filter[][], [][]CD_-Exten
+ded_-Kalman_-Filter[][], [][]CD_-Kalman[][], [][]DD_-Kalman[][],
+ []
+
+[64]) [65]
+\openout2 = `class_g___simulator.aux'.
+
+ (./class_g___simulator.tex
+<class_g___simulator__inherit__graph.pdf, id=3397, 102.3825pt x 196.735pt>
+File: class_g___simulator__inherit__graph.pdf Graphic file (type pdf)
+
+<use class_g___simulator__inherit__graph.pdf>
+Underfull \vbox (badness 4429) has occurred while \output is active []
+
+ [66
+
+
+ <./class_g___simulator__inherit__graph.pdf>] [67]) [68]
+\openout2 = `class_g___simulator___w_t.aux'.
+
+
+(./class_g___simulator___w_t.tex
+<class_g___simulator___w_t__inherit__graph.pdf, id=3446, 102.3825pt x 196.735pt
+>
+File: class_g___simulator___w_t__inherit__graph.pdf Graphic file (type pdf)
+ <use class_g___simulator___w_t__inherit__graph.pdf>) [69
+
+
+ <./class_g___simulator___w_t__inherit__graph.pdf>] [70]
+\openout2 = `class_g_a___filter.aux'.
+
+ (./class_g_a___filter.tex
+<class_g_a___filter__inherit__graph.pdf, id=3479, 377.41pt x 140.525pt>
+File: class_g_a___filter__inherit__graph.pdf Graphic file (type pdf)
+
+<use class_g_a___filter__inherit__graph.pdf> [71
+
+
+ <./class_g_a___filter__inherit__graph.pdf>] [72]) [73]
+\openout2 = `class_gaussian___linear___model.aux'.
+
+ (./class_gaussian___linear___model.tex
+<class_gaussian___linear___model__inherit__graph.pdf, id=3527, 150.5625pt x 196
+.735pt>
+File: class_gaussian___linear___model__inherit__graph.pdf Graphic file (type pd
+f)
+ <use class_gaussian___linear___model__inherit__graph.pdf> [74
+
+
+ <./class_gaussian___linear___model__inherit__graph.pdf>] [75]) [76]
+\openout2 = `class_gaussian___nonlinear___model.aux'.
+
+
+(./class_gaussian___nonlinear___model.tex
+<class_gaussian___nonlinear___model__inherit__graph.pdf, id=3580, 459.7175pt x 
+252.945pt>
+File: class_gaussian___nonlinear___model__inherit__graph.pdf Graphic file (type
+ pdf)
+ <use class_gaussian___nonlinear___model__inherit__graph.pdf>
+
+Package hyperref Warning: Token not allowed in a PDFDocEncoded string,
+(hyperref)                removing `math shift' on input line 50.
+
+
+Package hyperref Warning: Token not allowed in a PDFDocEncoded string,
+(hyperref)                removing `\sim' on input line 50.
+
+
+Package hyperref Warning: Token not allowed in a PDFDocEncoded string,
+(hyperref)                removing `math shift' on input line 50.
+
+[77
+
+
+ <./class_gaussian___nonlinear___model__inherit__graph.pdf>] [78]) [79]
+\openout2 = `class_heun___c_d___model.aux'.
+
+
+(./class_heun___c_d___model.tex
+<class_heun___c_d___model__inherit__graph.pdf, id=3618, 186.6975pt x 252.945pt>
+File: class_heun___c_d___model__inherit__graph.pdf Graphic file (type pdf)
+<use class_heun___c_d___model__inherit__graph.pdf> [80
+
+
+ <./class_heun___c_d___model__inherit__graph.pdf>]) [81]
+\openout2 = `class_linear___c_d___model.aux'.
+
+ (./class_linear___c_d___model.tex
+<class_linear___c_d___model__inherit__graph.pdf, id=3648, 152.57pt x 196.735pt>
+File: class_linear___c_d___model__inherit__graph.pdf Graphic file (type pdf)
+<use class_linear___c_d___model__inherit__graph.pdf> [82
+
+
+ <./class_linear___c_d___model__inherit__graph.pdf>] [83]) [84]
+\openout2 = `class_l_l___filter.aux'.
+
+ (./class_l_l___filter.tex
+<class_l_l___filter__inherit__graph.pdf, id=3697, 68.255pt x 140.525pt>
+File: class_l_l___filter__inherit__graph.pdf Graphic file (type pdf)
+
+<use class_l_l___filter__inherit__graph.pdf>) [85
+
+
+ <./class_l_l___filter__inherit__graph.pdf>]
+\openout2 = `class_l_t_i___c_d___simulator.aux'.
+
+ (./class_l_t_i___c_d___simulator.tex
+<class_l_t_i___c_d___simulator__inherit__graph.pdf, id=3717, 130.4875pt x 196.7
+35pt>
+File: class_l_t_i___c_d___simulator__inherit__graph.pdf Graphic file (type pdf)
+
+ <use class_l_t_i___c_d___simulator__inherit__graph.pdf>) [86
+
+
+ <./class_l_t_i___c_d___simulator__inherit__graph.pdf>]
+\openout2 = `class_l_t_i___c_d___simulator___w_t.aux'.
+
+
+(./class_l_t_i___c_d___simulator___w_t.tex
+<class_l_t_i___c_d___simulator___w_t__inherit__graph.pdf, id=3738, 130.4875pt x
+ 196.735pt>
+File: class_l_t_i___c_d___simulator___w_t__inherit__graph.pdf Graphic file (typ
+e pdf)
+ <use class_l_t_i___c_d___simulator___w_t__inherit__graph.pdf>)
+[87
+
+
+ <./class_l_t_i___c_d___simulator___w_t__inherit__graph.pdf>] [88]
+\openout2 = `class_model.aux'.
+
+
+(./class_model.tex
+<class_model__inherit__graph.pdf, id=3769, 474.77374pt x 252.945pt>
+File: class_model__inherit__graph.pdf Graphic file (type pdf)
+
+<use class_model__inherit__graph.pdf> [89
+
+
+ <./class_model__inherit__graph.pdf>]
+
+Package hyperref Warning: Token not allowed in a PDFDocEncoded string,
+(hyperref)                removing `math shift' on input line 53.
+
+
+Package hyperref Warning: Token not allowed in a PDFDocEncoded string,
+(hyperref)                removing `\sim' on input line 53.
+
+
+Package hyperref Warning: Token not allowed in a PDFDocEncoded string,
+(hyperref)                removing `math shift' on input line 53.
+
+) [90]
+\openout2 = `class_opt___simulator.aux'.
+
+ (./class_opt___simulator.tex
+<class_opt___simulator__inherit__graph.pdf, id=3798, 102.3825pt x 196.735pt>
+File: class_opt___simulator__inherit__graph.pdf Graphic file (type pdf)
+
+<use class_opt___simulator__inherit__graph.pdf> [91
+
+
+ <./class_opt___simulator__inherit__graph.pdf>]) [92]
+\openout2 = `class_optimal___sampler.aux'.
+
+ (./class_optimal___sampler.tex
+<class_optimal___sampler__inherit__graph.pdf, id=3820, 102.3825pt x 84.315pt>
+File: class_optimal___sampler__inherit__graph.pdf Graphic file (type pdf)
+
+<use class_optimal___sampler__inherit__graph.pdf> [93
+
+
+ <./class_optimal___sampler__inherit__graph.pdf>]) [94]
+\openout2 = `class_opt_s_i_s_r___filter.aux'.
+
+ (./class_opt_s_i_s_r___filter.tex
+<class_opt_s_i_s_r___filter__inherit__graph.pdf, id=3856, 92.345pt x 140.525pt>
+File: class_opt_s_i_s_r___filter__inherit__graph.pdf Graphic file (type pdf)
+<use class_opt_s_i_s_r___filter__inherit__graph.pdf>
+
+Package hyperref Warning: Token not allowed in a PDFDocEncoded string,
+(hyperref)                removing `math shift' on input line 43.
+
+
+Package hyperref Warning: Token not allowed in a PDFDocEncoded string,
+(hyperref)                removing `\sim' on input line 43.
+
+
+Package hyperref Warning: Token not allowed in a PDFDocEncoded string,
+(hyperref)                removing `math shift' on input line 43.
+
+) [95
+
+
+ <./class_opt_s_i_s_r___filter__inherit__graph.pdf>]
+\openout2 = `class_ozaki___c_d___model.aux'.
+
+
+(./class_ozaki___c_d___model.tex
+<class_ozaki___c_d___model__inherit__graph.pdf, id=3882, 186.6975pt x 252.945pt
+>
+File: class_ozaki___c_d___model__inherit__graph.pdf Graphic file (type pdf)
+ <use class_ozaki___c_d___model__inherit__graph.pdf> [96
+
+
+ <./class_ozaki___c_d___model__inherit__graph.pdf>]) [97]
+\openout2 = `class_s_i___sampler.aux'.
+
+ (./class_s_i___sampler.tex
+<class_s_i___sampler__inherit__graph.pdf, id=3911, 224.84pt x 84.315pt>
+File: class_s_i___sampler__inherit__graph.pdf Graphic file (type pdf)
+
+<use class_s_i___sampler__inherit__graph.pdf> [98
+
+
+ <./class_s_i___sampler__inherit__graph.pdf>] [99]) [100]
+\openout2 = `class_simulator.aux'.
+
+ (./class_simulator.tex
+<class_simulator__inherit__graph.pdf, id=3955, 346.29375pt x 196.735pt>
+File: class_simulator__inherit__graph.pdf Graphic file (type pdf)
+
+<use class_simulator__inherit__graph.pdf> [101
+
+
+ <./class_simulator__inherit__graph.pdf>]
+
+Package hyperref Warning: Token not allowed in a PDFDocEncoded string,
+(hyperref)                removing `math shift' on input line 75.
+
+
+Package hyperref Warning: Token not allowed in a PDFDocEncoded string,
+(hyperref)                removing `\sim' on input line 75.
+
+
+Package hyperref Warning: Token not allowed in a PDFDocEncoded string,
+(hyperref)                removing `math shift' on input line 75.
+
+[102] [103]) [104]
+\openout2 = `class_s_i_s_r___filter.aux'.
+
+ (./class_s_i_s_r___filter.tex
+<class_s_i_s_r___filter__inherit__graph.pdf, id=4027, 325.215pt x 140.525pt>
+File: class_s_i_s_r___filter__inherit__graph.pdf Graphic file (type pdf)
+
+<use class_s_i_s_r___filter__inherit__graph.pdf> [105
+
+
+ <./class_s_i_s_r___filter__inherit__graph.pdf>]
+
+Package hyperref Warning: Token not allowed in a PDFDocEncoded string,
+(hyperref)                removing `math shift' on input line 77.
+
+
+Package hyperref Warning: Token not allowed in a PDFDocEncoded string,
+(hyperref)                removing `\sim' on input line 77.
+
+
+Package hyperref Warning: Token not allowed in a PDFDocEncoded string,
+(hyperref)                removing `math shift' on input line 77.
+
+[106] [107]) [108]
+\openout2 = `class_s_r_k4___c_d___model.aux'.
+
+ (./class_s_r_k4___c_d___model.tex
+<class_s_r_k4___c_d___model__inherit__graph.pdf, id=4098, 186.6975pt x 252.945p
+t>
+File: class_s_r_k4___c_d___model__inherit__graph.pdf Graphic file (type pdf)
+ <use class_s_r_k4___c_d___model__inherit__graph.pdf> [109
+
+
+ <./class_s_r_k4___c_d___model__inherit__graph.pdf>]) [110]
+\openout2 = `class_t_h_g_l___filter.aux'.
+
+ (./class_t_h_g_l___filter.tex
+<class_t_h_g_l___filter__inherit__graph.pdf, id=4127, 80.3pt x 140.525pt>
+File: class_t_h_g_l___filter__inherit__graph.pdf Graphic file (type pdf)
+
+<use class_t_h_g_l___filter__inherit__graph.pdf>) [111
+
+
+ <./class_t_h_g_l___filter__inherit__graph.pdf>]
+\openout2 = `class_unscented___kalman___filter.aux'.
+
+ (./class_unscented___kalman___filter.tex
+<class_unscented___kalman___filter__inherit__graph.pdf, id=4149, 142.5325pt x 1
+40.525pt>
+File: class_unscented___kalman___filter__inherit__graph.pdf Graphic file (type 
+pdf)
+ <use class_unscented___kalman___filter__inherit__graph.pdf> [112
+
+
+ <./class_unscented___kalman___filter__inherit__graph.pdf>] [113] [114]) [115]
+\openout2 = `class_weighted___sample.aux'.
+
+
+(./class_weighted___sample.tex) [116
+
+
+] (./refman.ind [117
+
+
+] [118] [119] [120]
+[121] [122] [123
+
+]) (./refman.aux (./page1.aux) (./page2.aux) (./page_3.aux)
+(./page_4.aux) (./class_bootstrap___sampler.aux)
+(./class_c_d___bootstrap___filter.aux)
+(./class_c_d___extended___kalman___filter.aux) (./class_c_d___filter.aux)
+(./class_c_d___kalman.aux) (./class_c_d___simulator.aux)
+(./class_c_d___simulator___w_t.aux) (./class_continuous___discrete___model.aux)
+(./class_d_d___kalman.aux) (./class_discrete___approximation___c_d___model.aux)
+(./class_discrete___observed___model.aux) (./class_euler___c_d___model.aux)
+(./class_extended___kalman___filter.aux) (./class_filter.aux)
+(./class_g___simulator.aux) (./class_g___simulator___w_t.aux)
+(./class_g_a___filter.aux) (./class_gaussian___linear___model.aux)
+(./class_gaussian___nonlinear___model.aux) (./class_heun___c_d___model.aux)
+(./class_linear___c_d___model.aux) (./class_l_l___filter.aux)
+(./class_l_t_i___c_d___simulator.aux)
+(./class_l_t_i___c_d___simulator___w_t.aux) (./class_model.aux)
+(./class_opt___simulator.aux) (./class_optimal___sampler.aux)
+(./class_opt_s_i_s_r___filter.aux) (./class_ozaki___c_d___model.aux)
+(./class_s_i___sampler.aux) (./class_simulator.aux)
+(./class_s_i_s_r___filter.aux) (./class_s_r_k4___c_d___model.aux)
+(./class_t_h_g_l___filter.aux) (./class_unscented___kalman___filter.aux)
+(./class_weighted___sample.aux))
+
+LaTeX Warning: There were multiply-defined labels.
+
+ ) 
+Here is how much of TeX's memory you used:
+ 7417 strings out of 94073
+ 141183 string characters out of 1162984
+ 154948 words of memory out of 1500000
+ 9268 multiletter control sequences out of 10000+50000
+ 46036 words of font info for 53 fonts, out of 1200000 for 2000
+ 645 hyphenation exceptions out of 8191
+ 38i,13n,43p,965b,574s stack positions out of 5000i,500n,6000p,200000b,5000s
+{/usr/local/texlive/2007/texmf-dist/fonts/enc/dvips/base/8r.enc}</usr/local/t
+exlive/2007/texmf-dist/fonts/type1/bluesky/cm/cmex10.pfb></usr/local/texlive/20
+07/texmf-dist/fonts/type1/bluesky/cm/cmmi10.pfb></usr/local/texlive/2007/texmf-
+dist/fonts/type1/bluesky/cm/cmmi5.pfb></usr/local/texlive/2007/texmf-dist/fonts
+/type1/bluesky/cm/cmmi6.pfb></usr/local/texlive/2007/texmf-dist/fonts/type1/blu
+esky/cm/cmmi7.pfb></usr/local/texlive/2007/texmf-dist/fonts/type1/bluesky/cm/cm
+mi9.pfb></usr/local/texlive/2007/texmf-dist/fonts/type1/bluesky/cm/cmr10.pfb></
+usr/local/texlive/2007/texmf-dist/fonts/type1/bluesky/cm/cmr5.pfb></usr/local/t
+exlive/2007/texmf-dist/fonts/type1/bluesky/cm/cmr6.pfb></usr/local/texlive/2007
+/texmf-dist/fonts/type1/bluesky/cm/cmr7.pfb></usr/local/texlive/2007/texmf-dist
+/fonts/type1/bluesky/cm/cmr9.pfb></usr/local/texlive/2007/texmf-dist/fonts/type
+1/bluesky/cm/cmsy10.pfb></usr/local/texlive/2007/texmf-dist/fonts/type1/bluesky
+/cm/cmsy5.pfb></usr/local/texlive/2007/texmf-dist/fonts/type1/bluesky/cm/cmsy6.
+pfb></usr/local/texlive/2007/texmf-dist/fonts/type1/bluesky/cm/cmsy7.pfb></usr/
+local/texlive/2007/texmf-dist/fonts/type1/bluesky/cm/cmsy9.pfb></usr/local/texl
+ive/2007/texmf-dist/fonts/type1/urw/courier/ucrr8a.pfb></usr/local/texlive/2007
+/texmf-dist/fonts/type1/urw/times/utmb8a.pfb></usr/local/texlive/2007/texmf-dis
+t/fonts/type1/urw/times/utmbi8a.pfb></usr/local/texlive/2007/texmf-dist/fonts/t
+ype1/urw/times/utmr8a.pfb></usr/local/texlive/2007/texmf-dist/fonts/type1/urw/t
+imes/utmri8a.pfb>
+Output written on refman.pdf (139 pages, 1227896 bytes).
+PDF statistics:
+ 5070 PDF objects out of 5155 (max. 8388607)
+ 1010 named destinations out of 1200 (max. 131072)
+ 3865 words of extra memory for PDF output out of 10000 (max. 10000000)
+

@@ -1,0 +1,8 @@
+CONTENTS
+
+   inlude/: CPPLapack header files
+      doc/: CPPLapack documentation files (see doc/html/index.html)
+     test/: CPPLapack test programs
+benchmark/: CPPLapack benchmark programs
+makefiles/: CPPLapack Makefile samples
+    README: This file.

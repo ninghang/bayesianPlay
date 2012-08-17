@@ -1,0 +1,456 @@
+\contentsline {chapter}{\numberline {1}Main Page}{1}{chapter.1}
+\contentsline {section}{\numberline {1.1}Description}{1}{section.1.1}
+\contentsline {section}{\numberline {1.2}Dependances}{1}{section.1.2}
+\contentsline {section}{\numberline {1.3}Installation}{1}{section.1.3}
+\contentsline {section}{\numberline {1.4}Auteur}{2}{section.1.4}
+\contentsline {chapter}{\numberline {2}An AR process}{3}{chapter.2}
+\contentsline {section}{\numberline {2.1}Define the AR model}{4}{section.2.1}
+\contentsline {section}{\numberline {2.2}The main program}{5}{section.2.2}
+\contentsline {section}{\numberline {2.3}The CMakeList.txt}{6}{section.2.3}
+\contentsline {chapter}{\numberline {3}An Ornstien-Uhlenbeck process}{7}{chapter.3}
+\contentsline {section}{\numberline {3.1}The main program}{9}{section.3.1}
+\contentsline {section}{\numberline {3.2}The CMakeList.txt}{10}{section.3.2}
+\contentsline {chapter}{\numberline {4}Van Der Pol oscillator}{13}{chapter.4}
+\contentsline {chapter}{\numberline {5}Terrain navigation}{17}{chapter.5}
+\contentsline {chapter}{\numberline {6}Class Index}{23}{chapter.6}
+\contentsline {section}{\numberline {6.1}Class Hierarchy}{23}{section.6.1}
+\contentsline {chapter}{\numberline {7}Class Index}{25}{chapter.7}
+\contentsline {section}{\numberline {7.1}Class List}{25}{section.7.1}
+\contentsline {chapter}{\numberline {8}Class Documentation}{27}{chapter.8}
+\contentsline {section}{\numberline {8.1}Bootstrap\_\discretionary {-}{}{}Filter Class Reference}{27}{section.8.1}
+\contentsline {subsection}{\numberline {8.1.1}Constructor \& Destructor Documentation}{28}{subsection.8.1.1}
+\contentsline {subsubsection}{\numberline {8.1.1.1}Bootstrap\_\discretionary {-}{}{}Filter}{28}{subsubsection.8.1.1.1}
+\contentsline {subsubsection}{\numberline {8.1.1.2}$\sim $Bootstrap\_\discretionary {-}{}{}Filter}{28}{subsubsection.8.1.1.2}
+\contentsline {subsubsection}{\numberline {8.1.1.3}Bootstrap\_\discretionary {-}{}{}Filter}{28}{subsubsection.8.1.1.3}
+\contentsline {subsubsection}{\numberline {8.1.1.4}Bootstrap\_\discretionary {-}{}{}Filter}{28}{subsubsection.8.1.1.4}
+\contentsline {subsection}{\numberline {8.1.2}Member Data Documentation}{28}{subsection.8.1.2}
+\contentsline {subsubsection}{\numberline {8.1.2.1}sim}{28}{subsubsection.8.1.2.1}
+\contentsline {section}{\numberline {8.2}Bootstrap\_\discretionary {-}{}{}Sampler Class Reference}{29}{section.8.2}
+\contentsline {subsection}{\numberline {8.2.1}Detailed Description}{29}{subsection.8.2.1}
+\contentsline {subsection}{\numberline {8.2.2}Constructor \& Destructor Documentation}{29}{subsection.8.2.2}
+\contentsline {subsubsection}{\numberline {8.2.2.1}Bootstrap\_\discretionary {-}{}{}Sampler}{29}{subsubsection.8.2.2.1}
+\contentsline {subsubsection}{\numberline {8.2.2.2}Bootstrap\_\discretionary {-}{}{}Sampler}{29}{subsubsection.8.2.2.2}
+\contentsline {subsection}{\numberline {8.2.3}Member Function Documentation}{29}{subsection.8.2.3}
+\contentsline {subsubsection}{\numberline {8.2.3.1}Draw}{29}{subsubsection.8.2.3.1}
+\contentsline {subsubsection}{\numberline {8.2.3.2}DrawInitCloud}{30}{subsubsection.8.2.3.2}
+\contentsline {subsubsection}{\numberline {8.2.3.3}Weight}{30}{subsubsection.8.2.3.3}
+\contentsline {section}{\numberline {8.3}CD\_\discretionary {-}{}{}Bootstrap\_\discretionary {-}{}{}Filter Class Reference}{31}{section.8.3}
+\contentsline {subsection}{\numberline {8.3.1}Constructor \& Destructor Documentation}{31}{subsection.8.3.1}
+\contentsline {subsubsection}{\numberline {8.3.1.1}CD\_\discretionary {-}{}{}Bootstrap\_\discretionary {-}{}{}Filter}{31}{subsubsection.8.3.1.1}
+\contentsline {subsubsection}{\numberline {8.3.1.2}$\sim $CD\_\discretionary {-}{}{}Bootstrap\_\discretionary {-}{}{}Filter}{31}{subsubsection.8.3.1.2}
+\contentsline {subsubsection}{\numberline {8.3.1.3}CD\_\discretionary {-}{}{}Bootstrap\_\discretionary {-}{}{}Filter}{31}{subsubsection.8.3.1.3}
+\contentsline {subsubsection}{\numberline {8.3.1.4}CD\_\discretionary {-}{}{}Bootstrap\_\discretionary {-}{}{}Filter}{31}{subsubsection.8.3.1.4}
+\contentsline {subsubsection}{\numberline {8.3.1.5}CD\_\discretionary {-}{}{}Bootstrap\_\discretionary {-}{}{}Filter}{31}{subsubsection.8.3.1.5}
+\contentsline {subsection}{\numberline {8.3.2}Member Function Documentation}{31}{subsection.8.3.2}
+\contentsline {subsubsection}{\numberline {8.3.2.1}Save\_\discretionary {-}{}{}X}{31}{subsubsection.8.3.2.1}
+\contentsline {subsection}{\numberline {8.3.3}Member Data Documentation}{32}{subsection.8.3.3}
+\contentsline {subsubsection}{\numberline {8.3.3.1}sim}{32}{subsubsection.8.3.3.1}
+\contentsline {section}{\numberline {8.4}CD\_\discretionary {-}{}{}Extended\_\discretionary {-}{}{}Kalman\_\discretionary {-}{}{}Filter Class Reference}{33}{section.8.4}
+\contentsline {subsection}{\numberline {8.4.1}Constructor \& Destructor Documentation}{34}{subsection.8.4.1}
+\contentsline {subsubsection}{\numberline {8.4.1.1}CD\_\discretionary {-}{}{}Extended\_\discretionary {-}{}{}Kalman\_\discretionary {-}{}{}Filter}{34}{subsubsection.8.4.1.1}
+\contentsline {subsubsection}{\numberline {8.4.1.2}CD\_\discretionary {-}{}{}Extended\_\discretionary {-}{}{}Kalman\_\discretionary {-}{}{}Filter}{34}{subsubsection.8.4.1.2}
+\contentsline {subsection}{\numberline {8.4.2}Member Function Documentation}{34}{subsection.8.4.2}
+\contentsline {subsubsection}{\numberline {8.4.2.1}\_\discretionary {-}{}{}euler\_\discretionary {-}{}{}prediction}{34}{subsubsection.8.4.2.1}
+\contentsline {subsubsection}{\numberline {8.4.2.2}\_\discretionary {-}{}{}heun\_\discretionary {-}{}{}\_\discretionary {-}{}{}prediction}{34}{subsubsection.8.4.2.2}
+\contentsline {subsubsection}{\numberline {8.4.2.3}\_\discretionary {-}{}{}rk4\_\discretionary {-}{}{}\_\discretionary {-}{}{}\_\discretionary {-}{}{}prediction}{34}{subsubsection.8.4.2.3}
+\contentsline {subsubsection}{\numberline {8.4.2.4}\_\discretionary {-}{}{}rk4\_\discretionary {-}{}{}\_\discretionary {-}{}{}\_\discretionary {-}{}{}prediction\_\discretionary {-}{}{}FM}{34}{subsubsection.8.4.2.4}
+\contentsline {subsubsection}{\numberline {8.4.2.5}\_\discretionary {-}{}{}thgl\_\discretionary {-}{}{}\_\discretionary {-}{}{}prediction}{34}{subsubsection.8.4.2.5}
+\contentsline {subsubsection}{\numberline {8.4.2.6}\_\discretionary {-}{}{}update}{34}{subsubsection.8.4.2.6}
+\contentsline {subsection}{\numberline {8.4.3}Member Data Documentation}{34}{subsection.8.4.3}
+\contentsline {subsubsection}{\numberline {8.4.3.1}Scheme}{34}{subsubsection.8.4.3.1}
+\contentsline {section}{\numberline {8.5}CD\_\discretionary {-}{}{}Filter Class Reference}{35}{section.8.5}
+\contentsline {subsection}{\numberline {8.5.1}Detailed Description}{36}{subsection.8.5.1}
+\contentsline {subsection}{\numberline {8.5.2}Constructor \& Destructor Documentation}{36}{subsection.8.5.2}
+\contentsline {subsubsection}{\numberline {8.5.2.1}CD\_\discretionary {-}{}{}Filter}{36}{subsubsection.8.5.2.1}
+\contentsline {subsubsection}{\numberline {8.5.2.2}CD\_\discretionary {-}{}{}Filter}{36}{subsubsection.8.5.2.2}
+\contentsline {subsection}{\numberline {8.5.3}Member Function Documentation}{36}{subsection.8.5.3}
+\contentsline {subsubsection}{\numberline {8.5.3.1}\_\discretionary {-}{}{}init}{36}{subsubsection.8.5.3.1}
+\contentsline {subsubsection}{\numberline {8.5.3.2}Expected\_\discretionary {-}{}{}Get}{36}{subsubsection.8.5.3.2}
+\contentsline {subsubsection}{\numberline {8.5.3.3}Save\_\discretionary {-}{}{}X}{37}{subsubsection.8.5.3.3}
+\contentsline {subsection}{\numberline {8.5.4}Member Data Documentation}{37}{subsection.8.5.4}
+\contentsline {subsubsection}{\numberline {8.5.4.1}M}{37}{subsubsection.8.5.4.1}
+\contentsline {subsubsection}{\numberline {8.5.4.2}R}{37}{subsubsection.8.5.4.2}
+\contentsline {subsubsection}{\numberline {8.5.4.3}Rp}{37}{subsubsection.8.5.4.3}
+\contentsline {subsubsection}{\numberline {8.5.4.4}Xp}{37}{subsubsection.8.5.4.4}
+\contentsline {section}{\numberline {8.6}CD\_\discretionary {-}{}{}Kalman Class Reference}{38}{section.8.6}
+\contentsline {subsection}{\numberline {8.6.1}Detailed Description}{38}{subsection.8.6.1}
+\contentsline {subsection}{\numberline {8.6.2}Constructor \& Destructor Documentation}{38}{subsection.8.6.2}
+\contentsline {subsubsection}{\numberline {8.6.2.1}CD\_\discretionary {-}{}{}Kalman}{38}{subsubsection.8.6.2.1}
+\contentsline {subsubsection}{\numberline {8.6.2.2}CD\_\discretionary {-}{}{}Kalman}{38}{subsubsection.8.6.2.2}
+\contentsline {subsection}{\numberline {8.6.3}Member Function Documentation}{38}{subsection.8.6.3}
+\contentsline {subsubsection}{\numberline {8.6.3.1}\_\discretionary {-}{}{}update}{38}{subsubsection.8.6.3.1}
+\contentsline {section}{\numberline {8.7}CD\_\discretionary {-}{}{}Simulator Class Reference}{40}{section.8.7}
+\contentsline {subsection}{\numberline {8.7.1}Constructor \& Destructor Documentation}{41}{subsection.8.7.1}
+\contentsline {subsubsection}{\numberline {8.7.1.1}CD\_\discretionary {-}{}{}Simulator}{41}{subsubsection.8.7.1.1}
+\contentsline {subsubsection}{\numberline {8.7.1.2}CD\_\discretionary {-}{}{}Simulator}{41}{subsubsection.8.7.1.2}
+\contentsline {subsection}{\numberline {8.7.2}Member Function Documentation}{41}{subsection.8.7.2}
+\contentsline {subsubsection}{\numberline {8.7.2.1}\_\discretionary {-}{}{}update}{41}{subsubsection.8.7.2.1}
+\contentsline {subsubsection}{\numberline {8.7.2.2}Draw\_\discretionary {-}{}{}Init}{41}{subsubsection.8.7.2.2}
+\contentsline {subsubsection}{\numberline {8.7.2.3}Draw\_\discretionary {-}{}{}Observation}{41}{subsubsection.8.7.2.3}
+\contentsline {subsubsection}{\numberline {8.7.2.4}draw\_\discretionary {-}{}{}state}{41}{subsubsection.8.7.2.4}
+\contentsline {subsubsection}{\numberline {8.7.2.5}Draw\_\discretionary {-}{}{}Transition}{42}{subsubsection.8.7.2.5}
+\contentsline {subsubsection}{\numberline {8.7.2.6}Observation\_\discretionary {-}{}{}Density}{42}{subsubsection.8.7.2.6}
+\contentsline {subsubsection}{\numberline {8.7.2.7}Save\_\discretionary {-}{}{}X}{42}{subsubsection.8.7.2.7}
+\contentsline {subsubsection}{\numberline {8.7.2.8}Save\_\discretionary {-}{}{}Y}{42}{subsubsection.8.7.2.8}
+\contentsline {subsubsection}{\numberline {8.7.2.9}Set\_\discretionary {-}{}{}Alpha}{43}{subsubsection.8.7.2.9}
+\contentsline {subsubsection}{\numberline {8.7.2.10}Simulate}{43}{subsubsection.8.7.2.10}
+\contentsline {subsection}{\numberline {8.7.3}Member Data Documentation}{43}{subsection.8.7.3}
+\contentsline {subsubsection}{\numberline {8.7.3.1}\_\discretionary {-}{}{}a}{43}{subsubsection.8.7.3.1}
+\contentsline {subsubsection}{\numberline {8.7.3.2}Dx}{43}{subsubsection.8.7.3.2}
+\contentsline {subsubsection}{\numberline {8.7.3.3}Dy}{43}{subsubsection.8.7.3.3}
+\contentsline {subsubsection}{\numberline {8.7.3.4}scheme}{43}{subsubsection.8.7.3.4}
+\contentsline {section}{\numberline {8.8}CD\_\discretionary {-}{}{}Simulator\_\discretionary {-}{}{}WT Class Reference}{44}{section.8.8}
+\contentsline {subsection}{\numberline {8.8.1}Constructor \& Destructor Documentation}{44}{subsection.8.8.1}
+\contentsline {subsubsection}{\numberline {8.8.1.1}CD\_\discretionary {-}{}{}Simulator\_\discretionary {-}{}{}WT}{44}{subsubsection.8.8.1.1}
+\contentsline {subsubsection}{\numberline {8.8.1.2}CD\_\discretionary {-}{}{}Simulator\_\discretionary {-}{}{}WT}{44}{subsubsection.8.8.1.2}
+\contentsline {subsection}{\numberline {8.8.2}Member Function Documentation}{44}{subsection.8.8.2}
+\contentsline {subsubsection}{\numberline {8.8.2.1}Draw\_\discretionary {-}{}{}Init}{44}{subsubsection.8.8.2.1}
+\contentsline {subsection}{\numberline {8.8.3}Member Data Documentation}{45}{subsection.8.8.3}
+\contentsline {subsubsection}{\numberline {8.8.3.1}T}{45}{subsubsection.8.8.3.1}
+\contentsline {subsubsection}{\numberline {8.8.3.2}TB}{45}{subsubsection.8.8.3.2}
+\contentsline {subsubsection}{\numberline {8.8.3.3}Xt}{45}{subsubsection.8.8.3.3}
+\contentsline {section}{\numberline {8.9}Continuous\_\discretionary {-}{}{}Discrete\_\discretionary {-}{}{}Model Class Reference}{46}{section.8.9}
+\contentsline {subsection}{\numberline {8.9.1}Detailed Description}{46}{subsection.8.9.1}
+\contentsline {subsection}{\numberline {8.9.2}Constructor \& Destructor Documentation}{47}{subsection.8.9.2}
+\contentsline {subsubsection}{\numberline {8.9.2.1}Continuous\_\discretionary {-}{}{}Discrete\_\discretionary {-}{}{}Model}{47}{subsubsection.8.9.2.1}
+\contentsline {subsubsection}{\numberline {8.9.2.2}$\sim $Continuous\_\discretionary {-}{}{}Discrete\_\discretionary {-}{}{}Model}{47}{subsubsection.8.9.2.2}
+\contentsline {subsection}{\numberline {8.9.3}Member Function Documentation}{47}{subsection.8.9.3}
+\contentsline {subsubsection}{\numberline {8.9.3.1}Diffusion\_\discretionary {-}{}{}Function}{47}{subsubsection.8.9.3.1}
+\contentsline {subsubsection}{\numberline {8.9.3.2}Drift\_\discretionary {-}{}{}Function}{47}{subsubsection.8.9.3.2}
+\contentsline {subsubsection}{\numberline {8.9.3.3}Init}{47}{subsubsection.8.9.3.3}
+\contentsline {subsubsection}{\numberline {8.9.3.4}J\_\discretionary {-}{}{}Drift\_\discretionary {-}{}{}Function}{47}{subsubsection.8.9.3.4}
+\contentsline {subsection}{\numberline {8.9.4}Member Data Documentation}{48}{subsection.8.9.4}
+\contentsline {subsubsection}{\numberline {8.9.4.1}Ts}{48}{subsubsection.8.9.4.1}
+\contentsline {section}{\numberline {8.10}DD\_\discretionary {-}{}{}Kalman Class Reference}{49}{section.8.10}
+\contentsline {subsection}{\numberline {8.10.1}Detailed Description}{49}{subsection.8.10.1}
+\contentsline {subsection}{\numberline {8.10.2}Constructor \& Destructor Documentation}{49}{subsection.8.10.2}
+\contentsline {subsubsection}{\numberline {8.10.2.1}DD\_\discretionary {-}{}{}Kalman}{49}{subsubsection.8.10.2.1}
+\contentsline {subsubsection}{\numberline {8.10.2.2}DD\_\discretionary {-}{}{}Kalman}{49}{subsubsection.8.10.2.2}
+\contentsline {subsection}{\numberline {8.10.3}Member Function Documentation}{49}{subsection.8.10.3}
+\contentsline {subsubsection}{\numberline {8.10.3.1}\_\discretionary {-}{}{}update}{49}{subsubsection.8.10.3.1}
+\contentsline {section}{\numberline {8.11}Discrete\_\discretionary {-}{}{}Approximation\_\discretionary {-}{}{}CD\_\discretionary {-}{}{}Model Class Reference}{51}{section.8.11}
+\contentsline {subsection}{\numberline {8.11.1}Detailed Description}{52}{subsection.8.11.1}
+\contentsline {subsection}{\numberline {8.11.2}Constructor \& Destructor Documentation}{52}{subsection.8.11.2}
+\contentsline {subsubsection}{\numberline {8.11.2.1}Discrete\_\discretionary {-}{}{}Approximation\_\discretionary {-}{}{}CD\_\discretionary {-}{}{}Model}{52}{subsubsection.8.11.2.1}
+\contentsline {subsubsection}{\numberline {8.11.2.2}$\sim $Discrete\_\discretionary {-}{}{}Approximation\_\discretionary {-}{}{}CD\_\discretionary {-}{}{}Model}{52}{subsubsection.8.11.2.2}
+\contentsline {subsubsection}{\numberline {8.11.2.3}Discrete\_\discretionary {-}{}{}Approximation\_\discretionary {-}{}{}CD\_\discretionary {-}{}{}Model}{52}{subsubsection.8.11.2.3}
+\contentsline {subsubsection}{\numberline {8.11.2.4}Discrete\_\discretionary {-}{}{}Approximation\_\discretionary {-}{}{}CD\_\discretionary {-}{}{}Model}{52}{subsubsection.8.11.2.4}
+\contentsline {subsection}{\numberline {8.11.3}Member Function Documentation}{53}{subsection.8.11.3}
+\contentsline {subsubsection}{\numberline {8.11.3.1}Get\_\discretionary {-}{}{}Alpha}{53}{subsubsection.8.11.3.1}
+\contentsline {subsubsection}{\numberline {8.11.3.2}Get\_\discretionary {-}{}{}Linear\_\discretionary {-}{}{}Parameters}{53}{subsubsection.8.11.3.2}
+\contentsline {subsubsection}{\numberline {8.11.3.3}Get\_\discretionary {-}{}{}Linear\_\discretionary {-}{}{}Scheme}{53}{subsubsection.8.11.3.3}
+\contentsline {subsubsection}{\numberline {8.11.3.4}Init}{53}{subsubsection.8.11.3.4}
+\contentsline {subsubsection}{\numberline {8.11.3.5}J\_\discretionary {-}{}{}Observation\_\discretionary {-}{}{}Function}{53}{subsubsection.8.11.3.5}
+\contentsline {subsubsection}{\numberline {8.11.3.6}Jw\_\discretionary {-}{}{}Scheme}{54}{subsubsection.8.11.3.6}
+\contentsline {subsubsection}{\numberline {8.11.3.7}Jw\_\discretionary {-}{}{}State\_\discretionary {-}{}{}Function}{54}{subsubsection.8.11.3.7}
+\contentsline {subsubsection}{\numberline {8.11.3.8}Jx\_\discretionary {-}{}{}Scheme}{54}{subsubsection.8.11.3.8}
+\contentsline {subsubsection}{\numberline {8.11.3.9}Jx\_\discretionary {-}{}{}State\_\discretionary {-}{}{}Function}{54}{subsubsection.8.11.3.9}
+\contentsline {subsubsection}{\numberline {8.11.3.10}Observation\_\discretionary {-}{}{}Function}{55}{subsubsection.8.11.3.10}
+\contentsline {subsubsection}{\numberline {8.11.3.11}Scheme}{55}{subsubsection.8.11.3.11}
+\contentsline {subsubsection}{\numberline {8.11.3.12}Set\_\discretionary {-}{}{}Alpha}{55}{subsubsection.8.11.3.12}
+\contentsline {subsubsection}{\numberline {8.11.3.13}State\_\discretionary {-}{}{}Function}{55}{subsubsection.8.11.3.13}
+\contentsline {subsection}{\numberline {8.11.4}Member Data Documentation}{55}{subsection.8.11.4}
+\contentsline {subsubsection}{\numberline {8.11.4.1}alpha}{55}{subsubsection.8.11.4.1}
+\contentsline {subsubsection}{\numberline {8.11.4.2}cd\_\discretionary {-}{}{}model}{55}{subsubsection.8.11.4.2}
+\contentsline {section}{\numberline {8.12}Discrete\_\discretionary {-}{}{}Observed\_\discretionary {-}{}{}Model Class Reference}{56}{section.8.12}
+\contentsline {subsection}{\numberline {8.12.1}Detailed Description}{57}{subsection.8.12.1}
+\contentsline {subsection}{\numberline {8.12.2}Constructor \& Destructor Documentation}{57}{subsection.8.12.2}
+\contentsline {subsubsection}{\numberline {8.12.2.1}Discrete\_\discretionary {-}{}{}Observed\_\discretionary {-}{}{}Model}{57}{subsubsection.8.12.2.1}
+\contentsline {subsubsection}{\numberline {8.12.2.2}$\sim $Discrete\_\discretionary {-}{}{}Observed\_\discretionary {-}{}{}Model}{57}{subsubsection.8.12.2.2}
+\contentsline {subsection}{\numberline {8.12.3}Member Function Documentation}{57}{subsection.8.12.3}
+\contentsline {subsubsection}{\numberline {8.12.3.1}Get\_\discretionary {-}{}{}Init\_\discretionary {-}{}{}Parameters}{57}{subsubsection.8.12.3.1}
+\contentsline {subsubsection}{\numberline {8.12.3.2}J\_\discretionary {-}{}{}Observation\_\discretionary {-}{}{}Function}{58}{subsubsection.8.12.3.2}
+\contentsline {subsubsection}{\numberline {8.12.3.3}Observation\_\discretionary {-}{}{}Function}{58}{subsubsection.8.12.3.3}
+\contentsline {subsection}{\numberline {8.12.4}Member Data Documentation}{58}{subsection.8.12.4}
+\contentsline {subsubsection}{\numberline {8.12.4.1}Qv}{58}{subsubsection.8.12.4.1}
+\contentsline {subsubsection}{\numberline {8.12.4.2}Qw}{58}{subsubsection.8.12.4.2}
+\contentsline {subsubsection}{\numberline {8.12.4.3}R0}{58}{subsubsection.8.12.4.3}
+\contentsline {subsubsection}{\numberline {8.12.4.4}X0}{58}{subsubsection.8.12.4.4}
+\contentsline {section}{\numberline {8.13}Euler\_\discretionary {-}{}{}CD\_\discretionary {-}{}{}Model Class Reference}{59}{section.8.13}
+\contentsline {subsection}{\numberline {8.13.1}Detailed Description}{59}{subsection.8.13.1}
+\contentsline {subsection}{\numberline {8.13.2}Constructor \& Destructor Documentation}{59}{subsection.8.13.2}
+\contentsline {subsubsection}{\numberline {8.13.2.1}Euler\_\discretionary {-}{}{}CD\_\discretionary {-}{}{}Model}{59}{subsubsection.8.13.2.1}
+\contentsline {subsubsection}{\numberline {8.13.2.2}Euler\_\discretionary {-}{}{}CD\_\discretionary {-}{}{}Model}{59}{subsubsection.8.13.2.2}
+\contentsline {subsection}{\numberline {8.13.3}Member Function Documentation}{59}{subsection.8.13.3}
+\contentsline {subsubsection}{\numberline {8.13.3.1}Get\_\discretionary {-}{}{}Linear\_\discretionary {-}{}{}Scheme}{59}{subsubsection.8.13.3.1}
+\contentsline {subsubsection}{\numberline {8.13.3.2}Jw\_\discretionary {-}{}{}Scheme}{60}{subsubsection.8.13.3.2}
+\contentsline {subsubsection}{\numberline {8.13.3.3}Jx\_\discretionary {-}{}{}Scheme}{60}{subsubsection.8.13.3.3}
+\contentsline {subsubsection}{\numberline {8.13.3.4}Scheme}{60}{subsubsection.8.13.3.4}
+\contentsline {section}{\numberline {8.14}Extended\_\discretionary {-}{}{}Kalman\_\discretionary {-}{}{}Filter Class Reference}{61}{section.8.14}
+\contentsline {subsection}{\numberline {8.14.1}Constructor \& Destructor Documentation}{61}{subsection.8.14.1}
+\contentsline {subsubsection}{\numberline {8.14.1.1}Extended\_\discretionary {-}{}{}Kalman\_\discretionary {-}{}{}Filter}{61}{subsubsection.8.14.1.1}
+\contentsline {subsubsection}{\numberline {8.14.1.2}Extended\_\discretionary {-}{}{}Kalman\_\discretionary {-}{}{}Filter}{61}{subsubsection.8.14.1.2}
+\contentsline {subsection}{\numberline {8.14.2}Member Function Documentation}{61}{subsection.8.14.2}
+\contentsline {subsubsection}{\numberline {8.14.2.1}\_\discretionary {-}{}{}update}{61}{subsubsection.8.14.2.1}
+\contentsline {section}{\numberline {8.15}Filter Class Reference}{62}{section.8.15}
+\contentsline {subsection}{\numberline {8.15.1}Detailed Description}{63}{subsection.8.15.1}
+\contentsline {subsection}{\numberline {8.15.2}Constructor \& Destructor Documentation}{63}{subsection.8.15.2}
+\contentsline {subsubsection}{\numberline {8.15.2.1}Filter}{63}{subsubsection.8.15.2.1}
+\contentsline {subsubsection}{\numberline {8.15.2.2}$\sim $Filter}{63}{subsubsection.8.15.2.2}
+\contentsline {subsection}{\numberline {8.15.3}Member Function Documentation}{63}{subsection.8.15.3}
+\contentsline {subsubsection}{\numberline {8.15.3.1}\_\discretionary {-}{}{}init}{63}{subsubsection.8.15.3.1}
+\contentsline {subsubsection}{\numberline {8.15.3.2}\_\discretionary {-}{}{}update}{64}{subsubsection.8.15.3.2}
+\contentsline {subsubsection}{\numberline {8.15.3.3}Expected\_\discretionary {-}{}{}Get}{64}{subsubsection.8.15.3.3}
+\contentsline {subsubsection}{\numberline {8.15.3.4}Filtering}{64}{subsubsection.8.15.3.4}
+\contentsline {subsubsection}{\numberline {8.15.3.5}Init}{64}{subsubsection.8.15.3.5}
+\contentsline {subsubsection}{\numberline {8.15.3.6}Likelihood\_\discretionary {-}{}{}Get}{65}{subsubsection.8.15.3.6}
+\contentsline {subsubsection}{\numberline {8.15.3.7}Save\_\discretionary {-}{}{}X}{65}{subsubsection.8.15.3.7}
+\contentsline {subsubsection}{\numberline {8.15.3.8}Update}{65}{subsubsection.8.15.3.8}
+\contentsline {subsection}{\numberline {8.15.4}Member Data Documentation}{65}{subsection.8.15.4}
+\contentsline {subsubsection}{\numberline {8.15.4.1}Likelihood}{65}{subsubsection.8.15.4.1}
+\contentsline {subsubsection}{\numberline {8.15.4.2}model}{65}{subsubsection.8.15.4.2}
+\contentsline {subsubsection}{\numberline {8.15.4.3}X}{65}{subsubsection.8.15.4.3}
+\contentsline {section}{\numberline {8.16}G\_\discretionary {-}{}{}Simulator Class Reference}{66}{section.8.16}
+\contentsline {subsection}{\numberline {8.16.1}Constructor \& Destructor Documentation}{67}{subsection.8.16.1}
+\contentsline {subsubsection}{\numberline {8.16.1.1}G\_\discretionary {-}{}{}Simulator}{67}{subsubsection.8.16.1.1}
+\contentsline {subsubsection}{\numberline {8.16.1.2}G\_\discretionary {-}{}{}Simulator}{67}{subsubsection.8.16.1.2}
+\contentsline {subsection}{\numberline {8.16.2}Member Function Documentation}{67}{subsection.8.16.2}
+\contentsline {subsubsection}{\numberline {8.16.2.1}Draw\_\discretionary {-}{}{}Init}{67}{subsubsection.8.16.2.1}
+\contentsline {subsubsection}{\numberline {8.16.2.2}Draw\_\discretionary {-}{}{}Observation}{67}{subsubsection.8.16.2.2}
+\contentsline {subsubsection}{\numberline {8.16.2.3}Draw\_\discretionary {-}{}{}Optimal}{67}{subsubsection.8.16.2.3}
+\contentsline {subsubsection}{\numberline {8.16.2.4}Draw\_\discretionary {-}{}{}Transition}{68}{subsubsection.8.16.2.4}
+\contentsline {subsubsection}{\numberline {8.16.2.5}Obs\_\discretionary {-}{}{}Optimal\_\discretionary {-}{}{}Density}{68}{subsubsection.8.16.2.5}
+\contentsline {subsubsection}{\numberline {8.16.2.6}Observation\_\discretionary {-}{}{}Density}{68}{subsubsection.8.16.2.6}
+\contentsline {section}{\numberline {8.17}G\_\discretionary {-}{}{}Simulator\_\discretionary {-}{}{}WT Class Reference}{69}{section.8.17}
+\contentsline {subsection}{\numberline {8.17.1}Constructor \& Destructor Documentation}{69}{subsection.8.17.1}
+\contentsline {subsubsection}{\numberline {8.17.1.1}G\_\discretionary {-}{}{}Simulator\_\discretionary {-}{}{}WT}{69}{subsubsection.8.17.1.1}
+\contentsline {subsubsection}{\numberline {8.17.1.2}G\_\discretionary {-}{}{}Simulator\_\discretionary {-}{}{}WT}{69}{subsubsection.8.17.1.2}
+\contentsline {subsection}{\numberline {8.17.2}Member Function Documentation}{69}{subsection.8.17.2}
+\contentsline {subsubsection}{\numberline {8.17.2.1}Draw\_\discretionary {-}{}{}Init}{69}{subsubsection.8.17.2.1}
+\contentsline {subsection}{\numberline {8.17.3}Member Data Documentation}{70}{subsection.8.17.3}
+\contentsline {subsubsection}{\numberline {8.17.3.1}N}{70}{subsubsection.8.17.3.1}
+\contentsline {subsubsection}{\numberline {8.17.3.2}NB}{70}{subsubsection.8.17.3.2}
+\contentsline {subsubsection}{\numberline {8.17.3.3}Xt}{70}{subsubsection.8.17.3.3}
+\contentsline {section}{\numberline {8.18}GA\_\discretionary {-}{}{}Filter Class Reference}{71}{section.8.18}
+\contentsline {subsection}{\numberline {8.18.1}Detailed Description}{72}{subsection.8.18.1}
+\contentsline {subsection}{\numberline {8.18.2}Constructor \& Destructor Documentation}{72}{subsection.8.18.2}
+\contentsline {subsubsection}{\numberline {8.18.2.1}GA\_\discretionary {-}{}{}Filter}{72}{subsubsection.8.18.2.1}
+\contentsline {subsubsection}{\numberline {8.18.2.2}GA\_\discretionary {-}{}{}Filter}{72}{subsubsection.8.18.2.2}
+\contentsline {subsection}{\numberline {8.18.3}Member Function Documentation}{72}{subsection.8.18.3}
+\contentsline {subsubsection}{\numberline {8.18.3.1}\_\discretionary {-}{}{}init}{72}{subsubsection.8.18.3.1}
+\contentsline {subsubsection}{\numberline {8.18.3.2}Expected\_\discretionary {-}{}{}Get}{72}{subsubsection.8.18.3.2}
+\contentsline {subsection}{\numberline {8.18.4}Member Data Documentation}{73}{subsection.8.18.4}
+\contentsline {subsubsection}{\numberline {8.18.4.1}M}{73}{subsubsection.8.18.4.1}
+\contentsline {subsubsection}{\numberline {8.18.4.2}R}{73}{subsubsection.8.18.4.2}
+\contentsline {subsubsection}{\numberline {8.18.4.3}Rp}{73}{subsubsection.8.18.4.3}
+\contentsline {subsubsection}{\numberline {8.18.4.4}Xp}{73}{subsubsection.8.18.4.4}
+\contentsline {section}{\numberline {8.19}Gaussian\_\discretionary {-}{}{}Linear\_\discretionary {-}{}{}Model Class Reference}{74}{section.8.19}
+\contentsline {subsection}{\numberline {8.19.1}Detailed Description}{75}{subsection.8.19.1}
+\contentsline {subsection}{\numberline {8.19.2}Constructor \& Destructor Documentation}{75}{subsection.8.19.2}
+\contentsline {subsubsection}{\numberline {8.19.2.1}Gaussian\_\discretionary {-}{}{}Linear\_\discretionary {-}{}{}Model}{75}{subsubsection.8.19.2.1}
+\contentsline {subsection}{\numberline {8.19.3}Member Function Documentation}{75}{subsection.8.19.3}
+\contentsline {subsubsection}{\numberline {8.19.3.1}Get\_\discretionary {-}{}{}Cov\_\discretionary {-}{}{}Prediction}{75}{subsubsection.8.19.3.1}
+\contentsline {subsubsection}{\numberline {8.19.3.2}Get\_\discretionary {-}{}{}Mean\_\discretionary {-}{}{}Prediction}{75}{subsubsection.8.19.3.2}
+\contentsline {subsubsection}{\numberline {8.19.3.3}J\_\discretionary {-}{}{}Observation\_\discretionary {-}{}{}Function}{75}{subsubsection.8.19.3.3}
+\contentsline {subsubsection}{\numberline {8.19.3.4}Jw\_\discretionary {-}{}{}State\_\discretionary {-}{}{}Function}{75}{subsubsection.8.19.3.4}
+\contentsline {subsubsection}{\numberline {8.19.3.5}Jx\_\discretionary {-}{}{}State\_\discretionary {-}{}{}Function}{75}{subsubsection.8.19.3.5}
+\contentsline {subsubsection}{\numberline {8.19.3.6}Observation\_\discretionary {-}{}{}Function}{76}{subsubsection.8.19.3.6}
+\contentsline {subsubsection}{\numberline {8.19.3.7}State\_\discretionary {-}{}{}Function}{76}{subsubsection.8.19.3.7}
+\contentsline {subsection}{\numberline {8.19.4}Member Data Documentation}{76}{subsection.8.19.4}
+\contentsline {subsubsection}{\numberline {8.19.4.1}f}{76}{subsubsection.8.19.4.1}
+\contentsline {subsubsection}{\numberline {8.19.4.2}F}{76}{subsubsection.8.19.4.2}
+\contentsline {subsubsection}{\numberline {8.19.4.3}G}{76}{subsubsection.8.19.4.3}
+\contentsline {subsubsection}{\numberline {8.19.4.4}H}{76}{subsubsection.8.19.4.4}
+\contentsline {subsubsection}{\numberline {8.19.4.5}h}{76}{subsubsection.8.19.4.5}
+\contentsline {section}{\numberline {8.20}Gaussian\_\discretionary {-}{}{}Nonlinear\_\discretionary {-}{}{}Model Class Reference}{77}{section.8.20}
+\contentsline {subsection}{\numberline {8.20.1}Detailed Description}{77}{subsection.8.20.1}
+\contentsline {subsection}{\numberline {8.20.2}Constructor \& Destructor Documentation}{78}{subsection.8.20.2}
+\contentsline {subsubsection}{\numberline {8.20.2.1}Gaussian\_\discretionary {-}{}{}Nonlinear\_\discretionary {-}{}{}Model}{78}{subsubsection.8.20.2.1}
+\contentsline {subsubsection}{\numberline {8.20.2.2}$\sim $Gaussian\_\discretionary {-}{}{}Nonlinear\_\discretionary {-}{}{}Model}{78}{subsubsection.8.20.2.2}
+\contentsline {subsection}{\numberline {8.20.3}Member Function Documentation}{78}{subsection.8.20.3}
+\contentsline {subsubsection}{\numberline {8.20.3.1}Get\_\discretionary {-}{}{}Linear\_\discretionary {-}{}{}Parameters}{78}{subsubsection.8.20.3.1}
+\contentsline {subsubsection}{\numberline {8.20.3.2}Init}{78}{subsubsection.8.20.3.2}
+\contentsline {subsubsection}{\numberline {8.20.3.3}Jw\_\discretionary {-}{}{}State\_\discretionary {-}{}{}Function}{78}{subsubsection.8.20.3.3}
+\contentsline {subsubsection}{\numberline {8.20.3.4}Jx\_\discretionary {-}{}{}State\_\discretionary {-}{}{}Function}{78}{subsubsection.8.20.3.4}
+\contentsline {subsubsection}{\numberline {8.20.3.5}State\_\discretionary {-}{}{}Function}{79}{subsubsection.8.20.3.5}
+\contentsline {section}{\numberline {8.21}Heun\_\discretionary {-}{}{}CD\_\discretionary {-}{}{}Model Class Reference}{80}{section.8.21}
+\contentsline {subsection}{\numberline {8.21.1}Detailed Description}{80}{subsection.8.21.1}
+\contentsline {subsection}{\numberline {8.21.2}Constructor \& Destructor Documentation}{80}{subsection.8.21.2}
+\contentsline {subsubsection}{\numberline {8.21.2.1}Heun\_\discretionary {-}{}{}CD\_\discretionary {-}{}{}Model}{80}{subsubsection.8.21.2.1}
+\contentsline {subsubsection}{\numberline {8.21.2.2}Heun\_\discretionary {-}{}{}CD\_\discretionary {-}{}{}Model}{80}{subsubsection.8.21.2.2}
+\contentsline {subsection}{\numberline {8.21.3}Member Function Documentation}{80}{subsection.8.21.3}
+\contentsline {subsubsection}{\numberline {8.21.3.1}Get\_\discretionary {-}{}{}Linear\_\discretionary {-}{}{}Scheme}{80}{subsubsection.8.21.3.1}
+\contentsline {subsubsection}{\numberline {8.21.3.2}Jw\_\discretionary {-}{}{}Scheme}{81}{subsubsection.8.21.3.2}
+\contentsline {subsubsection}{\numberline {8.21.3.3}Jx\_\discretionary {-}{}{}Scheme}{81}{subsubsection.8.21.3.3}
+\contentsline {subsubsection}{\numberline {8.21.3.4}Scheme}{81}{subsubsection.8.21.3.4}
+\contentsline {section}{\numberline {8.22}Linear\_\discretionary {-}{}{}CD\_\discretionary {-}{}{}Model Class Reference}{82}{section.8.22}
+\contentsline {subsection}{\numberline {8.22.1}Detailed Description}{83}{subsection.8.22.1}
+\contentsline {subsection}{\numberline {8.22.2}Constructor \& Destructor Documentation}{83}{subsection.8.22.2}
+\contentsline {subsubsection}{\numberline {8.22.2.1}Linear\_\discretionary {-}{}{}CD\_\discretionary {-}{}{}Model}{83}{subsubsection.8.22.2.1}
+\contentsline {subsection}{\numberline {8.22.3}Member Function Documentation}{83}{subsection.8.22.3}
+\contentsline {subsubsection}{\numberline {8.22.3.1}Diffusion\_\discretionary {-}{}{}Function}{83}{subsubsection.8.22.3.1}
+\contentsline {subsubsection}{\numberline {8.22.3.2}Drift\_\discretionary {-}{}{}Function}{83}{subsubsection.8.22.3.2}
+\contentsline {subsubsection}{\numberline {8.22.3.3}Get\_\discretionary {-}{}{}Cov\_\discretionary {-}{}{}Prediction}{83}{subsubsection.8.22.3.3}
+\contentsline {subsubsection}{\numberline {8.22.3.4}Get\_\discretionary {-}{}{}Mean\_\discretionary {-}{}{}Prediction}{83}{subsubsection.8.22.3.4}
+\contentsline {subsubsection}{\numberline {8.22.3.5}Init}{83}{subsubsection.8.22.3.5}
+\contentsline {subsubsection}{\numberline {8.22.3.6}J\_\discretionary {-}{}{}Drift\_\discretionary {-}{}{}Function}{83}{subsubsection.8.22.3.6}
+\contentsline {subsubsection}{\numberline {8.22.3.7}J\_\discretionary {-}{}{}Observation\_\discretionary {-}{}{}Function}{84}{subsubsection.8.22.3.7}
+\contentsline {subsubsection}{\numberline {8.22.3.8}Observation\_\discretionary {-}{}{}Function}{84}{subsubsection.8.22.3.8}
+\contentsline {subsection}{\numberline {8.22.4}Member Data Documentation}{84}{subsection.8.22.4}
+\contentsline {subsubsection}{\numberline {8.22.4.1}A}{84}{subsubsection.8.22.4.1}
+\contentsline {subsubsection}{\numberline {8.22.4.2}B}{84}{subsubsection.8.22.4.2}
+\contentsline {subsubsection}{\numberline {8.22.4.3}C}{84}{subsubsection.8.22.4.3}
+\contentsline {subsubsection}{\numberline {8.22.4.4}H}{84}{subsubsection.8.22.4.4}
+\contentsline {subsubsection}{\numberline {8.22.4.5}h}{84}{subsubsection.8.22.4.5}
+\contentsline {section}{\numberline {8.23}LL\_\discretionary {-}{}{}Filter Class Reference}{85}{section.8.23}
+\contentsline {subsection}{\numberline {8.23.1}Constructor \& Destructor Documentation}{85}{subsection.8.23.1}
+\contentsline {subsubsection}{\numberline {8.23.1.1}LL\_\discretionary {-}{}{}Filter}{85}{subsubsection.8.23.1.1}
+\contentsline {subsubsection}{\numberline {8.23.1.2}LL\_\discretionary {-}{}{}Filter}{85}{subsubsection.8.23.1.2}
+\contentsline {subsection}{\numberline {8.23.2}Member Function Documentation}{85}{subsection.8.23.2}
+\contentsline {subsubsection}{\numberline {8.23.2.1}\_\discretionary {-}{}{}update}{85}{subsubsection.8.23.2.1}
+\contentsline {section}{\numberline {8.24}LTI\_\discretionary {-}{}{}CD\_\discretionary {-}{}{}Simulator Class Reference}{86}{section.8.24}
+\contentsline {subsection}{\numberline {8.24.1}Constructor \& Destructor Documentation}{86}{subsection.8.24.1}
+\contentsline {subsubsection}{\numberline {8.24.1.1}LTI\_\discretionary {-}{}{}CD\_\discretionary {-}{}{}Simulator}{86}{subsubsection.8.24.1.1}
+\contentsline {subsubsection}{\numberline {8.24.1.2}LTI\_\discretionary {-}{}{}CD\_\discretionary {-}{}{}Simulator}{86}{subsubsection.8.24.1.2}
+\contentsline {subsection}{\numberline {8.24.2}Member Function Documentation}{86}{subsection.8.24.2}
+\contentsline {subsubsection}{\numberline {8.24.2.1}draw\_\discretionary {-}{}{}state}{86}{subsubsection.8.24.2.1}
+\contentsline {section}{\numberline {8.25}LTI\_\discretionary {-}{}{}CD\_\discretionary {-}{}{}Simulator\_\discretionary {-}{}{}WT Class Reference}{87}{section.8.25}
+\contentsline {subsection}{\numberline {8.25.1}Constructor \& Destructor Documentation}{87}{subsection.8.25.1}
+\contentsline {subsubsection}{\numberline {8.25.1.1}LTI\_\discretionary {-}{}{}CD\_\discretionary {-}{}{}Simulator\_\discretionary {-}{}{}WT}{87}{subsubsection.8.25.1.1}
+\contentsline {subsubsection}{\numberline {8.25.1.2}LTI\_\discretionary {-}{}{}CD\_\discretionary {-}{}{}Simulator\_\discretionary {-}{}{}WT}{87}{subsubsection.8.25.1.2}
+\contentsline {subsection}{\numberline {8.25.2}Member Function Documentation}{87}{subsection.8.25.2}
+\contentsline {subsubsection}{\numberline {8.25.2.1}Draw\_\discretionary {-}{}{}Init}{87}{subsubsection.8.25.2.1}
+\contentsline {subsection}{\numberline {8.25.3}Member Data Documentation}{88}{subsection.8.25.3}
+\contentsline {subsubsection}{\numberline {8.25.3.1}T}{88}{subsubsection.8.25.3.1}
+\contentsline {subsubsection}{\numberline {8.25.3.2}TB}{88}{subsubsection.8.25.3.2}
+\contentsline {subsubsection}{\numberline {8.25.3.3}Xt}{88}{subsubsection.8.25.3.3}
+\contentsline {section}{\numberline {8.26}Model Class Reference}{89}{section.8.26}
+\contentsline {subsection}{\numberline {8.26.1}Detailed Description}{90}{subsection.8.26.1}
+\contentsline {subsection}{\numberline {8.26.2}Constructor \& Destructor Documentation}{90}{subsection.8.26.2}
+\contentsline {subsubsection}{\numberline {8.26.2.1}Model}{90}{subsubsection.8.26.2.1}
+\contentsline {subsubsection}{\numberline {8.26.2.2}$\sim $Model}{90}{subsubsection.8.26.2.2}
+\contentsline {subsection}{\numberline {8.26.3}Member Function Documentation}{90}{subsection.8.26.3}
+\contentsline {subsubsection}{\numberline {8.26.3.1}Clear}{90}{subsubsection.8.26.3.1}
+\contentsline {subsubsection}{\numberline {8.26.3.2}Get\_\discretionary {-}{}{}Time}{90}{subsubsection.8.26.3.2}
+\contentsline {subsubsection}{\numberline {8.26.3.3}Update}{90}{subsubsection.8.26.3.3}
+\contentsline {subsection}{\numberline {8.26.4}Member Data Documentation}{90}{subsection.8.26.4}
+\contentsline {subsubsection}{\numberline {8.26.4.1}\_\discretionary {-}{}{}k}{90}{subsubsection.8.26.4.1}
+\contentsline {section}{\numberline {8.27}Opt\_\discretionary {-}{}{}Simulator Class Reference}{91}{section.8.27}
+\contentsline {subsection}{\numberline {8.27.1}Constructor \& Destructor Documentation}{91}{subsection.8.27.1}
+\contentsline {subsubsection}{\numberline {8.27.1.1}Opt\_\discretionary {-}{}{}Simulator}{91}{subsubsection.8.27.1.1}
+\contentsline {subsection}{\numberline {8.27.2}Member Function Documentation}{91}{subsection.8.27.2}
+\contentsline {subsubsection}{\numberline {8.27.2.1}Draw\_\discretionary {-}{}{}Optimal}{91}{subsubsection.8.27.2.1}
+\contentsline {subsubsection}{\numberline {8.27.2.2}Obs\_\discretionary {-}{}{}Optimal\_\discretionary {-}{}{}Density}{92}{subsubsection.8.27.2.2}
+\contentsline {section}{\numberline {8.28}Optimal\_\discretionary {-}{}{}Sampler Class Reference}{93}{section.8.28}
+\contentsline {subsection}{\numberline {8.28.1}Detailed Description}{93}{subsection.8.28.1}
+\contentsline {subsection}{\numberline {8.28.2}Constructor \& Destructor Documentation}{93}{subsection.8.28.2}
+\contentsline {subsubsection}{\numberline {8.28.2.1}Optimal\_\discretionary {-}{}{}Sampler}{93}{subsubsection.8.28.2.1}
+\contentsline {subsubsection}{\numberline {8.28.2.2}Optimal\_\discretionary {-}{}{}Sampler}{93}{subsubsection.8.28.2.2}
+\contentsline {subsection}{\numberline {8.28.3}Member Function Documentation}{93}{subsection.8.28.3}
+\contentsline {subsubsection}{\numberline {8.28.3.1}Draw}{93}{subsubsection.8.28.3.1}
+\contentsline {subsubsection}{\numberline {8.28.3.2}DrawInitCloud}{94}{subsubsection.8.28.3.2}
+\contentsline {subsubsection}{\numberline {8.28.3.3}Weight}{94}{subsubsection.8.28.3.3}
+\contentsline {section}{\numberline {8.29}OptSISR\_\discretionary {-}{}{}Filter Class Reference}{95}{section.8.29}
+\contentsline {subsection}{\numberline {8.29.1}Constructor \& Destructor Documentation}{95}{subsection.8.29.1}
+\contentsline {subsubsection}{\numberline {8.29.1.1}OptSISR\_\discretionary {-}{}{}Filter}{95}{subsubsection.8.29.1.1}
+\contentsline {subsubsection}{\numberline {8.29.1.2}$\sim $OptSISR\_\discretionary {-}{}{}Filter}{95}{subsubsection.8.29.1.2}
+\contentsline {subsubsection}{\numberline {8.29.1.3}OptSISR\_\discretionary {-}{}{}Filter}{95}{subsubsection.8.29.1.3}
+\contentsline {subsubsection}{\numberline {8.29.1.4}OptSISR\_\discretionary {-}{}{}Filter}{95}{subsubsection.8.29.1.4}
+\contentsline {subsection}{\numberline {8.29.2}Member Data Documentation}{95}{subsection.8.29.2}
+\contentsline {subsubsection}{\numberline {8.29.2.1}sim}{95}{subsubsection.8.29.2.1}
+\contentsline {section}{\numberline {8.30}Ozaki\_\discretionary {-}{}{}CD\_\discretionary {-}{}{}Model Class Reference}{96}{section.8.30}
+\contentsline {subsection}{\numberline {8.30.1}Detailed Description}{96}{subsection.8.30.1}
+\contentsline {subsection}{\numberline {8.30.2}Constructor \& Destructor Documentation}{96}{subsection.8.30.2}
+\contentsline {subsubsection}{\numberline {8.30.2.1}Ozaki\_\discretionary {-}{}{}CD\_\discretionary {-}{}{}Model}{96}{subsubsection.8.30.2.1}
+\contentsline {subsubsection}{\numberline {8.30.2.2}Ozaki\_\discretionary {-}{}{}CD\_\discretionary {-}{}{}Model}{96}{subsubsection.8.30.2.2}
+\contentsline {subsection}{\numberline {8.30.3}Member Function Documentation}{96}{subsection.8.30.3}
+\contentsline {subsubsection}{\numberline {8.30.3.1}Get\_\discretionary {-}{}{}Linear\_\discretionary {-}{}{}Scheme}{96}{subsubsection.8.30.3.1}
+\contentsline {subsubsection}{\numberline {8.30.3.2}Jw\_\discretionary {-}{}{}Scheme}{97}{subsubsection.8.30.3.2}
+\contentsline {subsubsection}{\numberline {8.30.3.3}Jx\_\discretionary {-}{}{}Scheme}{97}{subsubsection.8.30.3.3}
+\contentsline {subsubsection}{\numberline {8.30.3.4}Scheme}{97}{subsubsection.8.30.3.4}
+\contentsline {section}{\numberline {8.31}SI\_\discretionary {-}{}{}Sampler Class Reference}{98}{section.8.31}
+\contentsline {subsection}{\numberline {8.31.1}Detailed Description}{98}{subsection.8.31.1}
+\contentsline {subsection}{\numberline {8.31.2}Constructor \& Destructor Documentation}{98}{subsection.8.31.2}
+\contentsline {subsubsection}{\numberline {8.31.2.1}SI\_\discretionary {-}{}{}Sampler}{98}{subsubsection.8.31.2.1}
+\contentsline {subsubsection}{\numberline {8.31.2.2}SI\_\discretionary {-}{}{}Sampler}{99}{subsubsection.8.31.2.2}
+\contentsline {subsection}{\numberline {8.31.3}Member Function Documentation}{99}{subsection.8.31.3}
+\contentsline {subsubsection}{\numberline {8.31.3.1}Draw}{99}{subsubsection.8.31.3.1}
+\contentsline {subsubsection}{\numberline {8.31.3.2}DrawInitCloud}{99}{subsubsection.8.31.3.2}
+\contentsline {subsubsection}{\numberline {8.31.3.3}Weight}{99}{subsubsection.8.31.3.3}
+\contentsline {subsection}{\numberline {8.31.4}Member Data Documentation}{100}{subsection.8.31.4}
+\contentsline {subsubsection}{\numberline {8.31.4.1}model}{100}{subsubsection.8.31.4.1}
+\contentsline {section}{\numberline {8.32}Simulator Class Reference}{101}{section.8.32}
+\contentsline {subsection}{\numberline {8.32.1}Constructor \& Destructor Documentation}{102}{subsection.8.32.1}
+\contentsline {subsubsection}{\numberline {8.32.1.1}Simulator}{102}{subsubsection.8.32.1.1}
+\contentsline {subsubsection}{\numberline {8.32.1.2}$\sim $Simulator}{102}{subsubsection.8.32.1.2}
+\contentsline {subsection}{\numberline {8.32.2}Member Function Documentation}{102}{subsection.8.32.2}
+\contentsline {subsubsection}{\numberline {8.32.2.1}\_\discretionary {-}{}{}update}{102}{subsubsection.8.32.2.1}
+\contentsline {subsubsection}{\numberline {8.32.2.2}Clear}{102}{subsubsection.8.32.2.2}
+\contentsline {subsubsection}{\numberline {8.32.2.3}Draw\_\discretionary {-}{}{}Init}{102}{subsubsection.8.32.2.3}
+\contentsline {subsubsection}{\numberline {8.32.2.4}Draw\_\discretionary {-}{}{}Observation}{102}{subsubsection.8.32.2.4}
+\contentsline {subsubsection}{\numberline {8.32.2.5}Draw\_\discretionary {-}{}{}Transition}{103}{subsubsection.8.32.2.5}
+\contentsline {subsubsection}{\numberline {8.32.2.6}Observation\_\discretionary {-}{}{}Density}{103}{subsubsection.8.32.2.6}
+\contentsline {subsubsection}{\numberline {8.32.2.7}Save\_\discretionary {-}{}{}X}{103}{subsubsection.8.32.2.7}
+\contentsline {subsubsection}{\numberline {8.32.2.8}Save\_\discretionary {-}{}{}Y}{104}{subsubsection.8.32.2.8}
+\contentsline {subsubsection}{\numberline {8.32.2.9}Set\_\discretionary {-}{}{}Seed}{104}{subsubsection.8.32.2.9}
+\contentsline {subsubsection}{\numberline {8.32.2.10}Simulate}{104}{subsubsection.8.32.2.10}
+\contentsline {subsubsection}{\numberline {8.32.2.11}Update}{104}{subsubsection.8.32.2.11}
+\contentsline {subsection}{\numberline {8.32.3}Member Data Documentation}{104}{subsection.8.32.3}
+\contentsline {subsubsection}{\numberline {8.32.3.1}b}{104}{subsubsection.8.32.3.1}
+\contentsline {subsubsection}{\numberline {8.32.3.2}model}{104}{subsubsection.8.32.3.2}
+\contentsline {subsubsection}{\numberline {8.32.3.3}r}{104}{subsubsection.8.32.3.3}
+\contentsline {subsubsection}{\numberline {8.32.3.4}X}{104}{subsubsection.8.32.3.4}
+\contentsline {subsubsection}{\numberline {8.32.3.5}Y}{104}{subsubsection.8.32.3.5}
+\contentsline {section}{\numberline {8.33}SISR\_\discretionary {-}{}{}Filter Class Reference}{105}{section.8.33}
+\contentsline {subsection}{\numberline {8.33.1}Constructor \& Destructor Documentation}{106}{subsection.8.33.1}
+\contentsline {subsubsection}{\numberline {8.33.1.1}SISR\_\discretionary {-}{}{}Filter}{106}{subsubsection.8.33.1.1}
+\contentsline {subsubsection}{\numberline {8.33.1.2}$\sim $SISR\_\discretionary {-}{}{}Filter}{106}{subsubsection.8.33.1.2}
+\contentsline {subsubsection}{\numberline {8.33.1.3}SISR\_\discretionary {-}{}{}Filter}{106}{subsubsection.8.33.1.3}
+\contentsline {subsubsection}{\numberline {8.33.1.4}SISR\_\discretionary {-}{}{}Filter}{107}{subsubsection.8.33.1.4}
+\contentsline {subsection}{\numberline {8.33.2}Member Function Documentation}{107}{subsection.8.33.2}
+\contentsline {subsubsection}{\numberline {8.33.2.1}\_\discretionary {-}{}{}init}{107}{subsubsection.8.33.2.1}
+\contentsline {subsubsection}{\numberline {8.33.2.2}\_\discretionary {-}{}{}update}{107}{subsubsection.8.33.2.2}
+\contentsline {subsubsection}{\numberline {8.33.2.3}CloudGet}{107}{subsubsection.8.33.2.3}
+\contentsline {subsubsection}{\numberline {8.33.2.4}Expected\_\discretionary {-}{}{}Get}{107}{subsubsection.8.33.2.4}
+\contentsline {subsubsection}{\numberline {8.33.2.5}Resampling}{108}{subsubsection.8.33.2.5}
+\contentsline {subsubsection}{\numberline {8.33.2.6}SetRc}{108}{subsubsection.8.33.2.6}
+\contentsline {subsubsection}{\numberline {8.33.2.7}SetSeed}{108}{subsubsection.8.33.2.7}
+\contentsline {subsection}{\numberline {8.33.3}Member Data Documentation}{108}{subsection.8.33.3}
+\contentsline {subsubsection}{\numberline {8.33.3.1}cloud}{108}{subsubsection.8.33.3.1}
+\contentsline {subsubsection}{\numberline {8.33.3.2}cloud\_\discretionary {-}{}{}km1}{108}{subsubsection.8.33.3.2}
+\contentsline {subsubsection}{\numberline {8.33.3.3}NbSample}{108}{subsubsection.8.33.3.3}
+\contentsline {subsubsection}{\numberline {8.33.3.4}r}{108}{subsubsection.8.33.3.4}
+\contentsline {subsubsection}{\numberline {8.33.3.5}Rc}{108}{subsubsection.8.33.3.5}
+\contentsline {subsubsection}{\numberline {8.33.3.6}seed}{108}{subsubsection.8.33.3.6}
+\contentsline {subsubsection}{\numberline {8.33.3.7}Sys}{108}{subsubsection.8.33.3.7}
+\contentsline {section}{\numberline {8.34}SRK4\_\discretionary {-}{}{}CD\_\discretionary {-}{}{}Model Class Reference}{109}{section.8.34}
+\contentsline {subsection}{\numberline {8.34.1}Detailed Description}{109}{subsection.8.34.1}
+\contentsline {subsection}{\numberline {8.34.2}Constructor \& Destructor Documentation}{109}{subsection.8.34.2}
+\contentsline {subsubsection}{\numberline {8.34.2.1}SRK4\_\discretionary {-}{}{}CD\_\discretionary {-}{}{}Model}{109}{subsubsection.8.34.2.1}
+\contentsline {subsubsection}{\numberline {8.34.2.2}SRK4\_\discretionary {-}{}{}CD\_\discretionary {-}{}{}Model}{109}{subsubsection.8.34.2.2}
+\contentsline {subsection}{\numberline {8.34.3}Member Function Documentation}{109}{subsection.8.34.3}
+\contentsline {subsubsection}{\numberline {8.34.3.1}Get\_\discretionary {-}{}{}Linear\_\discretionary {-}{}{}Scheme}{109}{subsubsection.8.34.3.1}
+\contentsline {subsubsection}{\numberline {8.34.3.2}Jw\_\discretionary {-}{}{}Scheme}{110}{subsubsection.8.34.3.2}
+\contentsline {subsubsection}{\numberline {8.34.3.3}Jx\_\discretionary {-}{}{}Scheme}{110}{subsubsection.8.34.3.3}
+\contentsline {subsubsection}{\numberline {8.34.3.4}Scheme}{110}{subsubsection.8.34.3.4}
+\contentsline {section}{\numberline {8.35}THGL\_\discretionary {-}{}{}Filter Class Reference}{111}{section.8.35}
+\contentsline {subsection}{\numberline {8.35.1}Constructor \& Destructor Documentation}{111}{subsection.8.35.1}
+\contentsline {subsubsection}{\numberline {8.35.1.1}THGL\_\discretionary {-}{}{}Filter}{111}{subsubsection.8.35.1.1}
+\contentsline {subsubsection}{\numberline {8.35.1.2}THGL\_\discretionary {-}{}{}Filter}{111}{subsubsection.8.35.1.2}
+\contentsline {subsection}{\numberline {8.35.2}Member Function Documentation}{111}{subsection.8.35.2}
+\contentsline {subsubsection}{\numberline {8.35.2.1}\_\discretionary {-}{}{}update}{111}{subsubsection.8.35.2.1}
+\contentsline {section}{\numberline {8.36}Unscented\_\discretionary {-}{}{}Kalman\_\discretionary {-}{}{}Filter Class Reference}{112}{section.8.36}
+\contentsline {subsection}{\numberline {8.36.1}Detailed Description}{113}{subsection.8.36.1}
+\contentsline {subsection}{\numberline {8.36.2}Constructor \& Destructor Documentation}{113}{subsection.8.36.2}
+\contentsline {subsubsection}{\numberline {8.36.2.1}Unscented\_\discretionary {-}{}{}Kalman\_\discretionary {-}{}{}Filter}{113}{subsubsection.8.36.2.1}
+\contentsline {subsubsection}{\numberline {8.36.2.2}Unscented\_\discretionary {-}{}{}Kalman\_\discretionary {-}{}{}Filter}{113}{subsubsection.8.36.2.2}
+\contentsline {subsection}{\numberline {8.36.3}Member Function Documentation}{114}{subsection.8.36.3}
+\contentsline {subsubsection}{\numberline {8.36.3.1}\_\discretionary {-}{}{}init}{114}{subsubsection.8.36.3.1}
+\contentsline {subsubsection}{\numberline {8.36.3.2}\_\discretionary {-}{}{}update}{114}{subsubsection.8.36.3.2}
+\contentsline {subsubsection}{\numberline {8.36.3.3}SP\_\discretionary {-}{}{}Init}{114}{subsubsection.8.36.3.3}
+\contentsline {subsubsection}{\numberline {8.36.3.4}U\_\discretionary {-}{}{}Cov}{114}{subsubsection.8.36.3.4}
+\contentsline {subsubsection}{\numberline {8.36.3.5}U\_\discretionary {-}{}{}Mean}{114}{subsubsection.8.36.3.5}
+\contentsline {subsection}{\numberline {8.36.4}Member Data Documentation}{115}{subsection.8.36.4}
+\contentsline {subsubsection}{\numberline {8.36.4.1}lambda}{115}{subsubsection.8.36.4.1}
+\contentsline {subsubsection}{\numberline {8.36.4.2}sqrt\_\discretionary {-}{}{}Qv}{115}{subsubsection.8.36.4.2}
+\contentsline {subsubsection}{\numberline {8.36.4.3}sqrt\_\discretionary {-}{}{}Qw}{115}{subsubsection.8.36.4.3}
+\contentsline {subsubsection}{\numberline {8.36.4.4}sW}{115}{subsubsection.8.36.4.4}
+\contentsline {subsubsection}{\numberline {8.36.4.5}sX}{115}{subsubsection.8.36.4.5}
+\contentsline {subsubsection}{\numberline {8.36.4.6}sY}{115}{subsubsection.8.36.4.6}
+\contentsline {subsubsection}{\numberline {8.36.4.7}w}{115}{subsubsection.8.36.4.7}
+\contentsline {subsubsection}{\numberline {8.36.4.8}w\_\discretionary {-}{}{}0}{115}{subsubsection.8.36.4.8}
+\contentsline {subsubsection}{\numberline {8.36.4.9}w\_\discretionary {-}{}{}0c}{115}{subsubsection.8.36.4.9}
+\contentsline {section}{\numberline {8.37}Weighted\_\discretionary {-}{}{}Sample Class Reference}{116}{section.8.37}
+\contentsline {subsection}{\numberline {8.37.1}Member Data Documentation}{116}{subsection.8.37.1}
+\contentsline {subsubsection}{\numberline {8.37.1.1}Value}{116}{subsubsection.8.37.1.1}
+\contentsline {subsubsection}{\numberline {8.37.1.2}Weight}{116}{subsubsection.8.37.1.2}

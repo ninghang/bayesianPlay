@@ -1,2 +1,22 @@
-bayesianPlay
-============
+ATLAS libatlas-base-dev
+
+LAPACK liblapack-dev
+
+GSL libgsl0-dev
+
+dep:
+
+  gfortran
+
+CPPLAPACK 
+
+  download the older release before BFilt
+  http://cpplapack.sourceforge.net/ mv include files to /usr/include/cpplapack
+  
+BFilter
+
+  mkdir build
+  cd build
+  cmake ../src
+  make
+  sudo make install

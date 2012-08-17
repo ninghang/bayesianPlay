@@ -1,0 +1,123 @@
+\hypertarget{class_c_d___extended___kalman___filter}{
+\section{CD\_\-Extended\_\-Kalman\_\-Filter Class Reference}
+\label{class_c_d___extended___kalman___filter}\index{CD\_\-Extended\_\-Kalman\_\-Filter@{CD\_\-Extended\_\-Kalman\_\-Filter}}
+}
+{\tt \#include $<$extended\_\-kalman\_\-filter.h$>$}
+
+Inheritance diagram for CD\_\-Extended\_\-Kalman\_\-Filter:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=96pt]{class_c_d___extended___kalman___filter__inherit__graph}
+\end{center}
+\end{figure}
+\subsection*{Public Member Functions}
+\begin{CompactItemize}
+\item 
+\hyperlink{class_c_d___extended___kalman___filter_a513c87055e01494c950391047fe8e78}{CD\_\-Extended\_\-Kalman\_\-Filter} (void)
+\item 
+\hyperlink{class_c_d___extended___kalman___filter_01743a0e2ac32830a65da4dc7885cc20}{CD\_\-Extended\_\-Kalman\_\-Filter} (\hyperlink{class_continuous___discrete___model}{Continuous\_\-Discrete\_\-Model} $\ast$m, const int \&sh=RK4)
+\end{CompactItemize}
+\subsection*{Public Attributes}
+\begin{CompactItemize}
+\item 
+int \hyperlink{class_c_d___extended___kalman___filter_20c7448afdc652603781e4da3385e2b3}{Scheme}
+\end{CompactItemize}
+\subsection*{Protected Member Functions}
+\begin{CompactItemize}
+\item 
+int \hyperlink{class_c_d___extended___kalman___filter_7cfd2bf966970f44f4e1480ed3852b69}{\_\-update} (const dcovector \&Y)
+\item 
+void \hyperlink{class_c_d___extended___kalman___filter_e11771d2cea027b53e17091e817e59bd}{\_\-thgl\_\-\_\-prediction} (dcovector \&\hyperlink{class_c_d___filter_1388124f777df49de87fa59058535cde}{M}, dgematrix \&P)
+\item 
+void \hyperlink{class_c_d___extended___kalman___filter_64fda06630749c6d5936fd7257690c68}{\_\-euler\_\-prediction} (dcovector \&\hyperlink{class_c_d___filter_1388124f777df49de87fa59058535cde}{M}, dgematrix \&P)
+\item 
+void \hyperlink{class_c_d___extended___kalman___filter_79f174e2ff2bb51ada2d1cee3240fbb1}{\_\-rk4\_\-\_\-\_\-prediction} (dcovector \&\hyperlink{class_c_d___filter_1388124f777df49de87fa59058535cde}{M}, dgematrix \&P)
+\item 
+void \hyperlink{class_c_d___extended___kalman___filter_f67b43de36333a88e233bb6c51d15ab7}{\_\-heun\_\-\_\-prediction} (dcovector \&\hyperlink{class_c_d___filter_1388124f777df49de87fa59058535cde}{M}, dgematrix \&P)
+\item 
+void \hyperlink{class_c_d___extended___kalman___filter_aff3514a20d714c817780fa1871f4a9d}{\_\-rk4\_\-\_\-\_\-prediction\_\-FM} (dcovector \&\hyperlink{class_c_d___filter_1388124f777df49de87fa59058535cde}{M}, dgematrix \&P)
+\end{CompactItemize}
+
+
+\subsection{Constructor \& Destructor Documentation}
+\hypertarget{class_c_d___extended___kalman___filter_a513c87055e01494c950391047fe8e78}{
+\index{CD\_\-Extended\_\-Kalman\_\-Filter@{CD\_\-Extended\_\-Kalman\_\-Filter}!CD\_\-Extended\_\-Kalman\_\-Filter@{CD\_\-Extended\_\-Kalman\_\-Filter}}
+\index{CD\_\-Extended\_\-Kalman\_\-Filter@{CD\_\-Extended\_\-Kalman\_\-Filter}!CD_Extended_Kalman_Filter@{CD\_\-Extended\_\-Kalman\_\-Filter}}
+\subsubsection[{CD\_\-Extended\_\-Kalman\_\-Filter}]{\setlength{\rightskip}{0pt plus 5cm}CD\_\-Extended\_\-Kalman\_\-Filter::CD\_\-Extended\_\-Kalman\_\-Filter (void)}}
+\label{class_c_d___extended___kalman___filter_a513c87055e01494c950391047fe8e78}
+
+
+\hypertarget{class_c_d___extended___kalman___filter_01743a0e2ac32830a65da4dc7885cc20}{
+\index{CD\_\-Extended\_\-Kalman\_\-Filter@{CD\_\-Extended\_\-Kalman\_\-Filter}!CD\_\-Extended\_\-Kalman\_\-Filter@{CD\_\-Extended\_\-Kalman\_\-Filter}}
+\index{CD\_\-Extended\_\-Kalman\_\-Filter@{CD\_\-Extended\_\-Kalman\_\-Filter}!CD_Extended_Kalman_Filter@{CD\_\-Extended\_\-Kalman\_\-Filter}}
+\subsubsection[{CD\_\-Extended\_\-Kalman\_\-Filter}]{\setlength{\rightskip}{0pt plus 5cm}CD\_\-Extended\_\-Kalman\_\-Filter::CD\_\-Extended\_\-Kalman\_\-Filter ({\bf Continuous\_\-Discrete\_\-Model} $\ast$ {\em m}, \/  const int \& {\em sh} = {\tt RK4})}}
+\label{class_c_d___extended___kalman___filter_01743a0e2ac32830a65da4dc7885cc20}
+
+
+
+
+\subsection{Member Function Documentation}
+\hypertarget{class_c_d___extended___kalman___filter_64fda06630749c6d5936fd7257690c68}{
+\index{CD\_\-Extended\_\-Kalman\_\-Filter@{CD\_\-Extended\_\-Kalman\_\-Filter}!\_\-euler\_\-prediction@{\_\-euler\_\-prediction}}
+\index{\_\-euler\_\-prediction@{\_\-euler\_\-prediction}!CD_Extended_Kalman_Filter@{CD\_\-Extended\_\-Kalman\_\-Filter}}
+\subsubsection[{\_\-euler\_\-prediction}]{\setlength{\rightskip}{0pt plus 5cm}void CD\_\-Extended\_\-Kalman\_\-Filter::\_\-euler\_\-prediction (dcovector \& {\em M}, \/  dgematrix \& {\em P})\hspace{0.3cm}{\tt  \mbox{[}protected\mbox{]}}}}
+\label{class_c_d___extended___kalman___filter_64fda06630749c6d5936fd7257690c68}
+
+
+\hypertarget{class_c_d___extended___kalman___filter_f67b43de36333a88e233bb6c51d15ab7}{
+\index{CD\_\-Extended\_\-Kalman\_\-Filter@{CD\_\-Extended\_\-Kalman\_\-Filter}!\_\-heun\_\-\_\-prediction@{\_\-heun\_\-\_\-prediction}}
+\index{\_\-heun\_\-\_\-prediction@{\_\-heun\_\-\_\-prediction}!CD_Extended_Kalman_Filter@{CD\_\-Extended\_\-Kalman\_\-Filter}}
+\subsubsection[{\_\-heun\_\-\_\-prediction}]{\setlength{\rightskip}{0pt plus 5cm}void CD\_\-Extended\_\-Kalman\_\-Filter::\_\-heun\_\-\_\-prediction (dcovector \& {\em M}, \/  dgematrix \& {\em P})\hspace{0.3cm}{\tt  \mbox{[}protected\mbox{]}}}}
+\label{class_c_d___extended___kalman___filter_f67b43de36333a88e233bb6c51d15ab7}
+
+
+\hypertarget{class_c_d___extended___kalman___filter_79f174e2ff2bb51ada2d1cee3240fbb1}{
+\index{CD\_\-Extended\_\-Kalman\_\-Filter@{CD\_\-Extended\_\-Kalman\_\-Filter}!\_\-rk4\_\-\_\-\_\-prediction@{\_\-rk4\_\-\_\-\_\-prediction}}
+\index{\_\-rk4\_\-\_\-\_\-prediction@{\_\-rk4\_\-\_\-\_\-prediction}!CD_Extended_Kalman_Filter@{CD\_\-Extended\_\-Kalman\_\-Filter}}
+\subsubsection[{\_\-rk4\_\-\_\-\_\-prediction}]{\setlength{\rightskip}{0pt plus 5cm}void CD\_\-Extended\_\-Kalman\_\-Filter::\_\-rk4\_\-\_\-\_\-prediction (dcovector \& {\em M}, \/  dgematrix \& {\em P})\hspace{0.3cm}{\tt  \mbox{[}protected\mbox{]}}}}
+\label{class_c_d___extended___kalman___filter_79f174e2ff2bb51ada2d1cee3240fbb1}
+
+
+\hypertarget{class_c_d___extended___kalman___filter_aff3514a20d714c817780fa1871f4a9d}{
+\index{CD\_\-Extended\_\-Kalman\_\-Filter@{CD\_\-Extended\_\-Kalman\_\-Filter}!\_\-rk4\_\-\_\-\_\-prediction\_\-FM@{\_\-rk4\_\-\_\-\_\-prediction\_\-FM}}
+\index{\_\-rk4\_\-\_\-\_\-prediction\_\-FM@{\_\-rk4\_\-\_\-\_\-prediction\_\-FM}!CD_Extended_Kalman_Filter@{CD\_\-Extended\_\-Kalman\_\-Filter}}
+\subsubsection[{\_\-rk4\_\-\_\-\_\-prediction\_\-FM}]{\setlength{\rightskip}{0pt plus 5cm}void CD\_\-Extended\_\-Kalman\_\-Filter::\_\-rk4\_\-\_\-\_\-prediction\_\-FM (dcovector \& {\em M}, \/  dgematrix \& {\em P})\hspace{0.3cm}{\tt  \mbox{[}protected\mbox{]}}}}
+\label{class_c_d___extended___kalman___filter_aff3514a20d714c817780fa1871f4a9d}
+
+
+\hypertarget{class_c_d___extended___kalman___filter_e11771d2cea027b53e17091e817e59bd}{
+\index{CD\_\-Extended\_\-Kalman\_\-Filter@{CD\_\-Extended\_\-Kalman\_\-Filter}!\_\-thgl\_\-\_\-prediction@{\_\-thgl\_\-\_\-prediction}}
+\index{\_\-thgl\_\-\_\-prediction@{\_\-thgl\_\-\_\-prediction}!CD_Extended_Kalman_Filter@{CD\_\-Extended\_\-Kalman\_\-Filter}}
+\subsubsection[{\_\-thgl\_\-\_\-prediction}]{\setlength{\rightskip}{0pt plus 5cm}void CD\_\-Extended\_\-Kalman\_\-Filter::\_\-thgl\_\-\_\-prediction (dcovector \& {\em M}, \/  dgematrix \& {\em P})\hspace{0.3cm}{\tt  \mbox{[}protected\mbox{]}}}}
+\label{class_c_d___extended___kalman___filter_e11771d2cea027b53e17091e817e59bd}
+
+
+\hypertarget{class_c_d___extended___kalman___filter_7cfd2bf966970f44f4e1480ed3852b69}{
+\index{CD\_\-Extended\_\-Kalman\_\-Filter@{CD\_\-Extended\_\-Kalman\_\-Filter}!\_\-update@{\_\-update}}
+\index{\_\-update@{\_\-update}!CD_Extended_Kalman_Filter@{CD\_\-Extended\_\-Kalman\_\-Filter}}
+\subsubsection[{\_\-update}]{\setlength{\rightskip}{0pt plus 5cm}int CD\_\-Extended\_\-Kalman\_\-Filter::\_\-update (const dcovector \& {\em Y})\hspace{0.3cm}{\tt  \mbox{[}protected, virtual\mbox{]}}}}
+\label{class_c_d___extended___kalman___filter_7cfd2bf966970f44f4e1480ed3852b69}
+
+
+Specific update for each filter
+
+\begin{Desc}
+\item[Parameters:]
+\begin{description}
+\item[{\em Y}]The observed sample\end{description}
+\end{Desc}
+\begin{Desc}
+\item[Returns:]0 if no problem \end{Desc}
+
+
+Implements \hyperlink{class_filter_20ecd17fed3b8f11a76c960fe5e7144b}{Filter}.
+
+\subsection{Member Data Documentation}
+\hypertarget{class_c_d___extended___kalman___filter_20c7448afdc652603781e4da3385e2b3}{
+\index{CD\_\-Extended\_\-Kalman\_\-Filter@{CD\_\-Extended\_\-Kalman\_\-Filter}!Scheme@{Scheme}}
+\index{Scheme@{Scheme}!CD_Extended_Kalman_Filter@{CD\_\-Extended\_\-Kalman\_\-Filter}}
+\subsubsection[{Scheme}]{\setlength{\rightskip}{0pt plus 5cm}int {\bf CD\_\-Extended\_\-Kalman\_\-Filter::Scheme}}}
+\label{class_c_d___extended___kalman___filter_20c7448afdc652603781e4da3385e2b3}
+
+

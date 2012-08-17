@@ -1,0 +1,248 @@
+\hypertarget{class_unscented___kalman___filter}{
+\section{Unscented\_\-Kalman\_\-Filter Class Reference}
+\label{class_unscented___kalman___filter}\index{Unscented\_\-Kalman\_\-Filter@{Unscented\_\-Kalman\_\-Filter}}
+}
+The Discrete Unscented Kalman \hyperlink{class_filter}{Filter} (UKF).  
+
+
+{\tt \#include $<$unscented\_\-kalman\_\-filter.h$>$}
+
+Inheritance diagram for Unscented\_\-Kalman\_\-Filter:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=89pt]{class_unscented___kalman___filter__inherit__graph}
+\end{center}
+\end{figure}
+\subsection*{Public Member Functions}
+\begin{CompactItemize}
+\item 
+\hyperlink{class_unscented___kalman___filter_9604c9cbd68ec0ba603964f2677c7e2e}{Unscented\_\-Kalman\_\-Filter} (void)
+\begin{CompactList}\small\item\em A constructor. \item\end{CompactList}\item 
+\hyperlink{class_unscented___kalman___filter_b1095ded70883e7a2389fd925fe1e378}{Unscented\_\-Kalman\_\-Filter} (\hyperlink{class_gaussian___nonlinear___model}{Gaussian\_\-Nonlinear\_\-Model} $\ast$\hyperlink{class_filter_2173d25727b871e9b9d0b6f588ba3cd2}{model})
+\begin{CompactList}\small\item\em The constructor. \item\end{CompactList}\end{CompactItemize}
+\subsection*{Public Attributes}
+\begin{CompactItemize}
+\item 
+float \hyperlink{class_unscented___kalman___filter_a160d1820d77b547fee70f25747db2cb}{lambda}
+\begin{CompactList}\small\item\em A scaled parameter. \item\end{CompactList}\end{CompactItemize}
+\subsection*{Protected Member Functions}
+\begin{CompactItemize}
+\item 
+int \hyperlink{class_unscented___kalman___filter_bbc48e2cfd73c0427cedea914e68ed1a}{SP\_\-Init} (void)
+\begin{CompactList}\small\item\em Initialize the sigma points at each update step. \item\end{CompactList}\item 
+int \hyperlink{class_unscented___kalman___filter_1229b08a8f97c4a877baedd390d0c55d}{U\_\-Cov} (const vector$<$ dcovector $>$ \&sP1, const dcovector \&m1, const vector$<$ dcovector $>$ \&sP2, const dcovector \&m2, dgematrix \&cov)
+\begin{CompactList}\small\item\em Calculate the covaraince between two sets of sigma points. \item\end{CompactList}\item 
+int \hyperlink{class_unscented___kalman___filter_5a6250da8fa76f0f5b22c9030e4ef157}{U\_\-Mean} (const vector$<$ dcovector $>$ \&sP, dcovector \&mean)
+\begin{CompactList}\small\item\em Calculate the mean of a set of sigma points. \item\end{CompactList}\item 
+int \hyperlink{class_unscented___kalman___filter_ee1e0a8035111d7695b6958c644f97cc}{\_\-update} (const dcovector \&Y)
+\item 
+int \hyperlink{class_unscented___kalman___filter_a6ca6d9f8b5a4a40c18b6cdfdc2029fa}{\_\-init} (void)
+\begin{CompactList}\small\item\em Itialization of the UKF. \item\end{CompactList}\end{CompactItemize}
+\subsection*{Private Attributes}
+\begin{CompactItemize}
+\item 
+dgematrix \hyperlink{class_unscented___kalman___filter_ec03d2f57b006cad497c6bb30dae67c8}{sqrt\_\-Qw}
+\begin{CompactList}\small\item\em The square root matrix (cholesky) of Qw. \item\end{CompactList}\item 
+dgematrix \hyperlink{class_unscented___kalman___filter_633326bb2df6487da083ff8c7e09acdd}{sqrt\_\-Qv}
+\begin{CompactList}\small\item\em The square root matrix (cholesky) of Qv. \item\end{CompactList}\item 
+vector$<$ dcovector $>$ \hyperlink{class_unscented___kalman___filter_cd473b335bae84f2da4a18f412962127}{sX}
+\begin{CompactList}\small\item\em The sigma points for the state X. \item\end{CompactList}\item 
+vector$<$ dcovector $>$ \hyperlink{class_unscented___kalman___filter_3a77ce84c121d28608edd4a6f550aeae}{sW}
+\begin{CompactList}\small\item\em The sigma points for the state noise W. \item\end{CompactList}\item 
+vector$<$ dcovector $>$ \hyperlink{class_unscented___kalman___filter_4e7f5cd7580c525eb27c489dd5785453}{sY}
+\begin{CompactList}\small\item\em The sigma points for the observation. \item\end{CompactList}\item 
+double \hyperlink{class_unscented___kalman___filter_59707b0a7653a0610266e553eb5786f6}{w\_\-0}
+\begin{CompactList}\small\item\em The first weight to compute the mean. \item\end{CompactList}\item 
+double \hyperlink{class_unscented___kalman___filter_d04e96c03af71db29723963be6999be6}{w\_\-0c}
+\begin{CompactList}\small\item\em The first weight to compute the covariance. \item\end{CompactList}\item 
+double \hyperlink{class_unscented___kalman___filter_1869e471af5a12af031e9ff436756b95}{w}
+\begin{CompactList}\small\item\em Other weights. \item\end{CompactList}\end{CompactItemize}
+
+
+\subsection{Detailed Description}
+The Discrete Unscented Kalman \hyperlink{class_filter}{Filter} (UKF). 
+
+
+
+\subsection{Constructor \& Destructor Documentation}
+\hypertarget{class_unscented___kalman___filter_9604c9cbd68ec0ba603964f2677c7e2e}{
+\index{Unscented\_\-Kalman\_\-Filter@{Unscented\_\-Kalman\_\-Filter}!Unscented\_\-Kalman\_\-Filter@{Unscented\_\-Kalman\_\-Filter}}
+\index{Unscented\_\-Kalman\_\-Filter@{Unscented\_\-Kalman\_\-Filter}!Unscented_Kalman_Filter@{Unscented\_\-Kalman\_\-Filter}}
+\subsubsection[{Unscented\_\-Kalman\_\-Filter}]{\setlength{\rightskip}{0pt plus 5cm}Unscented\_\-Kalman\_\-Filter::Unscented\_\-Kalman\_\-Filter (void)}}
+\label{class_unscented___kalman___filter_9604c9cbd68ec0ba603964f2677c7e2e}
+
+
+A constructor. 
+
+\hypertarget{class_unscented___kalman___filter_b1095ded70883e7a2389fd925fe1e378}{
+\index{Unscented\_\-Kalman\_\-Filter@{Unscented\_\-Kalman\_\-Filter}!Unscented\_\-Kalman\_\-Filter@{Unscented\_\-Kalman\_\-Filter}}
+\index{Unscented\_\-Kalman\_\-Filter@{Unscented\_\-Kalman\_\-Filter}!Unscented_Kalman_Filter@{Unscented\_\-Kalman\_\-Filter}}
+\subsubsection[{Unscented\_\-Kalman\_\-Filter}]{\setlength{\rightskip}{0pt plus 5cm}Unscented\_\-Kalman\_\-Filter::Unscented\_\-Kalman\_\-Filter ({\bf Gaussian\_\-Nonlinear\_\-Model} $\ast$ {\em model})}}
+\label{class_unscented___kalman___filter_b1095ded70883e7a2389fd925fe1e378}
+
+
+The constructor. 
+
+\begin{Desc}
+\item[Parameters:]
+\begin{description}
+\item[{\em model}]A gaussian non linear model \end{description}
+\end{Desc}
+
+
+\subsection{Member Function Documentation}
+\hypertarget{class_unscented___kalman___filter_a6ca6d9f8b5a4a40c18b6cdfdc2029fa}{
+\index{Unscented\_\-Kalman\_\-Filter@{Unscented\_\-Kalman\_\-Filter}!\_\-init@{\_\-init}}
+\index{\_\-init@{\_\-init}!Unscented_Kalman_Filter@{Unscented\_\-Kalman\_\-Filter}}
+\subsubsection[{\_\-init}]{\setlength{\rightskip}{0pt plus 5cm}int Unscented\_\-Kalman\_\-Filter::\_\-init (void)\hspace{0.3cm}{\tt  \mbox{[}protected, virtual\mbox{]}}}}
+\label{class_unscented___kalman___filter_a6ca6d9f8b5a4a40c18b6cdfdc2029fa}
+
+
+Itialization of the UKF. 
+
+
+
+Reimplemented from \hyperlink{class_g_a___filter_7b5cb872bcedd752a4309f114625a4b8}{GA\_\-Filter}.\hypertarget{class_unscented___kalman___filter_ee1e0a8035111d7695b6958c644f97cc}{
+\index{Unscented\_\-Kalman\_\-Filter@{Unscented\_\-Kalman\_\-Filter}!\_\-update@{\_\-update}}
+\index{\_\-update@{\_\-update}!Unscented_Kalman_Filter@{Unscented\_\-Kalman\_\-Filter}}
+\subsubsection[{\_\-update}]{\setlength{\rightskip}{0pt plus 5cm}int Unscented\_\-Kalman\_\-Filter::\_\-update (const dcovector \& {\em Y})\hspace{0.3cm}{\tt  \mbox{[}protected, virtual\mbox{]}}}}
+\label{class_unscented___kalman___filter_ee1e0a8035111d7695b6958c644f97cc}
+
+
+Specific update for each filter
+
+\begin{Desc}
+\item[Parameters:]
+\begin{description}
+\item[{\em Y}]The observed sample\end{description}
+\end{Desc}
+\begin{Desc}
+\item[Returns:]0 if no problem \end{Desc}
+
+
+Implements \hyperlink{class_filter_20ecd17fed3b8f11a76c960fe5e7144b}{Filter}.\hypertarget{class_unscented___kalman___filter_bbc48e2cfd73c0427cedea914e68ed1a}{
+\index{Unscented\_\-Kalman\_\-Filter@{Unscented\_\-Kalman\_\-Filter}!SP\_\-Init@{SP\_\-Init}}
+\index{SP\_\-Init@{SP\_\-Init}!Unscented_Kalman_Filter@{Unscented\_\-Kalman\_\-Filter}}
+\subsubsection[{SP\_\-Init}]{\setlength{\rightskip}{0pt plus 5cm}int Unscented\_\-Kalman\_\-Filter::SP\_\-Init (void)\hspace{0.3cm}{\tt  \mbox{[}protected\mbox{]}}}}
+\label{class_unscented___kalman___filter_bbc48e2cfd73c0427cedea914e68ed1a}
+
+
+Initialize the sigma points at each update step. 
+
+\hypertarget{class_unscented___kalman___filter_1229b08a8f97c4a877baedd390d0c55d}{
+\index{Unscented\_\-Kalman\_\-Filter@{Unscented\_\-Kalman\_\-Filter}!U\_\-Cov@{U\_\-Cov}}
+\index{U\_\-Cov@{U\_\-Cov}!Unscented_Kalman_Filter@{Unscented\_\-Kalman\_\-Filter}}
+\subsubsection[{U\_\-Cov}]{\setlength{\rightskip}{0pt plus 5cm}int Unscented\_\-Kalman\_\-Filter::U\_\-Cov (const vector$<$ dcovector $>$ \& {\em sP1}, \/  const dcovector \& {\em m1}, \/  const vector$<$ dcovector $>$ \& {\em sP2}, \/  const dcovector \& {\em m2}, \/  dgematrix \& {\em cov})\hspace{0.3cm}{\tt  \mbox{[}protected\mbox{]}}}}
+\label{class_unscented___kalman___filter_1229b08a8f97c4a877baedd390d0c55d}
+
+
+Calculate the covaraince between two sets of sigma points. 
+
+\begin{Desc}
+\item[Parameters:]
+\begin{description}
+\item[{\em sP1}]The first set of sigma point \item[{\em m1}]The mean of the sigma point \item[{\em sP2}]The second set of sigma point \item[{\em m2}]The mean of the second set of sigma point \item[{\em cov}]Return the empirical covariance matrix between two sets\end{description}
+\end{Desc}
+\begin{Desc}
+\item[Returns:]0 if dimensions are ok \end{Desc}
+\hypertarget{class_unscented___kalman___filter_5a6250da8fa76f0f5b22c9030e4ef157}{
+\index{Unscented\_\-Kalman\_\-Filter@{Unscented\_\-Kalman\_\-Filter}!U\_\-Mean@{U\_\-Mean}}
+\index{U\_\-Mean@{U\_\-Mean}!Unscented_Kalman_Filter@{Unscented\_\-Kalman\_\-Filter}}
+\subsubsection[{U\_\-Mean}]{\setlength{\rightskip}{0pt plus 5cm}int Unscented\_\-Kalman\_\-Filter::U\_\-Mean (const vector$<$ dcovector $>$ \& {\em sP}, \/  dcovector \& {\em mean})\hspace{0.3cm}{\tt  \mbox{[}protected\mbox{]}}}}
+\label{class_unscented___kalman___filter_5a6250da8fa76f0f5b22c9030e4ef157}
+
+
+Calculate the mean of a set of sigma points. 
+
+\begin{Desc}
+\item[Parameters:]
+\begin{description}
+\item[{\em sP}]a set of sigma point \item[{\em mean}]Return the mean\end{description}
+\end{Desc}
+\begin{Desc}
+\item[Returns:]0 if dimensions are ok \end{Desc}
+
+
+\subsection{Member Data Documentation}
+\hypertarget{class_unscented___kalman___filter_a160d1820d77b547fee70f25747db2cb}{
+\index{Unscented\_\-Kalman\_\-Filter@{Unscented\_\-Kalman\_\-Filter}!lambda@{lambda}}
+\index{lambda@{lambda}!Unscented_Kalman_Filter@{Unscented\_\-Kalman\_\-Filter}}
+\subsubsection[{lambda}]{\setlength{\rightskip}{0pt plus 5cm}float {\bf Unscented\_\-Kalman\_\-Filter::lambda}}}
+\label{class_unscented___kalman___filter_a160d1820d77b547fee70f25747db2cb}
+
+
+A scaled parameter. 
+
+\hypertarget{class_unscented___kalman___filter_633326bb2df6487da083ff8c7e09acdd}{
+\index{Unscented\_\-Kalman\_\-Filter@{Unscented\_\-Kalman\_\-Filter}!sqrt\_\-Qv@{sqrt\_\-Qv}}
+\index{sqrt\_\-Qv@{sqrt\_\-Qv}!Unscented_Kalman_Filter@{Unscented\_\-Kalman\_\-Filter}}
+\subsubsection[{sqrt\_\-Qv}]{\setlength{\rightskip}{0pt plus 5cm}dgematrix {\bf Unscented\_\-Kalman\_\-Filter::sqrt\_\-Qv}\hspace{0.3cm}{\tt  \mbox{[}private\mbox{]}}}}
+\label{class_unscented___kalman___filter_633326bb2df6487da083ff8c7e09acdd}
+
+
+The square root matrix (cholesky) of Qv. 
+
+\hypertarget{class_unscented___kalman___filter_ec03d2f57b006cad497c6bb30dae67c8}{
+\index{Unscented\_\-Kalman\_\-Filter@{Unscented\_\-Kalman\_\-Filter}!sqrt\_\-Qw@{sqrt\_\-Qw}}
+\index{sqrt\_\-Qw@{sqrt\_\-Qw}!Unscented_Kalman_Filter@{Unscented\_\-Kalman\_\-Filter}}
+\subsubsection[{sqrt\_\-Qw}]{\setlength{\rightskip}{0pt plus 5cm}dgematrix {\bf Unscented\_\-Kalman\_\-Filter::sqrt\_\-Qw}\hspace{0.3cm}{\tt  \mbox{[}private\mbox{]}}}}
+\label{class_unscented___kalman___filter_ec03d2f57b006cad497c6bb30dae67c8}
+
+
+The square root matrix (cholesky) of Qw. 
+
+\hypertarget{class_unscented___kalman___filter_3a77ce84c121d28608edd4a6f550aeae}{
+\index{Unscented\_\-Kalman\_\-Filter@{Unscented\_\-Kalman\_\-Filter}!sW@{sW}}
+\index{sW@{sW}!Unscented_Kalman_Filter@{Unscented\_\-Kalman\_\-Filter}}
+\subsubsection[{sW}]{\setlength{\rightskip}{0pt plus 5cm}vector$<$dcovector$>$ {\bf Unscented\_\-Kalman\_\-Filter::sW}\hspace{0.3cm}{\tt  \mbox{[}private\mbox{]}}}}
+\label{class_unscented___kalman___filter_3a77ce84c121d28608edd4a6f550aeae}
+
+
+The sigma points for the state noise W. 
+
+\hypertarget{class_unscented___kalman___filter_cd473b335bae84f2da4a18f412962127}{
+\index{Unscented\_\-Kalman\_\-Filter@{Unscented\_\-Kalman\_\-Filter}!sX@{sX}}
+\index{sX@{sX}!Unscented_Kalman_Filter@{Unscented\_\-Kalman\_\-Filter}}
+\subsubsection[{sX}]{\setlength{\rightskip}{0pt plus 5cm}vector$<$dcovector$>$ {\bf Unscented\_\-Kalman\_\-Filter::sX}\hspace{0.3cm}{\tt  \mbox{[}private\mbox{]}}}}
+\label{class_unscented___kalman___filter_cd473b335bae84f2da4a18f412962127}
+
+
+The sigma points for the state X. 
+
+\hypertarget{class_unscented___kalman___filter_4e7f5cd7580c525eb27c489dd5785453}{
+\index{Unscented\_\-Kalman\_\-Filter@{Unscented\_\-Kalman\_\-Filter}!sY@{sY}}
+\index{sY@{sY}!Unscented_Kalman_Filter@{Unscented\_\-Kalman\_\-Filter}}
+\subsubsection[{sY}]{\setlength{\rightskip}{0pt plus 5cm}vector$<$dcovector$>$ {\bf Unscented\_\-Kalman\_\-Filter::sY}\hspace{0.3cm}{\tt  \mbox{[}private\mbox{]}}}}
+\label{class_unscented___kalman___filter_4e7f5cd7580c525eb27c489dd5785453}
+
+
+The sigma points for the observation. 
+
+\hypertarget{class_unscented___kalman___filter_1869e471af5a12af031e9ff436756b95}{
+\index{Unscented\_\-Kalman\_\-Filter@{Unscented\_\-Kalman\_\-Filter}!w@{w}}
+\index{w@{w}!Unscented_Kalman_Filter@{Unscented\_\-Kalman\_\-Filter}}
+\subsubsection[{w}]{\setlength{\rightskip}{0pt plus 5cm}double {\bf Unscented\_\-Kalman\_\-Filter::w}\hspace{0.3cm}{\tt  \mbox{[}private\mbox{]}}}}
+\label{class_unscented___kalman___filter_1869e471af5a12af031e9ff436756b95}
+
+
+Other weights. 
+
+\hypertarget{class_unscented___kalman___filter_59707b0a7653a0610266e553eb5786f6}{
+\index{Unscented\_\-Kalman\_\-Filter@{Unscented\_\-Kalman\_\-Filter}!w\_\-0@{w\_\-0}}
+\index{w\_\-0@{w\_\-0}!Unscented_Kalman_Filter@{Unscented\_\-Kalman\_\-Filter}}
+\subsubsection[{w\_\-0}]{\setlength{\rightskip}{0pt plus 5cm}double {\bf Unscented\_\-Kalman\_\-Filter::w\_\-0}\hspace{0.3cm}{\tt  \mbox{[}private\mbox{]}}}}
+\label{class_unscented___kalman___filter_59707b0a7653a0610266e553eb5786f6}
+
+
+The first weight to compute the mean. 
+
+\hypertarget{class_unscented___kalman___filter_d04e96c03af71db29723963be6999be6}{
+\index{Unscented\_\-Kalman\_\-Filter@{Unscented\_\-Kalman\_\-Filter}!w\_\-0c@{w\_\-0c}}
+\index{w\_\-0c@{w\_\-0c}!Unscented_Kalman_Filter@{Unscented\_\-Kalman\_\-Filter}}
+\subsubsection[{w\_\-0c}]{\setlength{\rightskip}{0pt plus 5cm}double {\bf Unscented\_\-Kalman\_\-Filter::w\_\-0c}\hspace{0.3cm}{\tt  \mbox{[}private\mbox{]}}}}
+\label{class_unscented___kalman___filter_d04e96c03af71db29723963be6999be6}
+
+
+The first weight to compute the covariance. 
+
