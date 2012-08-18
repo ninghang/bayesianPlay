@@ -1,0 +1,7 @@
+rm -rf build
+mkdir build
+cd build
+cmake ../
+make -j 4
+./test
+gnuplot -e "plot 'state.dat' w l,'estimation.dat' w l,'output.dat'; pause 10000"
