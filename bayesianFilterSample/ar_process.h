@@ -4,7 +4,7 @@
 
 class AR_Process : public Gaussian_Linear_Model
 {
-public :
-AR_Process(void);
+    public :
+        AR_Process(void);
 };
 #endif
