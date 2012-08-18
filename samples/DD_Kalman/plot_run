@@ -4,4 +4,4 @@ cd build
 cmake ../
 make -j 4
 ./test
-gnuplot -e "plot 'state.dat' w l,'estimation.dat' w l,'output.dat' w l; pause 10000"
+gnuplot -e "plot 'state.dat' w l,'estimation.dat' w l,'output.dat'; pause 10000"
