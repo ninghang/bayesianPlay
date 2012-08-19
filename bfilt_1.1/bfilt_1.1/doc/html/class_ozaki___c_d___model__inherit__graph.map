@@ -1,4 +1,0 @@
-<area shape="rect" href="$class_discrete___approximation___c_d___model.html" title="the continuous state equation is discretly approximate by X(tk) = f&#39;(X(tk&#45;1)..." alt="" coords="5,229,243,256">
-<area shape="rect" href="$class_gaussian___nonlinear___model.html" title="Gaussian Nonlinear Model The state : X(k) = F (Xk&#45;1, Wk) The Observation Y(k) = H..." alt="" coords="29,155,219,181">
-<area shape="rect" href="$class_discrete___observed___model.html" title="Class of discretely observed model." alt="" coords="33,80,215,107">
-<area shape="rect" href="$class_model.html" title="The class of time varying&#45;models." alt="" coords="95,5,153,32">

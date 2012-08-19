@@ -1,1 +1,0 @@
-/usr/bin/c++    -Wl,-search_paths_first -headerpad_max_install_names -fPIC CMakeFiles/plane.dir/plane.cpp.o CMakeFiles/plane.dir/example_4.cpp.o  -o plane  -lbfilt 

@@ -1,7 +1,0 @@
-<area shape="rect" href="$class_euler___c_d___model.html" title="continuous discret model: the state SDE is discretly approximate by an Euler method..." alt="" coords="5,304,131,331">
-<area shape="rect" href="$class_heun___c_d___model.html" title="continuous discret model: the state SDE is discretly approximate by an Sstochastic..." alt="" coords="155,304,280,331">
-<area shape="rect" href="$class_ozaki___c_d___model.html" title="continuous discret model: the state SDE is discretly approximate by Ozaki method" alt="" coords="304,304,432,331">
-<area shape="rect" href="$class_s_r_k4___c_d___model.html" title="continuous discret model: the state SDE is discretly approximate by an Sstochastic..." alt="" coords="456,304,584,331">
-<area shape="rect" href="$class_gaussian___nonlinear___model.html" title="Gaussian Nonlinear Model The state : X(k) = F (Xk&#45;1, Wk) The Observation Y(k) = H..." alt="" coords="197,155,387,181">
-<area shape="rect" href="$class_discrete___observed___model.html" title="Class of discretely observed model." alt="" coords="201,80,383,107">
-<area shape="rect" href="$class_model.html" title="The class of time varying&#45;models." alt="" coords="263,5,321,32">
