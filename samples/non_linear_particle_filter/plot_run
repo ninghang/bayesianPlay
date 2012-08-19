@@ -4,4 +4,11 @@ cd build
 cmake ../
 make -j 4
 ./test
-gnuplot -e "plot 'state.dat' w l,'estimation.dat' w l,'output.dat'; pause 10000"
+echo "filtering Done"
+
+cd ../data
+rm *.dat
+rm *.gif
+./bmp_to_dat
+gnuplot -e "load 'plot.gp'"
+eog plane.gif
