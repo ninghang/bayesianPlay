@@ -3,10 +3,12 @@ mkdir build
 cd build
 cmake ../
 make -j 4
+
+cd ..
 ./test
 echo "filtering Done"
 
-cd ../data
+cd data
 rm *.gif
 ./bmp_to_dat
 gnuplot -e "load 'plot.gp'"
